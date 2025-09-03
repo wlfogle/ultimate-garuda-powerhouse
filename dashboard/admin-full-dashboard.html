@@ -477,9 +477,9 @@
         // Service management functions
         async function toggleGhostMode() {
             try {
-                const response = await fetch('/api/ghost-mode/toggle', {method: 'POST'});
+                const response = await fetch('http://localhost:8081/api/ghost-mode/toggle', {method: 'POST'});
                 const result = await response.json();
-                alert(`Ghost Mode: ${result.status}`);
+                alert(`Ghost Mode: ${result.message}`);
                 checkGhostMode();
             } catch (error) {
                 alert('Ghost Mode toggle failed - check system manually');
@@ -490,7 +490,7 @@
             const action = prompt('VPN Action: start, stop, status, or rotate-keys?', 'status');
             if (action) {
                 try {
-                    const response = await fetch(`/api/vpn/${action}`, {method: 'POST'});
+                    const response = await fetch(`http://localhost:8081/api/vpn/${action}`, {method: 'POST'});
                     const result = await response.json();
                     alert(`VPN ${action}: ${result.message}`);
                 } catch (error) {
@@ -502,7 +502,7 @@
         async function restartServices() {
             if (confirm('Restart all media stack services? This will briefly interrupt service.')) {
                 try {
-                    const response = await fetch('/api/services/restart-all', {method: 'POST'});
+                    const response = await fetch('http://localhost:8081/api/services/restart-all', {method: 'POST'});
                     const result = await response.json();
                     alert('Services restarted successfully!');
                     setTimeout(checkAllServices, 5000);
@@ -517,7 +517,7 @@
         }
         
         function showWGStatus() {
-            fetch('/api/wireguard/status')
+            fetch('http://localhost:8081/api/wireguard/status')
                 .then(r => r.json())
                 .then(data => {
                     alert(`WireGuard Status:\\n\\nServer: ${data.server_status}\\nClients Connected: ${data.client_count}\\nLast Key Rotation: ${data.last_rotation}`);
@@ -526,7 +526,7 @@
         }
         
         function showFirewall() {
-            fetch('/api/firewall/status')
+            fetch('http://localhost:8081/api/firewall/status')
                 .then(r => r.json())
                 .then(data => {
                     alert(`Firewall Status:\\n\\nUFW: ${data.ufw_status}\\nActive Rules: ${data.rule_count}\\nBlocked Attempts: ${data.blocked_count}`);
@@ -535,7 +535,7 @@
         }
         
         function checkProxy() {
-            fetch('/api/proxy/status')
+            fetch('http://localhost:8081/api/proxy/status')
                 .then(r => r.json())
                 .then(data => {
                     alert(`API Masking Proxy:\\n\\nStatus: ${data.status}\\nRequests Masked: ${data.requests_masked}\\nUptime: ${data.uptime}`);
@@ -555,7 +555,7 @@
             
             for (const service of services) {
                 try {
-                    const response = await fetch(`/api/status/${service}`);
+                    const response = await fetch(`http://localhost:8081/api/status/${service}`);
                     const status = await response.json();
                     const statusElement = document.getElementById(`${service}-status`);
                     
@@ -580,7 +580,7 @@
         
         async function checkGhostMode() {
             try {
-                const response = await fetch('/api/ghost-mode/status');
+                const response = await fetch('http://localhost:8081/api/ghost-mode/status');
                 const status = await response.json();
                 
                 const ghostDot = document.getElementById('ghost-status');
@@ -600,7 +600,7 @@
         
         async function loadSystemStats() {
             try {
-                const response = await fetch('/api/system/stats');
+                const response = await fetch('http://localhost:8081/api/system/stats');
                 const stats = await response.json();
                 
                 document.getElementById('uptime').textContent = stats.uptime;
@@ -613,7 +613,7 @@
         
         async function refreshLogs() {
             try {
-                const response = await fetch('/api/logs/recent');
+                const response = await fetch('http://localhost:8081/api/logs/recent');
                 const logs = await response.json();
                 
                 const logPanel = document.getElementById('recent-logs');
