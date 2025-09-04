@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Garuda Media Stack"
+                android:textSize="24sp"
+                android:textColor="@color/text_primary"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Media Servers Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎬 Media Servers"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_jellyfin"
+                style="@style/ServiceCard">
+                <LinearLayout style="@style/ServiceCardContent">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_jellyfin"
+                        android:layout_marginBottom="8dp" />
+                    <TextView
+                        style="@style/ServiceTitle"
+                        android:text="Jellyfin" />
+                    <TextView
+                        style="@style/ServiceSubtitle"
+                        android:text="Media Server" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_calibre"
+                style="@style/ServiceCard">
+                <LinearLayout style="@style/ServiceCardContent">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_book"
+                        android:layout_marginBottom="8dp" />
+                    <TextView
+                        style="@style/ServiceTitle"
+                        android:text="Lou's Library" />
+                    <TextView
+                        style="@style/ServiceSubtitle"
+                        android:text="Books & eBooks" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <!-- Content Management Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 Content Management"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginBottom="24dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_radarr"
+                style="@style/ServiceCardSmall">
+                <LinearLayout style="@style/ServiceCardContentSmall">
+                    <TextView style="@style/ServiceTitleSmall" android:text="🎬 Radarr" />
+                    <TextView style="@style/ServiceSubtitleSmall" android:text="Movies" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_sonarr"
+                style="@style/ServiceCardSmall">
+                <LinearLayout style="@style/ServiceCardContentSmall">
+                    <TextView style="@style/ServiceTitleSmall" android:text="📺 Sonarr" />
+                    <TextView style="@style/ServiceSubtitleSmall" android:text="TV Shows" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_lidarr"
+                style="@style/ServiceCardSmall">
+                <LinearLayout style="@style/ServiceCardContentSmall">
+                    <TextView style="@style/ServiceTitleSmall" android:text="🎵 Lidarr" />
+                    <TextView style="@style/ServiceSubtitleSmall" android:text="Music" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_readarr"
+                style="@style/ServiceCardSmall">
+                <LinearLayout style="@style/ServiceCardContentSmall">
+                    <TextView style="@style/ServiceTitleSmall" android:text="📚 Readarr" />
+                    <TextView style="@style/ServiceSubtitleSmall" android:text="Books" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </GridLayout>
+
+        <!-- Downloads Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⬇️ Downloads & Search"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_qbittorrent"
+                style="@style/ServiceCard">
+                <LinearLayout style="@style/ServiceCardContent">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_download"
+                        android:layout_marginBottom="8dp" />
+                    <TextView
+                        style="@style/ServiceTitle"
+                        android:text="qBittorrent" />
+                    <TextView
+                        style="@style/ServiceSubtitle"
+                        android:text="Downloads" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_jackett"
+                style="@style/ServiceCard">
+                <LinearLayout style="@style/ServiceCardContent">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_search"
+                        android:layout_marginBottom="8dp" />
+                    <TextView
+                        style="@style/ServiceTitle"
+                        android:text="Jackett" />
+                    <TextView
+                        style="@style/ServiceSubtitle"
+                        android:text="Search" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
