@@ -6,9 +6,12 @@
 echo "🔧 FIXING ALL MEDIA PATHS TO /mnt/media..."
 
 # Create media directory structure
-sudo mkdir -p /mnt/media/{movies,tv,music,books,audiobooks,downloads,torrents}
+sudo mkdir -p /mnt/media/{movies,tv,music,books,audiobooks,downloads,torrents,systembackup/Videos}
 sudo chmod -R 755 /mnt/media/
 sudo chown -R 1000:1000 /mnt/media/
+
+# Create symlink for Walking Dead videos
+sudo ln -sf /mnt/media/systembackup/Videos/twd /mnt/media/tv/the-walking-dead 2>/dev/null
 
 echo "📁 Created media directories:"
 echo "  📽️  /mnt/media/movies"
