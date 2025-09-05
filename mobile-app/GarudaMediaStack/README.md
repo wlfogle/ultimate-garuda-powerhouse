@@ -1,32 +1,37 @@
-# Garuda Media Stack Android/Fire TV App
+# Garuda Media Stack Android App (Streamlined)
 
-A unified Android application to access your complete Garuda Media Stack from Android devices and Fire TV.
+A streamlined Android application providing access to the core working services of your Garuda Media Stack.
 
 ## Features
 
-📱 **Universal Access**: Single app for all your media services
-🎬 **Media Streaming**: Direct access to Jellyfin media server  
-📚 **Lou's Library**: Browse and read your complete book collection
-📋 **Content Management**: Add movies/TV shows via Radarr/Sonarr
-⬇️ **Download Monitoring**: Check qBittorrent and Jackett status
-📺 **TV Optimized**: Designed for Android TV and Fire TV devices
+📱 **Focused Experience**: Clean interface with only working services
+📋 **Content Management**: Automated media acquisition and management
+⬇️ **Download Management**: Complete torrent workflow from search to download
+🎯 **Reliability**: Only includes services confirmed to be working
 🎮 **Remote Control**: Full D-pad and remote control support
 
 ## Services Included
 
-### Media Servers
-- **Jellyfin** (Port 8096) - Stream movies, TV shows, music
-- **Lou's Library** (Port 8083) - Browse thousands of books
+This streamlined version includes only the core services that are currently working reliably:
 
 ### Content Management  
-- **Radarr** (Port 7878) - Movie automation
-- **Sonarr** (Port 8989) - TV show automation
-- **Lidarr** (Port 8686) - Music automation
-- **Readarr** (Port 8787) - Book automation
+- **🎬 Radarr** (Port 7878) - Movie automation
+- **📺 Sonarr** (Port 8989) - TV show automation
+- **🎵 Lidarr** (Port 8686) - Music automation
 
 ### Downloads & Search
-- **qBittorrent** (Port 5080) - Download client
-- **Jackett** (Port 9117) - Torrent indexer search
+- **⬇️ qBittorrent** (Port 5080) - Download client
+- **🔍 Jackett** (Port 9117) - Torrent indexer search
+
+## Version Notes
+
+**What's different in the streamlined version:**
+- Removed services with startup issues or missing dependencies
+- Cleaner, more focused user interface
+- Better reliability and user experience
+- Faster app startup and navigation
+
+**Removed services:** Jellyfin, Jellyseerr, Readarr, Calibre-Web, Audiobookshelf, Pulsarr
 
 ## Installation
 
@@ -41,8 +46,8 @@ A unified Android application to access your complete Garuda Media Stack from An
 # Set Android SDK path
 export ANDROID_HOME=/path/to/android-sdk
 
-# Build the app
-./build-app.sh
+# Build the streamlined app
+./build-updated-app.sh
 ```
 
 ### Installing on Device

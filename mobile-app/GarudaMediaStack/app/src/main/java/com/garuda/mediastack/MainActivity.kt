@@ -16,16 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupServiceCards() {
-        // Media Servers
-        findViewById<MaterialCardView>(R.id.card_jellyfin).setOnClickListener {
-            openService("Jellyfin", getString(R.string.jellyfin_url))
-        }
-        
-        findViewById<MaterialCardView>(R.id.card_calibre).setOnClickListener {
-            openService("Lou's Library", getString(R.string.calibre_url))
-        }
-
-        // Content Management
+        // Content Management - Working Services
         findViewById<MaterialCardView>(R.id.card_radarr).setOnClickListener {
             openService("Radarr", getString(R.string.radarr_url))
         }
@@ -37,12 +28,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<MaterialCardView>(R.id.card_lidarr).setOnClickListener {
             openService("Lidarr", getString(R.string.lidarr_url))
         }
-        
-        findViewById<MaterialCardView>(R.id.card_readarr).setOnClickListener {
-            openService("Readarr", getString(R.string.readarr_url))
-        }
 
-        // Downloads
+        // Downloads & Search - Working Services
         findViewById<MaterialCardView>(R.id.card_qbittorrent).setOnClickListener {
             openService("qBittorrent", getString(R.string.qbittorrent_url))
         }

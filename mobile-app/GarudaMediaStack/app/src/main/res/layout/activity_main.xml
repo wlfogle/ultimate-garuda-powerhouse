@@ -36,167 +36,80 @@
 
         </LinearLayout>
 
-        <!-- Media Servers Section -->
+        <!-- Available Services Notice -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="🎬 Media Servers"
+            android:text="🚀 Active Services"
             android:textSize="18sp"
             android:textColor="@color/text_primary"
             android:textStyle="bold"
-            android:layout_marginBottom="16dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="24dp">
-
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/card_jellyfin"
-                style="@style/ServiceCard">
-                <LinearLayout style="@style/ServiceCardContent">
-                    <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
-                        android:src="@drawable/ic_jellyfin"
-                        android:layout_marginBottom="8dp" />
-                    <TextView
-                        style="@style/ServiceTitle"
-                        android:text="Jellyfin" />
-                    <TextView
-                        style="@style/ServiceSubtitle"
-                        android:text="Media Server" />
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/card_calibre"
-                style="@style/ServiceCard">
-                <LinearLayout style="@style/ServiceCardContent">
-                    <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
-                        android:src="@drawable/ic_book"
-                        android:layout_marginBottom="8dp" />
-                    <TextView
-                        style="@style/ServiceTitle"
-                        android:text="Lou's Library" />
-                    <TextView
-                        style="@style/ServiceSubtitle"
-                        android:text="Books & eBooks" />
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-        </LinearLayout>
-
-        <!-- Content Management Section -->
+            android:layout_marginBottom="8dp" />
+            
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="📋 Content Management"
-            android:textSize="18sp"
-            android:textColor="@color/text_primary"
-            android:textStyle="bold"
-            android:layout_marginBottom="16dp" />
+            android:text="Core automation services ready for use"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="24dp" />
 
+        <!-- Working Services Grid -->
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="2"
-            android:rowCount="2"
+            android:rowCount="3"
             android:layout_marginBottom="24dp">
 
+            <!-- Content Management -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/card_radarr"
-                style="@style/ServiceCardSmall">
-                <LinearLayout style="@style/ServiceCardContentSmall">
-                    <TextView style="@style/ServiceTitleSmall" android:text="🎬 Radarr" />
-                    <TextView style="@style/ServiceSubtitleSmall" android:text="Movies" />
+                style="@style/ServiceCardMedium">
+                <LinearLayout style="@style/ServiceCardContentMedium">
+                    <TextView style="@style/ServiceTitleMedium" android:text="🎬 Radarr" />
+                    <TextView style="@style/ServiceSubtitleMedium" android:text="Movie Automation" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/card_sonarr"
-                style="@style/ServiceCardSmall">
-                <LinearLayout style="@style/ServiceCardContentSmall">
-                    <TextView style="@style/ServiceTitleSmall" android:text="📺 Sonarr" />
-                    <TextView style="@style/ServiceSubtitleSmall" android:text="TV Shows" />
+                style="@style/ServiceCardMedium">
+                <LinearLayout style="@style/ServiceCardContentMedium">
+                    <TextView style="@style/ServiceTitleMedium" android:text="📺 Sonarr" />
+                    <TextView style="@style/ServiceSubtitleMedium" android:text="TV Show Automation" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/card_lidarr"
-                style="@style/ServiceCardSmall">
-                <LinearLayout style="@style/ServiceCardContentSmall">
-                    <TextView style="@style/ServiceTitleSmall" android:text="🎵 Lidarr" />
-                    <TextView style="@style/ServiceSubtitleSmall" android:text="Music" />
+                style="@style/ServiceCardMedium">
+                <LinearLayout style="@style/ServiceCardContentMedium">
+                    <TextView style="@style/ServiceTitleMedium" android:text="🎵 Lidarr" />
+                    <TextView style="@style/ServiceSubtitleMedium" android:text="Music Automation" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/card_readarr"
-                style="@style/ServiceCardSmall">
-                <LinearLayout style="@style/ServiceCardContentSmall">
-                    <TextView style="@style/ServiceTitleSmall" android:text="📚 Readarr" />
-                    <TextView style="@style/ServiceSubtitleSmall" android:text="Books" />
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-        </GridLayout>
-
-        <!-- Downloads Section -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="⬇️ Downloads & Search"
-            android:textSize="18sp"
-            android:textColor="@color/text_primary"
-            android:textStyle="bold"
-            android:layout_marginBottom="16dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
+            <!-- Downloads & Search -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/card_qbittorrent"
-                style="@style/ServiceCard">
-                <LinearLayout style="@style/ServiceCardContent">
-                    <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
-                        android:src="@drawable/ic_download"
-                        android:layout_marginBottom="8dp" />
-                    <TextView
-                        style="@style/ServiceTitle"
-                        android:text="qBittorrent" />
-                    <TextView
-                        style="@style/ServiceSubtitle"
-                        android:text="Downloads" />
+                style="@style/ServiceCardMedium">
+                <LinearLayout style="@style/ServiceCardContentMedium">
+                    <TextView style="@style/ServiceTitleMedium" android:text="⬇️ qBittorrent" />
+                    <TextView style="@style/ServiceSubtitleMedium" android:text="Download Client" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/card_jackett"
-                style="@style/ServiceCard">
-                <LinearLayout style="@style/ServiceCardContent">
-                    <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
-                        android:src="@drawable/ic_search"
-                        android:layout_marginBottom="8dp" />
-                    <TextView
-                        style="@style/ServiceTitle"
-                        android:text="Jackett" />
-                    <TextView
-                        style="@style/ServiceSubtitle"
-                        android:text="Search" />
+                style="@style/ServiceCardMedium">
+                <LinearLayout style="@style/ServiceCardContentMedium">
+                    <TextView style="@style/ServiceTitleMedium" android:text="🔍 Jackett" />
+                    <TextView style="@style/ServiceSubtitleMedium" android:text="Indexer Search" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-        </LinearLayout>
+        </GridLayout>
 
     </LinearLayout>
 
