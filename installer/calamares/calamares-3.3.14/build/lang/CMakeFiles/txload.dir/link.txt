@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Werror=return-type -Wnon-virtual-dtor -Woverloaded-virtual -fdiagnostics-color=auto -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/txload.dir/link.d CMakeFiles/txload.dir/txload.cpp.o -o txload  /usr/lib/libQt6Xml.so.6.9.2 /usr/lib/libQt6Core.so.6.9.2

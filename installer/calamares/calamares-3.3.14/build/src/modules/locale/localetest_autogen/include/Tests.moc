@@ -1,0 +1,180 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'Tests.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'Tests.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+struct qt_meta_tag_ZN11LocaleTestsE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto LocaleTests::qt_create_metaobjectdata<qt_meta_tag_ZN11LocaleTestsE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "LocaleTests",
+        "initTestCase",
+        "",
+        "testEmptyLocaleConfiguration",
+        "testDefaultLocaleConfiguration",
+        "testSplitLocaleConfiguration",
+        "testTZSanity",
+        "testTZImages",
+        "testTZLocations",
+        "testSpecificLocations",
+        "testConfigInitialization",
+        "testLanguageDetection_data",
+        "testLanguageDetection",
+        "testLanguageDetectionValencia",
+        "testKDENeonLanguageData",
+        "testLocaleNameParts",
+        "testLanguageMappingNeon_data",
+        "testLanguageMappingNeon",
+        "testLanguageMappingFreeBSD_data",
+        "testLanguageMappingFreeBSD",
+        "testLanguageSimilarity"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+        // Slot 'initTestCase'
+        QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testEmptyLocaleConfiguration'
+        QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testDefaultLocaleConfiguration'
+        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testSplitLocaleConfiguration'
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testTZSanity'
+        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testTZImages'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testTZLocations'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testSpecificLocations'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testConfigInitialization'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageDetection_data'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageDetection'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageDetectionValencia'
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testKDENeonLanguageData'
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLocaleNameParts'
+        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageMappingNeon_data'
+        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageMappingNeon'
+        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageMappingFreeBSD_data'
+        QtMocHelpers::SlotData<void()>(18, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageMappingFreeBSD'
+        QtMocHelpers::SlotData<void()>(19, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'testLanguageSimilarity'
+        QtMocHelpers::SlotData<void()>(20, 2, QMC::AccessPrivate, QMetaType::Void),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<LocaleTests, qt_meta_tag_ZN11LocaleTestsE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject LocaleTests::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN11LocaleTestsE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN11LocaleTestsE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN11LocaleTestsE_t>.metaTypes,
+    nullptr
+} };
+
+void LocaleTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<LocaleTests *>(_o);
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->testEmptyLocaleConfiguration(); break;
+        case 2: _t->testDefaultLocaleConfiguration(); break;
+        case 3: _t->testSplitLocaleConfiguration(); break;
+        case 4: _t->testTZSanity(); break;
+        case 5: _t->testTZImages(); break;
+        case 6: _t->testTZLocations(); break;
+        case 7: _t->testSpecificLocations(); break;
+        case 8: _t->testConfigInitialization(); break;
+        case 9: _t->testLanguageDetection_data(); break;
+        case 10: _t->testLanguageDetection(); break;
+        case 11: _t->testLanguageDetectionValencia(); break;
+        case 12: _t->testKDENeonLanguageData(); break;
+        case 13: _t->testLocaleNameParts(); break;
+        case 14: _t->testLanguageMappingNeon_data(); break;
+        case 15: _t->testLanguageMappingNeon(); break;
+        case 16: _t->testLanguageMappingFreeBSD_data(); break;
+        case 17: _t->testLanguageMappingFreeBSD(); break;
+        case 18: _t->testLanguageSimilarity(); break;
+        default: ;
+        }
+    }
+    (void)_a;
+}
+
+const QMetaObject *LocaleTests::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *LocaleTests::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN11LocaleTestsE_t>.strings))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int LocaleTests::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 19)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 19;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 19)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 19;
+    }
+    return _id;
+}
+QT_WARNING_POP

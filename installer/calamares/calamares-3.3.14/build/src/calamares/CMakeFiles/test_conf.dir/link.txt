@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Werror=return-type -Wnon-virtual-dtor -Woverloaded-virtual -fdiagnostics-color=auto -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_conf.dir/link.d CMakeFiles/test_conf.dir/test_conf.cpp.o -o ../../test_conf  /usr/lib/libyaml-cpp.so /usr/lib/libQt6Core.so.6.9.2

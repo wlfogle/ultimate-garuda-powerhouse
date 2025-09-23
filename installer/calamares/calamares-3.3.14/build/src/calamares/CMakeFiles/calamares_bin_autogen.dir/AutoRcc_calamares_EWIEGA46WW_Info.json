@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares/calamares_bin_autogen",
+	"CMAKE_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares/calamares_bin_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/calamares-navigation.qml",
+		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/calamares-sidebar.qml"
+	],
+	"LOCK_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares/CMakeFiles/calamares_bin_autogen.dir/AutoRcc_calamares_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "calamares" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_calamares.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares/CMakeFiles/calamares_bin_autogen.dir/AutoRcc_calamares_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/calamares.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
