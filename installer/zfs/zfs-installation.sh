@@ -14,6 +14,7 @@ NC='\033[0m' # No Color
 log() { echo -e "${GREEN}[INFO]${NC} $1"; }
 warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; }
+success() { echo -e "${GREEN}[SUCCESS]${NC} $1"; }
 
 # Check if running from live ISO
 if ! grep -q -E "(archiso|misobasedir=garuda)" /proc/cmdline; then
@@ -23,9 +24,25 @@ fi
 
 log "🚀 Starting ZFS root installation for AI Powerhouse setup"
 
-# Install ZFS utilities on live system
+# Install ZFS utilities on live system (CRITICAL: Must be done BEFORE chroot)
 log "Installing ZFS utilities on live system..."
+log "📋 Installing ZFS packages per boot fix guide recommendations"
 pacman -Sy --noconfirm zfs-dkms zfs-utils
+
+# Verify ZFS module can be loaded
+log "Loading ZFS module to verify installation..."
+if ! modprobe zfs; then
+    error "Failed to load ZFS module! Attempting DKMS rebuild..."
+    dkms install zfs/$(pacman -Q zfs-dkms | cut -d' ' -f2 | cut -d'-' -f1) || {
+        error "DKMS rebuild failed. ZFS installation cannot proceed."
+        exit 1
+    }
+    modprobe zfs || {
+        error "ZFS module still cannot load after DKMS rebuild."
+        exit 1
+    }
+fi
+success "✅ ZFS module loaded successfully"
 
 # Detect target disk
 log "Detecting available disks:"
@@ -158,11 +175,29 @@ systemctl enable zfs-import-cache
 systemctl enable zfs-mount
 systemctl enable zfs.target
 
-# Configure ZFS in initramfs
-echo "zfs" >> /etc/mkinitcpio.conf.d/zfs.conf
-echo 'HOOKS=(base udev autodetect modconf block keyboard zfs filesystems)' >> /etc/mkinitcpio.conf.d/zfs.conf
+# Configure ZFS in initramfs (Prevention measure per boot fix guide)
+echo "Creating ZFS-specific mkinitcpio configuration..."
+mkdir -p /etc/mkinitcpio.conf.d
+cat << 'ZFSCONF' > /etc/mkinitcpio.conf.d/zfs.conf
+# ZFS Boot Fix Configuration
+# Ensures ZFS module is available during boot
+MODULES=(zfs)
+HOOKS=(base udev autodetect modconf block keyboard zfs filesystems)
+ZFSCONF
 
-# Regenerate initramfs
+# Ensure ZFS packages are installed in target system
+echo "Installing ZFS packages in target system..."
+pacman -S --noconfirm zfs-dkms zfs-utils
+
+# Verify ZFS functionality before building initramfs
+echo "Verifying ZFS functionality..."
+modprobe zfs || {
+    echo "ERROR: ZFS module not available in chroot!"
+    echo "This may cause boot failures. Check DKMS installation."
+}
+
+# Regenerate initramfs with ZFS support
+echo "Building initramfs with ZFS support..."
 mkinitcpio -P
 
 # Install GRUB with ZFS support
@@ -175,11 +210,22 @@ echo "Setting root password..."
 passwd
 
 echo "🎉 ZFS root installation completed!"
+
+# Final ZFS verification
+echo "Performing final ZFS verification..."
+zpool status rpool
+zfs list
+systemctl enable zfs-import-cache zfs-mount zfs.target
+
 echo "Next steps after reboot:"
-echo "1. Install development tools (Rust, Node.js, etc.)"
-echo "2. Configure AI environment (CUDA, PyTorch, Ollama)"
-echo "3. Set up media stack and virtualization"
-echo "4. Configure ZFS auto-snapshots"
+echo "1. Verify ZFS boot: './installer/zfs/zfs-check.sh'"
+echo "2. Install development tools (Rust, Node.js, etc.)"
+echo "3. Configure AI environment (CUDA, PyTorch, Ollama)"
+echo "4. Set up media stack and virtualization"
+echo "5. Configure ZFS auto-snapshots"
+echo ""
+echo "🆘 If boot fails, use recovery: './installer/zfs/zfs-recovery.sh'"
+echo "📚 Documentation: './docs/zfs/boot-fix-guide.md'"
 
 EOF
 
