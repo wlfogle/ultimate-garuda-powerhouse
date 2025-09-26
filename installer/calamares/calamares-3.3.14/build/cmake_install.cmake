@@ -1,4 +1,4 @@
-# Install script for directory: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+# Install script for directory: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,29 +44,29 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/cmake_install.cmake")
+  include("/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/cmake_install.cmake")
+  include("/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/pybind11/cmake_install.cmake")
+  include("/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/pybind11/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/cmake_install.cmake")
+  include("/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets.cmake"
-         "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles/Export/6666751cd3ab54d4a57a046f5b186768/CalamaresTargets.cmake")
+         "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles/Export/6666751cd3ab54d4a57a046f5b186768/CalamaresTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -79,26 +79,26 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles/Export/6666751cd3ab54d4a57a046f5b186768/CalamaresTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles/Export/6666751cd3ab54d4a57a046f5b186768/CalamaresTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles/Export/6666751cd3ab54d4a57a046f5b186768/CalamaresTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles/Export/6666751cd3ab54d4a57a046f5b186768/CalamaresTargets-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CalamaresConfig.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CalamaresConfigVersion.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddBrandingSubdirectory.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddLibrary.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddModuleSubdirectory.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddPlugin.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddTest.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddTranslations.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAutomoc.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresCheckModuleSelection.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CMakeColors.cmake"
-    "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/FindYAMLCPP.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CalamaresConfig.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CalamaresConfigVersion.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddBrandingSubdirectory.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddLibrary.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddModuleSubdirectory.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddPlugin.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddTest.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAddTranslations.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresAutomoc.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CalamaresCheckModuleSelection.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/CMakeColors.cmake"
+    "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/FindYAMLCPP.cmake"
     )
 endif()
 
@@ -111,21 +111,21 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/share/polkit-1/actions" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/com.github.calamares.calamares.policy")
+  file(INSTALL DESTINATION "/usr/share/polkit-1/actions" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/com.github.calamares.calamares.policy")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/calamares.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/calamares.desktop")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/man/calamares.8")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/man/calamares.8")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/install_local_manifest.txt"
+  file(WRITE "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -141,6 +141,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

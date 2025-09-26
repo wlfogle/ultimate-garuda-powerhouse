@@ -1,8 +1,8 @@
 src/libcalamares/CMakeFiles/calamares.dir/utils/Logger.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/qcompare.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/15.2.1/type_traits \
@@ -324,15 +324,15 @@ src/libcalamares/CMakeFiles/calamares.dir/utils/Logger.cpp.o: \
  /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobject_impl.h \
  /usr/include/qt6/QtCore/qbindingstorage.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CalamaresVersionX.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CalamaresVersion.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CalamaresVersionX.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CalamaresVersion.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h \
  /usr/include/qt6/QtCore/QMutexLocker /usr/include/qt6/QtCore/qmutex.h \
  /usr/include/qt6/QtCore/qdeadlinetimer.h \
  /usr/include/qt6/QtCore/qelapsedtimer.h \
  /usr/include/qt6/QtCore/qtsan_impl.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
  /usr/include/qt6/QtCore/QDir /usr/include/qt6/QtCore/qdir.h \
  /usr/include/qt6/QtCore/qdirlisting.h \
  /usr/include/qt6/QtCore/qfiledevice.h \

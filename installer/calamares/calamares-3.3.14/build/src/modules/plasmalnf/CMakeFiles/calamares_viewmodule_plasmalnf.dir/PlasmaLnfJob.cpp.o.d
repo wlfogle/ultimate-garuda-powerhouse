@@ -1,7 +1,7 @@
 src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf.dir/PlasmaLnfJob.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
@@ -324,23 +324,23 @@ src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf.dir/PlasmaLnfJob
  /usr/include/qt6/QtCore/q23utility.h \
  /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
  /usr/include/qt6/QtCore/QSharedPointer \
  /usr/include/qt6/QtCore/qsharedpointer.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
  /usr/include/qt6/QtCore/QMutex /usr/include/qt6/QtCore/qmutex.h \
  /usr/include/qt6/QtCore/qdeadlinetimer.h \
  /usr/include/qt6/QtCore/qelapsedtimer.h \
  /usr/include/qt6/QtCore/qtsan_impl.h /usr/include/qt6/QtCore/QString \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/QVariant \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/System.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/System.h \
  /usr/include/qt6/QtCore/QPair /usr/include/qt6/QtCore/qpair.h \
  /usr/include/KF6/KConfigCore/KConfigGroup \
  /usr/include/KF6/KConfigCore/kconfiggroup.h \

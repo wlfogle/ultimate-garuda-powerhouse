@@ -1,7 +1,7 @@
 src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/keyboardwidget/keyboardpreview.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/keyboardwidget/keyboardpreview.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/keyboardwidget/keyboardpreview.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/keyboardwidget/keyboardpreview.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/keyboardwidget/keyboardpreview.h \
  /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtGui/qcolor.h \
  /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/15.2.1/type_traits \
@@ -354,12 +354,12 @@ src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/keyboardwidget
  /usr/include/qt6/QtGui/qpalette.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/QSharedPointer \
  /usr/include/qt6/QtCore/qsharedpointer.h \
  /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/String.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/String.h \
  /usr/include/qt6/QtCore/QProcess /usr/include/qt6/QtCore/qprocess.h \
  /usr/include/qt6/QtCore/qiodevice.h

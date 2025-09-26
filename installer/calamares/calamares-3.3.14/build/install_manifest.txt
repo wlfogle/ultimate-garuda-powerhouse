@@ -311,6 +311,7 @@
 /usr/lib/calamares/modules/zfshostid/module.desc
 /usr/lib/calamares/modules/zfshostid/zfshostid.schema.yaml
 /usr/lib/calamares/modules/zfspostcfg/main.py
+/usr/lib/calamares/modules/zfspostcfg/main.py.pyc.err
 /usr/lib/calamares/modules/zfspostcfg/module.desc
 /usr/lib/calamares/modules/zfspostcfg/zfspostcfg.schema.yaml
 /usr/share/calamares/branding/default/banner.png

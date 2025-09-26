@@ -1,8 +1,8 @@
 src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CalamaresConfig.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CalamaresConfig.h \
  /usr/include/qt6/QtCore/QMutex /usr/include/qt6/QtCore/qmutex.h \
  /usr/include/qt6/QtCore/qglobal.h /usr/include/c++/15.2.1/type_traits \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -350,21 +350,21 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o: \
  /usr/include/qt6/QtGui/qfontvariableaxis.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/QMap /usr/include/qt6/QtCore/qmap.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtGui/QPixmap /usr/include/qt6/QtGui/qpixmap.h \
  /usr/include/qt6/QtCore/QSize /usr/include/qt6/QtCore/qsize.h \
  /usr/include/qt6/QtCore/QUrl /usr/include/qt6/QtCore/qurl.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h \
  /usr/include/qt6/QtCore/QMutexLocker \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
  /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
  /usr/include/qt6/QtCore/QDir /usr/include/qt6/QtCore/qdir.h \
  /usr/include/qt6/QtCore/qdirlisting.h \
  /usr/include/qt6/QtCore/qfiledevice.h \
@@ -397,16 +397,16 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o: \
  /usr/include/c++/15.2.1/bits/fs_dir.h \
  /usr/include/c++/15.2.1/bits/fs_ops.h \
  /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/QSharedPointer \
  /usr/include/qt6/QtCore/qsharedpointer.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
  /usr/include/qt6/QtCore/QLocale /usr/include/qt6/QtCore/qlocale.h \
  /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
  /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtWidgets/qwidget.h \

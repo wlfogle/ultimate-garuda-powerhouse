@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/partition/calautomount.cpp" "src/libcalamares/CMakeFiles/test_automount.dir/partition/calautomount.cpp.o" "gcc" "src/libcalamares/CMakeFiles/test_automount.dir/partition/calautomount.cpp.o.d"
+  "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/partition/calautomount.cpp" "src/libcalamares/CMakeFiles/test_automount.dir/partition/calautomount.cpp.o" "gcc" "src/libcalamares/CMakeFiles/test_automount.dir/partition/calautomount.cpp.o.d"
   "" "test_automount" "gcc" "src/libcalamares/CMakeFiles/test_automount.dir/link.d"
   )
 

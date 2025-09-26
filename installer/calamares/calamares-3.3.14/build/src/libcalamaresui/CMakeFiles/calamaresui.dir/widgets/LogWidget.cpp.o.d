@@ -1,7 +1,7 @@
 src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/LogWidget.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
  /usr/include/qt6/QtWidgets/QPlainTextEdit \
  /usr/include/qt6/QtWidgets/qplaintextedit.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -384,8 +384,8 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/LogWidget.cpp.o: \
  /usr/include/c++/15.2.1/bits/atomic_futex.h \
  /usr/include/c++/15.2.1/bits/std_thread.h \
  /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/QSharedPointer \
  /usr/include/qt6/QtCore/qsharedpointer.h \

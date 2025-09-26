@@ -1,54 +1,55 @@
 {
-	"BUILD_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen",
-	"CMAKE_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc",
+	"BUILD_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen",
+	"CMAKE_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/CMakeLists.txt",
-		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/CMakeLists.txt",
+		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/unpackfsc.conf"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+	"CMAKE_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/deps",
+	"DEP_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "calamares_job_unpackfsc_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/FSArchiverRunner.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/FSArchiverRunner.h",
 			"Mu",
 			"EWIEGA46WW/moc_FSArchiverRunner.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/Runners.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/Runners.h",
 			"Mu",
 			"EWIEGA46WW/moc_Runners.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/TarballRunner.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/TarballRunner.h",
 			"Mu",
 			"EWIEGA46WW/moc_TarballRunner.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnpackFSCJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnpackFSCJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_UnpackFSCJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnsquashRunner.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnsquashRunner.h",
 			"Mu",
 			"EWIEGA46WW/moc_UnsquashRunner.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -73,11 +74,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -119,41 +120,41 @@
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/calamares_job_unpackfsc_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 24,
-	"PARSE_CACHE_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/CMakeFiles/calamares_job_unpackfsc_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/CMakeFiles/calamares_job_unpackfsc_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/CMakeFiles/calamares_job_unpackfsc_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/unpackfsc/CMakeFiles/calamares_job_unpackfsc_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/FSArchiverRunner.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/FSArchiverRunner.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/Runners.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/Runners.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/TarballRunner.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/TarballRunner.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnpackFSCJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnpackFSCJob.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnsquashRunner.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/unpackfsc/UnsquashRunner.cpp",
 			"Mu",
 			null
 		]

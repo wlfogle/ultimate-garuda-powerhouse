@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/ca
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/branding//CMakeFiles/progress.marks
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/branding//CMakeFiles/progress.marks
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/clean
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/branding/CMakeFiles/branding-translation-default.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/CMakeFiles/branding-translation-default.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/branding/CMakeFiles/branding-translation-default.dir/rule
 .PHONY : src/branding/CMakeFiles/branding-translation-default.dir/rule
 
 # Convenience name for target.
@@ -202,7 +202,7 @@ branding-translation-default: src/branding/CMakeFiles/branding-translation-defau
 
 # fast build rule for target.
 branding-translation-default/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/branding/CMakeFiles/branding-translation-default.dir/build.make src/branding/CMakeFiles/branding-translation-default.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/branding/CMakeFiles/branding-translation-default.dir/build.make src/branding/CMakeFiles/branding-translation-default.dir/build
 .PHONY : branding-translation-default/fast
 
 # Help Target
@@ -232,6 +232,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

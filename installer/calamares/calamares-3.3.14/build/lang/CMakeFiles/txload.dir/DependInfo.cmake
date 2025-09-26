@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/txload.cpp" "lang/CMakeFiles/txload.dir/txload.cpp.o" "gcc" "lang/CMakeFiles/txload.dir/txload.cpp.o.d"
+  "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/txload.cpp" "lang/CMakeFiles/txload.dir/txload.cpp.o" "gcc" "lang/CMakeFiles/txload.dir/txload.cpp.o.d"
   "" "lang/txload" "gcc" "lang/CMakeFiles/txload.dir/link.d"
   )
 

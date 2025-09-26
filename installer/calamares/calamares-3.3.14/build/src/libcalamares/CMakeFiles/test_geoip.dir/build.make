@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/libcalamares/CMakeFiles/test_geoip.dir/depend.make
@@ -71,9 +71,9 @@ include src/libcalamares/CMakeFiles/test_geoip.dir/flags.make
 
 src/libcalamares/test_geoip_autogen/timestamp: /usr/lib/qt6/moc
 src/libcalamares/test_geoip_autogen/timestamp: src/libcalamares/CMakeFiles/test_geoip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_geoip"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/test_geoip_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_geoip"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/test_geoip_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/timestamp
 
 src/libcalamares/CMakeFiles/test_geoip.dir/codegen:
 .PHONY : src/libcalamares/CMakeFiles/test_geoip.dir/codegen
@@ -81,58 +81,58 @@ src/libcalamares/CMakeFiles/test_geoip.dir/codegen:
 src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/flags.make
 src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o: src/libcalamares/test_geoip_autogen/mocs_compilation.cpp
 src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o -MF CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o -MF CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/mocs_compilation.cpp
 
 src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/mocs_compilation.cpp > CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/mocs_compilation.cpp > CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.i
 
 src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/mocs_compilation.cpp -o CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/test_geoip_autogen/mocs_compilation.cpp -o CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.s
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/flags.make
-src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp
+src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o -MF CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o.d -o CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o -MF CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o.d -o CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp > CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp > CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.i
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp -o CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/test_geoip.cpp -o CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.s
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/flags.make
-src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp
+src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o -MF CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o.d -o CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o -MF CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o.d -o CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp > CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp > CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.i
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp -o CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPFixed.cpp -o CMakeFiles/test_geoip.dir/geoip/GeoIPFixed.cpp.s
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/flags.make
-src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp
+src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o: src/libcalamares/CMakeFiles/test_geoip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o -MF CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o.d -o CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o -MF CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o.d -o CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp > CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp > CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.i
 
 src/libcalamares/CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp -o CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/geoip/GeoIPJSON.cpp -o CMakeFiles/test_geoip.dir/geoip/GeoIPJSON.cpp.s
 
 # Object files for target test_geoip
 test_geoip_OBJECTS = \
@@ -156,18 +156,18 @@ test_geoip: /usr/lib/libyaml-cpp.so
 test_geoip: /usr/lib/libKF6CoreAddons.so.6.18.0
 test_geoip: /usr/lib/libQt6Core.so.6.9.2
 test_geoip: src/libcalamares/CMakeFiles/test_geoip.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../test_geoip"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_geoip.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../test_geoip"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_geoip.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libcalamares/CMakeFiles/test_geoip.dir/build: test_geoip
 .PHONY : src/libcalamares/CMakeFiles/test_geoip.dir/build
 
 src/libcalamares/CMakeFiles/test_geoip.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/test_geoip.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/test_geoip.dir/cmake_clean.cmake
 .PHONY : src/libcalamares/CMakeFiles/test_geoip.dir/clean
 
 src/libcalamares/CMakeFiles/test_geoip.dir/depend: src/libcalamares/test_geoip_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/test_geoip.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/test_geoip.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/libcalamares/CMakeFiles/test_geoip.dir/depend
 

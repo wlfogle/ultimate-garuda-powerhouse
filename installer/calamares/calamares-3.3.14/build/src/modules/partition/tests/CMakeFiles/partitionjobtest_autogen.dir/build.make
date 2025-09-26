@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Utility rule file for partitionjobtest_autogen.
 
@@ -70,9 +70,9 @@ src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen: src/modules/par
 
 src/modules/partition/tests/partitionjobtest_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/partition/tests/partitionjobtest_autogen/timestamp: src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target partitionjobtest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionjobtest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target partitionjobtest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionjobtest_autogen/timestamp
 
 src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/codegen:
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/codegen
@@ -87,10 +87,10 @@ src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/build: parti
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/build
 
 src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && $(CMAKE_COMMAND) -P CMakeFiles/partitionjobtest_autogen.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && $(CMAKE_COMMAND) -P CMakeFiles/partitionjobtest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/clean
 
 src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/depend
 

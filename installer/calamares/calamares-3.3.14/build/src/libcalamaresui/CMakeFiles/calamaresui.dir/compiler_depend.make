@@ -3,66 +3,66 @@
 
 src/libcalamaresui/calamaresui_autogen/timestamp: src/libcalamares/CalamaresConfig.h \
   src/libcalamaresui/calamaresui_autogen/moc_predefs.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/CMakeLists.txt \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/libcalamaresui.qrc \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.ui \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/CMakeLists.txt \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/libcalamaresui.qrc \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.ui \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -661,18 +661,18 @@ libcalamaresui.so: libcalamares.so.3.3.14 \
   src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o \
   src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/waitingspinnerwidget.cpp.o
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/Branding.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/Branding.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Units.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Units.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
   /usr/include/KF6/KCoreAddons/KMacroExpander \
   /usr/include/KF6/KCoreAddons/KOSRelease \
   /usr/include/KF6/KCoreAddons/kcoreaddons_export.h \
@@ -1232,30 +1232,30 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/Branding.cpp.o: /home/garuda/Proje
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/ViewManager.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/ViewManager.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/String.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/String.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1841,27 +1841,27 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/mocs_compilation.cpp.o: src/libcalamaresui/calamaresui_autogen/mocs_compilation.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
   src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_BlankViewStep.cpp \
   src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_ExecutionViewStep.cpp \
   src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_QmlViewStep.cpp \
   src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_Slideshow.cpp \
   src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_ViewStep.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
   src/libcalamaresui/calamaresui_autogen/EWIEGA46WW/moc_Branding.cpp \
   src/libcalamaresui/calamaresui_autogen/EWIEGA46WW/moc_ViewManager.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
   src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_ClickableLabel.cpp \
   src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_ErrorDialog.cpp \
   src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp \
@@ -1869,19 +1869,19 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/mocs_compilati
   src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_PrettyRadioButton.cpp \
   src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_WaitingWidget.cpp \
   src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_waitingspinnerwidget.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
   src/libcalamaresui/calamaresui_autogen/RUACCQ4MTV/moc_ModuleManager.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2471,18 +2471,18 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/mocs_compilati
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2975,23 +2975,23 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o: /
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleFactory.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleFactory.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -3513,25 +3513,25 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleFactory.cpp.o: 
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsChecker.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsModel.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsChecker.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsModel.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -4163,16 +4163,16 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o: 
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/ProcessJob.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/ProcessJob.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -4649,17 +4649,17 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -5136,19 +5136,19 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -5685,10 +5685,10 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o: /ho
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -6163,10 +6163,10 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o: /home/garuda/Proj
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/ImageRegistry.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/ImageRegistry.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -6613,16 +6613,16 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/ImageRegistry.cpp.o: /home/g
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Paste.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Paste.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Units.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Units.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -7163,25 +7163,25 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Paste.cpp.o: /home/garuda/Pr
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Qml.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Qml.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/network/Manager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/network/Manager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -7767,14 +7767,14 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Qml.cpp.o: /home/garuda/Proj
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/BlankViewStep.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/BlankViewStep.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -8253,31 +8253,31 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/BlankViewStep.cpp.o: /ho
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ExecutionViewStep.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ExecutionViewStep.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -8873,25 +8873,25 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ExecutionViewStep.cpp.o:
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/QmlViewStep.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/QmlViewStep.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Variant.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Variant.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -9508,21 +9508,21 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/QmlViewStep.cpp.o: /home
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -10133,12 +10133,12 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o: /home/g
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ViewStep.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ViewStep.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -10612,9 +10612,9 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ViewStep.cpp.o: /home/ga
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ClickableLabel.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ClickableLabel.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -11095,11 +11095,11 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ClickableLabel.cpp.o: /hom
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ErrorDialog.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ErrorDialog.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp \
   src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -11603,9 +11603,9 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ErrorDialog.cpp.o: /home/g
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/FixedAspectRatioLabel.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/FixedAspectRatioLabel.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -12071,10 +12071,10 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/FixedAspectRatioLabel.cpp.
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/LogWidget.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/LogWidget.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -12635,11 +12635,11 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/LogWidget.cpp.o: /home/gar
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/PrettyRadioButton.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/PrettyRadioButton.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -13135,9 +13135,9 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/PrettyRadioButton.cpp.o: /
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -13614,12 +13614,12 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o: /hom
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -14106,9 +14106,9 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o: /home
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/waitingspinnerwidget.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/waitingspinnerwidget.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -14580,8 +14580,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/waitingspinnerwidget.cpp.o
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 
-/usr/include/qt6/QtWidgets/qstyleoption.h:
-
 /usr/include/qt6/QtWidgets/qrubberband.h:
 
 /usr/include/qt6/QtWidgets/qabstractspinbox.h:
@@ -14596,6 +14594,8 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/waitingspinnerwidget.cpp.o
 
 /usr/include/qt6/QtWidgets/QScrollBar:
 
+/usr/include/qt6/QtCore/QTextStream:
+
 /usr/include/qt6/QtWidgets/QAbstractButton:
 
 src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
@@ -14605,6 +14605,8 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 /usr/include/qt6/QtQuickWidgets/qtquickwidgetsexports.h:
 
 /usr/include/qt6/QtCore/QMutexLocker:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h:
 
 /usr/include/qt6/QtQuick/qsgnode.h:
 
@@ -14616,15 +14618,9 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 
 /usr/include/qt6/QtGui/qvector4d.h:
 
-/usr/include/qt6/QtGui/qsurfaceformat.h:
-
 /usr/include/qt6/QtGui/qmatrix4x4.h:
 
 /usr/include/qt6/QtGui/QMatrix4x4:
-
-/usr/include/qt6/QtCore/QEvent:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h:
 
 /usr/include/qt6/QtWidgets/qtoolbutton.h:
 
@@ -14636,8 +14632,6 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 
 /usr/include/qt6/QtWidgets/QTabWidget:
 
-/usr/include/qt6/QtQuick/qtquickexports.h:
-
 /usr/include/qt6/QtQuick/QQuickItem:
 
 /usr/include/qt6/QtQml/qqmlpropertyvaluesource.h:
@@ -14648,9 +14642,7 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 
 /usr/include/qt6/QtQml/qqmlerror.h:
 
-/usr/include/qt6/QtQml/qtqmlglobal.h:
-
-/usr/include/qt6/QtGui/qaccessible_base.h:
+/usr/include/qt6/QtQml/qqmlcomponent.h:
 
 /usr/include/qt6/QtGui/qaccessible.h:
 
@@ -14658,7 +14650,11 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 
 /usr/include/c++/15.2.1/experimental/source_location:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/network/Manager.h:
+/usr/include/qt6/QtQml/qtqmlglobal.h:
+
+/usr/include/qt6/QtGui/qaccessible_base.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/network/Manager.h:
 
 /usr/include/qt6/QtNetwork/qtnetworkexports.h:
 
@@ -14680,8 +14676,6 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 
 /usr/include/qt6/QtGui/QBrush:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/ProcessJob.h:
-
 /usr/include/qt6/QtCore/qthreadpool.h:
 
 /usr/include/qt6/QtCore/qrunnable.h:
@@ -14694,11 +14688,9 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 
 /usr/include/qt6/QtCore/qfutureinterface.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsModel.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsChecker.h:
 
 /usr/include/qt6/QtCore/QFileInfo:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h:
 
 /usr/include/qt6/QtWidgets/qstyle.h:
 
@@ -14706,11 +14698,11 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 
 /usr/include/qt6/QtCore/qcborvalue.h:
 
-/usr/include/qt6/QtCore/QPluginLoader:
+/usr/include/qt6/QtQuick/qtquickexports.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h:
+/usr/include/qt6/QtCore/qtmochelpers.h:
 
 /usr/include/qt6/QtCore/qtmocconstants.h:
 
@@ -14719,8 +14711,6 @@ src/libcalamaresui/calamaresui_autogen/include/ui_ErrorDialog.h:
 src/libcalamaresui/calamaresui_autogen/RUACCQ4MTV/moc_ModuleManager.cpp:
 
 src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_WaitingWidget.cpp:
-
-src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_PrettyRadioButton.cpp:
 
 /usr/include/qt6/QtCore/quuid.h:
 
@@ -14746,8 +14736,6 @@ src/libcalamaresui/calamaresui_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtWidgets/qgridlayout.h:
 
-/usr/include/qt6/QtWidgets/qapplication.h:
-
 /usr/include/qt6/QtWidgets/QMessageBox:
 
 /usr/include/qt6/QtCore/qexception.h:
@@ -14760,13 +14748,13 @@ src/libcalamaresui/calamaresui_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/QMetaObject:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/String.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h:
+/usr/include/qt6/QtCore/QPluginLoader:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h:
 
 /usr/include/qt6/QtWidgets/qtoolbar.h:
 
@@ -14777,8 +14765,6 @@ src/libcalamaresui/calamaresui_autogen/mocs_compilation.cpp:
 /usr/include/qt6/QtQml/qqmlabstracturlinterceptor.h:
 
 /usr/include/yaml-cpp/parser.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsChecker.h:
 
 /usr/include/yaml-cpp/ostream_wrapper.h:
 
@@ -14796,6 +14782,8 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 
 /usr/include/yaml-cpp/node/node.h:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h:
+
 /usr/include/yaml-cpp/node/iterator.h:
 
 /usr/include/yaml-cpp/node/emit.h:
@@ -14804,13 +14792,13 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 
 /usr/include/yaml-cpp/node/detail/iterator_fwd.h:
 
-/usr/include/yaml-cpp/yaml.h:
-
-/usr/include/yaml-cpp/node/detail/iterator.h:
-
 /usr/include/yaml-cpp/node/convert.h:
 
 /usr/include/yaml-cpp/emittermanip.h:
+
+src/libcalamaresui/calamaresui_autogen/EWIEGA46WW/qrc_libcalamaresui.cpp:
+
+/usr/include/yaml-cpp/binary.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h:
 
@@ -14820,15 +14808,9 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 
 /usr/include/qt6/QtCore/QMetaEnum:
 
-/usr/include/qt6/QtCore/QIntegerForSize:
-
 /usr/include/qt6/QtWidgets/qtextbrowser.h:
 
 /usr/include/qt6/QtCore/QFile:
-
-/usr/include/qt6/QtWidgets/QStackedLayout:
-
-/usr/include/math.h:
 
 /usr/include/qt6/QtWidgets/qtabbar.h:
 
@@ -14846,8 +14828,6 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 
 /usr/include/c++/15.2.1/ostream:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h:
-
 /usr/include/c++/15.2.1/locale:
 
 /usr/include/yaml-cpp/node/detail/node_data.h:
@@ -14860,8 +14840,6 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 
 /usr/include/c++/15.2.1/codecvt:
 
-/usr/include/c++/15.2.1/bits/slice_array.h:
-
 /usr/include/c++/15.2.1/bits/ostream.h:
 
 /usr/include/qt6/QtCore/qvector.h:
@@ -14871,8 +14849,6 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 /usr/include/qt6/QtGui/qquaternion.h:
 
 /usr/include/c++/15.2.1/bits/locale_facets_nonio.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets.h:
 
 /usr/include/c++/15.2.1/bits/indirect_array.h:
 
@@ -14898,6 +14874,8 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 
 /usr/include/bits/math-vector.h:
 
+/usr/include/bits/flt-eval-method.h:
+
 /usr/include/KF6/KCoreAddons/kosrelease.h:
 
 /usr/include/qt6/QtQml/qjsvalue.h:
@@ -14910,7 +14888,9 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_FixedAspectRatioLabel.cpp:
 
 /usr/include/KF6/KCoreAddons/KMacroExpander:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h:
+/usr/include/c++/15.2.1/bits/locale_facets.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/waitingspinnerwidget.cpp.o:
 
@@ -14921,8 +14901,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ViewStep.cpp.o:
 src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/QmlViewStep.cpp.o:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ExecutionViewStep.cpp.o:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Units.h:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/BlankViewStep.cpp.o:
 
@@ -14935,6 +14913,10 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/ImageRegistry.cpp.o:
 src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.o:
+
+/usr/include/wctype.h:
+
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/Branding.cpp.o:
 
@@ -14970,13 +14952,13 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/FixedAspectRatioLabel.cpp.
 
 /usr/lib/libQt6Core.so.6.9.2:
 
-/usr/lib/libKF6CoreAddons.so.6.18.0:
-
 /usr/lib/libGLX.so:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
 /usr/lib/libstdc++.so:
 
@@ -15014,19 +14996,19 @@ libcalamares.so.3.3.14:
 
 /usr/include/stdio.h:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h:
+
 /usr/include/stdint.h:
 
 /usr/include/stdc-predef.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h:
 
 /usr/include/sched.h:
 
 /usr/include/qt6/QtWidgets/qwidget.h:
 
 /usr/include/qt6/QtWidgets/qtwidgetsglobal.h:
-
-/usr/include/qt6/QtCore/qfuture.h:
-
-/usr/include/qt6/QtWidgets/qtwidgetsexports.h:
 
 /usr/include/qt6/QtWidgets/qtwidgets-config.h:
 
@@ -15043,6 +15025,8 @@ libcalamares.so.3.3.14:
 /usr/include/qt6/QtWidgets/qplaintextedit.h:
 
 /usr/include/qt6/QtWidgets/qlabel.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Dirs.h:
 
 /usr/include/qt6/QtWidgets/qdialog.h:
 
@@ -15082,15 +15066,13 @@ src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_Slideshow.cpp:
 
 /usr/include/qt6/QtGui/qrgba64.h:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h:
+
 /usr/include/qt6/QtGui/qregion.h:
 
 /usr/include/qt6/QtGui/qrawfont.h:
 
 /usr/include/c++/15.2.1/cstdint:
-
-/usr/include/c++/15.2.1/bits/fs_path.h:
-
-/usr/include/c++/15.2.1/cstddef:
 
 /usr/include/qt6/QtGui/qvalidator.h:
 
@@ -15118,19 +15100,17 @@ src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_Slideshow.cpp:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
-/usr/include/c++/15.2.1/bits/unordered_set.h:
-
-/usr/lib/libQt6Widgets.so.6.9.2:
-
-/usr/include/qt6/QtGui/qicon.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Variant.h:
-
 /usr/include/c++/15.2.1/bits/unordered_map.h:
 
 /usr/include/c++/15.2.1/bits/uniform_int_dist.h:
 
 /usr/include/c++/15.2.1/cwchar:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/qt6/QtWidgets/qstyleoption.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp:
 
 /usr/include/qt6/QtCore/q23type_traits.h:
 
@@ -15142,11 +15122,13 @@ src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_Slideshow.cpp:
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/c++/15.2.1/bits/stl_tree.h:
+/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
 
-/usr/include/qt6/QtCore/qstringbuilder.h:
+/usr/include/c++/15.2.1/bits/stl_algo.h:
 
-/usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o:
+
+/usr/include/pthread.h:
 
 /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h:
 
@@ -15154,7 +15136,11 @@ src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_Slideshow.cpp:
 
 /usr/include/c++/15.2.1/bits/stl_multiset.h:
 
-/usr/include/c++/15.2.1/clocale:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h:
+
+/usr/include/c++/15.2.1/bits/stl_multimap.h:
+
+/usr/include/c++/15.2.1/bits/stl_list.h:
 
 /usr/include/qt6/QtWidgets/QStyle:
 
@@ -15170,6 +15156,298 @@ src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_Slideshow.cpp:
 
 /usr/include/c++/15.2.1/bits/stl_iterator.h:
 
+src/libcalamaresui/CMakeFiles/calamaresui.dir/ViewManager.cpp.o:
+
+/usr/include/qt6/QtCore/QMap:
+
+/usr/include/qt6/QtCore/qmutex.h:
+
+/usr/include/qt6/QtGui/QIcon:
+
+/usr/include/c++/15.2.1/bits/shared_ptr_atomic.h:
+
+/usr/include/qt6/QtCore/QRect:
+
+/usr/include/qt6/QtQuickWidgets/qquickwidget.h:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/c++/15.2.1/bits/refwrap.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h:
+
+/usr/include/c++/15.2.1/bits/new_allocator.h:
+
+/usr/include/c++/15.2.1/bits/nested_exception.h:
+
+src/libcalamares/CalamaresConfig.h:
+
+/usr/include/qt6/QtCore/qstringfwd.h:
+
+/usr/include/c++/15.2.1/bits/move.h:
+
+/usr/include/qt6/QtQuick/qtquickglobal.h:
+
+/usr/include/c++/15.2.1/bits/locale_facets.tcc:
+
+/usr/include/bits/types.h:
+
+/usr/include/qt6/QtCore/qiodevice.h:
+
+/usr/include/qt6/QtCore/qtaggedpointer.h:
+
+/usr/include/c++/15.2.1/bits/memory_resource.h:
+
+/usr/include/c++/15.2.1/clocale:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h:
+
+/usr/include/c++/15.2.1/bits/localefwd.h:
+
+/usr/lib/libQt6QmlWorkerScript.so.6.9.2:
+
+/usr/include/c++/15.2.1/bits/locale_classes.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/15.2.1/bits/list.tcc:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h:
+
+/usr/include/c++/15.2.1/bits/fs_fwd.h:
+
+/usr/include/c++/15.2.1/bits/hashtable.h:
+
+/usr/include/qt6/QtCore/qhashfunctions.h:
+
+/usr/include/c++/15.2.1/backward/binders.h:
+
+/usr/include/qt6/QtQml/qjsnumbercoercion.h:
+
+/usr/include/c++/15.2.1/bits/hash_bytes.h:
+
+/usr/include/qt6/QtCore/qtyperevision.h:
+
+/usr/include/qt6/QtCore/qtcore-config.h:
+
+/usr/include/c++/15.2.1/bits/stl_relops.h:
+
+/usr/include/c++/15.2.1/bits/functional_hash.h:
+
+/usr/include/c++/15.2.1/bits/stl_numeric.h:
+
+/usr/include/qt6/QtWidgets/qstackedlayout.h:
+
+/usr/include/yaml-cpp/node/impl.h:
+
+/usr/include/qt6/QtCore/qdebug.h:
+
+/usr/include/c++/15.2.1/bits/exception_defines.h:
+
+/usr/include/c++/15.2.1/vector:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/ProcessJob.h:
+
+/usr/include/c++/15.2.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/15.2.1/cctype:
+
+/usr/include/c++/15.2.1/ext/concurrence.h:
+
+/usr/include/qt6/QtGui/qaction.h:
+
+/usr/include/c++/15.2.1/bits/monostate.h:
+
+/usr/include/c++/15.2.1/bits/concept_check.h:
+
+/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/qt6/QtCore/qscopeguard.h:
+
+/usr/include/qt6/QtCore/qregularexpression.h:
+
+/usr/include/qt6/QtWidgets/qradiobutton.h:
+
+/usr/include/qt6/QtCore/qstringconverter.h:
+
+/usr/include/qt6/QtWidgets/QGridLayout:
+
+/usr/include/c++/15.2.1/bits/char_traits.h:
+
+/usr/include/qt6/QtCore/qjsonparseerror.h:
+
+/usr/include/c++/15.2.1/bits/fs_ops.h:
+
+/usr/lib/libyaml-cpp.so:
+
+/usr/include/qt6/QtWidgets/QStackedWidget:
+
+/usr/include/c++/15.2.1/bits/atomic_base.h:
+
+/usr/include/qt6/QtGui/qtgui-config.h:
+
+/usr/include/c++/15.2.1/bits/stream_iterator.h:
+
+/usr/include/c++/15.2.1/bits/allocated_ptr.h:
+
+/usr/include/yaml-cpp/stlemitter.h:
+
+/usr/include/c++/15.2.1/backward/auto_ptr.h:
+
+/usr/lib/libQt6Network.so.6.9.2:
+
+/usr/include/c++/15.2.1/atomic:
+
+/usr/include/KF6/KCoreAddons/KOSRelease:
+
+/usr/include/qt6/QtCore/qsharedpointer.h:
+
+/usr/include/c++/15.2.1/algorithm:
+
+src/libcalamaresui/calamaresui_autogen/moc_predefs.h:
+
+/usr/include/c++/15.2.1/bits/postypes.h:
+
+/usr/include/c++/15.2.1/tr1/ell_integral.tcc:
+
+/usr/include/bits/uio_lim.h:
+
+/usr/include/qt6/QtQml/QQmlContext:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/15.2.1/bit:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h:
+
+/usr/include/qt6/QtQml/qjsengine.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/qt6/QtCore/qlist.h:
+
+/usr/include/qt6/QtGui/qrgb.h:
+
+/usr/bin/cmake:
+
+/usr/include/qt6/QtGui/qpicture.h:
+
+/usr/include/c++/15.2.1/climits:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/qt6/QtQml/qtqml-config.h:
+
+/usr/include/c++/15.2.1/tr1/poly_hermite.tcc:
+
+/usr/include/qt6/QtCore/qvariant.h:
+
+/usr/include/qt6/QtCore/QThread:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/c++/15.2.1/bits/node_handle.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/15.2.1/tr1/hypergeometric.tcc:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/qt6/QtGui/qgenericmatrix.h:
+
+/usr/include/qt6/QtCore/qiterable.h:
+
+/usr/include/qt6/QtGui/qglyphrun.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp:
+
+/usr/include/qt6/QtCore/qfuture_impl.h:
+
+/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h:
+
+/usr/include/c++/15.2.1/bits/atomic_futex.h:
+
+src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_LogWidget.cpp:
+
+/usr/include/qt6/QtCore/qbytearray.h:
+
+/usr/include/c++/15.2.1/bits/range_access.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/qt6/QtCore/qnamespace.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp:
+
+/usr/include/qt6/QtCore/qtextstream.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h:
+
+/usr/include/qt6/QtCore/qdarwinhelpers.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp:
+
+/usr/include/qt6/QtGui/qfontmetrics.h:
+
+/usr/include/qt6/QtCore/qfuture.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h:
+
+/usr/include/qt6/QtWidgets/qtwidgetsexports.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h:
+
+/usr/include/qt6/QtCore/QIntegerForSize:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h:
+
+/usr/include/yaml-cpp/yaml.h:
+
+/usr/include/yaml-cpp/node/detail/iterator.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Units.h:
+
+/usr/include/c++/15.2.1/ratio:
+
+/usr/include/qt6/QtCore/QCoreApplication:
+
+/usr/include/c++/15.2.1/bits/functexcept.h:
+
+/usr/include/c++/15.2.1/bits/align.h:
+
+/usr/include/c++/15.2.1/debug/debug.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/CMakeLists.txt:
+
+/usr/include/c++/15.2.1/bits/stl_vector.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/c++/15.2.1/compare:
+
+/usr/include/qt6/QtGui/qclipboard.h:
+
+/usr/include/asm/posix_types_64.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp:
+
 /usr/include/qt6/QtQml/qqmlprivate.h:
 
 /usr/include/c++/15.2.1/bits/std_thread.h:
@@ -15178,11 +15456,205 @@ src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_Slideshow.cpp:
 
 /usr/include/c++/15.2.1/filesystem:
 
-/usr/include/qt6/QtCore/qmutex.h:
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ErrorDialog.cpp.o:
 
-/usr/include/qt6/QtCore/QRect:
+/usr/include/qt6/QtCore/qtconfigmacros.h:
+
+/usr/include/gnu/stubs.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h:
+
+/usr/include/qt6/QtCore/qsystemdetection.h:
+
+/usr/include/c++/15.2.1/bits/unordered_set.h:
+
+/usr/lib/libQt6Widgets.so.6.9.2:
+
+/usr/include/qt6/QtGui/qicon.h:
+
+/usr/include/c++/15.2.1/bits/slice_array.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h:
+
+/usr/include/qt6/QtCore/QString:
+
+/usr/include/qt6/QtCore/qfunctionpointer.h:
+
+/usr/include/c++/15.2.1/bits/shared_ptr_base.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o:
+
+/usr/include/c++/15.2.1/bits/erase_if.h:
+
+/usr/include/qt6/QtQuick/qsgrendererinterface.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/yaml-cpp/node/detail/node_iterator.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/yaml-cpp/traits.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/qt6/QtGui/qvector2d.h:
+
+/usr/include/c++/15.2.1/bits/string_view.tcc:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
+
+/usr/include/qt6/QtCore/QRectF:
+
+/usr/include/qt6/QtCore/qvariantmap.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h:
+
+/usr/include/c++/15.2.1/bits/utility.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/qt6/QtCore/QObject:
+
+/usr/include/yaml-cpp/null.h:
+
+/usr/include/qt6/QtCore/q23utility.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/qt6/QtGui/qtguiexports.h:
+
+/usr/include/c++/15.2.1/ctime:
+
+/usr/include/bits/timex.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/RequirementsModel.h:
+
+/usr/include/yaml-cpp/node/detail/node.h:
+
+/usr/include/c++/15.2.1/bits/streambuf.tcc:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h:
+
+/usr/include/qt6/QtQuick/qtquick-config.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/15.2.1/bits/stl_map.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h:
+
+/usr/include/linux/sched/types.h:
+
+/usr/include/qt6/QtWidgets/qapplication.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp:
+
+/usr/include/qt6/QtCore/qurl.h:
+
+/usr/include/yaml-cpp/emitterdef.h:
+
+/usr/include/yaml-cpp/emitter.h:
+
+/usr/include/c++/15.2.1/bits/stl_set.h:
+
+/usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc:
+
+/usr/include/qt6/QtCore/qdatetime.h:
+
+/usr/include/qt6/QtCore/qxptype_traits.h:
 
 /usr/include/c++/15.2.1/bits/shared_ptr.h:
+
+/usr/include/c++/15.2.1/bits/basic_ios.h:
+
+/usr/include/asm/bitsperlong.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp:
+
+/usr/include/qt6/QtCore/QStringList:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/15.2.1/bits/stringfwd.h:
+
+/usr/include/c++/15.2.1/cmath:
+
+/usr/include/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/15.2.1/bits/chrono.h:
+
+/usr/include/c++/15.2.1/bits/stl_function.h:
+
+/usr/include/qt6/QtCore/qscopedpointer.h:
+
+/usr/include/c++/15.2.1/bits/stl_tree.h:
+
+/usr/include/qt6/QtCore/qstringbuilder.h:
+
+/usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
+
+/usr/include/qt6/QtWidgets/QStackedLayout:
+
+/usr/include/math.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h:
+
+/usr/include/c++/15.2.1/bits/fs_path.h:
+
+/usr/include/c++/15.2.1/cstddef:
+
+/usr/include/c++/15.2.1/bits/hashtable_policy.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/libcalamaresui.qrc:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/15.2.1/bits/algorithmfwd.h:
+
+/usr/include/c++/15.2.1/bits/memoryfwd.h:
+
+/usr/include/qt6/QtWidgets/qabstractbutton.h:
+
+/usr/include/bits/types/wint_t.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h:
+
+/usr/include/qt6/QtGui/qguiapplication.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/15.2.1/ext/numeric_traits.h:
 
 /usr/include/qt6/QtWidgets/QProgressBar:
 
@@ -15204,289 +15676,15 @@ src/libcalamaresui/calamaresui_autogen/4DS6FYB4U4/moc_ExecutionViewStep.cpp:
 
 /usr/include/qt6/QtCore/q20type_traits.h:
 
-/usr/include/qt6/QtCore/qsystemdetection.h:
+/usr/lib/libKF6CoreAddons.so.6.18.0:
 
-/usr/include/yaml-cpp/node/detail/node.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h:
 
-/usr/include/c++/15.2.1/bits/streambuf.tcc:
-
-/usr/include/qt6/QtQuickWidgets/qquickwidget.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/c++/15.2.1/bits/refwrap.h:
-
-/usr/include/c++/15.2.1/bits/new_allocator.h:
-
-/usr/include/c++/15.2.1/cmath:
-
-/usr/include/c++/15.2.1/bits/stringfwd.h:
-
-/usr/include/c++/15.2.1/bits/nested_exception.h:
-
-src/libcalamares/CalamaresConfig.h:
-
-/usr/include/qt6/QtCore/qstringfwd.h:
-
-/usr/include/c++/15.2.1/bits/memory_resource.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h:
-
-/usr/include/c++/15.2.1/bits/localefwd.h:
-
-/usr/lib/libQt6QmlWorkerScript.so.6.9.2:
-
-/usr/include/c++/15.2.1/bits/locale_classes.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/15.2.1/bits/list.tcc:
-
-/usr/include/qt6/QtQml/qqml.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
-
-/usr/include/bits/types/sigset_t.h:
-
-/usr/include/c++/15.2.1/bits/hashtable_policy.h:
-
-/usr/include/c++/15.2.1/bits/fs_fwd.h:
-
-/usr/include/c++/15.2.1/bits/hashtable.h:
-
-/usr/include/qt6/QtCore/qhashfunctions.h:
-
-/usr/include/c++/15.2.1/backward/binders.h:
-
-/usr/include/qt6/QtQml/qjsnumbercoercion.h:
-
-/usr/include/c++/15.2.1/bits/hash_bytes.h:
-
-/usr/include/qt6/QtCore/qtyperevision.h:
-
-/usr/include/qt6/QtCore/qtcore-config.h:
-
-/usr/include/c++/15.2.1/bits/exception_defines.h:
-
-/usr/include/c++/15.2.1/vector:
-
-/usr/include/c++/15.2.1/bits/shared_ptr_base.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o:
-
-/usr/include/c++/15.2.1/bits/erase_if.h:
-
-/usr/include/qt6/QtCore/qfuture_impl.h:
-
-/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/15.2.1/bits/cxxabi_forced.h:
-
-/usr/include/c++/15.2.1/cctype:
-
-/usr/include/c++/15.2.1/ext/concurrence.h:
-
-/usr/include/qt6/QtGui/qaction.h:
-
-/usr/include/qt6/QtCore/qregularexpression.h:
-
-/usr/include/qt6/QtWidgets/qradiobutton.h:
-
-/usr/include/qt6/QtCore/qstringconverter.h:
-
-/usr/include/c++/15.2.1/bits/charconv.h:
-
-/usr/include/qt6/QtWidgets/QGridLayout:
-
-/usr/include/c++/15.2.1/bits/char_traits.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp:
-
-/usr/include/qt6/QtCore/qjsonparseerror.h:
-
-/usr/include/c++/15.2.1/bits/fs_ops.h:
-
-/usr/lib/libyaml-cpp.so:
-
-/usr/include/qt6/QtWidgets/QStackedWidget:
-
-/usr/include/c++/15.2.1/bits/atomic_base.h:
-
-/usr/include/qt6/QtCore/QCoreApplication:
-
-/usr/include/c++/15.2.1/bits/functexcept.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h:
-
-/usr/include/c++/15.2.1/debug/debug.h:
-
-/usr/include/yaml-cpp/stlemitter.h:
-
-/usr/include/c++/15.2.1/backward/auto_ptr.h:
-
-/usr/lib/libQt6Network.so.6.9.2:
-
-/usr/include/c++/15.2.1/atomic:
-
-/usr/include/KF6/KCoreAddons/KOSRelease:
-
-/usr/include/qt6/QtCore/qsharedpointer.h:
-
-/usr/include/c++/15.2.1/bits/postypes.h:
-
-/usr/include/c++/15.2.1/tr1/ell_integral.tcc:
-
-/usr/include/bits/uio_lim.h:
-
-/usr/include/qt6/QtQml/QQmlContext:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/c++/15.2.1/bits/stl_pair.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/qt6/QtCore/qcompilerdetection.h:
-
-/usr/include/qt6/QtGui/QTransform:
-
-/usr/include/c++/15.2.1/bit:
-
-/usr/include/qt6/QtQml/qjsengine.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/qt6/QtCore/qlist.h:
-
-/usr/include/qt6/QtGui/qrgb.h:
-
-/usr/bin/cmake:
-
-/usr/include/qt6/QtGui/qpicture.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/c++/15.2.1/bits/algorithmfwd.h:
-
-/usr/include/c++/15.2.1/bits/memoryfwd.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp:
-
-/usr/include/qt6/QtWidgets/qabstractbutton.h:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/qt6/QtGui/qguiapplication.h:
-
-/usr/include/c++/15.2.1/climits:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/qt6/QtQml/qtqml-config.h:
-
-/usr/include/c++/15.2.1/tr1/poly_hermite.tcc:
-
-/usr/include/qt6/QtCore/qvariant.h:
-
-/usr/include/c++/15.2.1/bits/stl_algo.h:
-
-/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
-
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o:
-
-/usr/include/pthread.h:
-
-/usr/include/qt6/QtCore/QThread:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
-
-/usr/include/qt6/QtGui/qgenericmatrix.h:
-
-/usr/include/qt6/QtCore/qiterable.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h:
-
-/usr/include/qt6/QtGui/qglyphrun.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp:
-
-/usr/include/c++/15.2.1/bits/move.h:
-
-/usr/include/qt6/QtQuick/qtquickglobal.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets.tcc:
-
-/usr/include/bits/types.h:
-
-/usr/include/qt6/QtCore/qiodevice.h:
-
-/usr/include/qt6/QtCore/qtaggedpointer.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
-
-/usr/include/c++/15.2.1/debug/assertions.h:
-
-/usr/include/c++/15.2.1/string:
-
-/usr/include/yaml-cpp/node/detail/node_iterator.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/yaml-cpp/traits.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/waitstatus.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp:
-
-/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/qt6/QtCore/qscopeguard.h:
-
-/usr/include/qt6/QtCore/qtmochelpers.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h:
-
-/usr/include/c++/15.2.1/bits/std_function.h:
-
-src/libcalamaresui/CMakeFiles/calamaresui.dir/ViewManager.cpp.o:
-
-/usr/include/qt6/QtCore/QMap:
-
-/usr/include/qt6/QtQuick/qsgrendererinterface.h:
-
-/usr/include/bits/setjmp.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/libcalamaresui.qrc:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp:
-
-/usr/include/c++/15.2.1/bits/valarray_array.tcc:
-
-/usr/include/qt6/QtGui/qvectornd.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/c++/15.2.1/bits/range_access.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+/usr/include/bits/posix2_lim.h:
 
 /usr/include/c++/15.2.1/bits/stl_tempbuf.h:
 
 /usr/include/asm-generic/bitsperlong.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp:
 
 /usr/lib/libc.so:
 
@@ -15498,55 +15696,57 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/ViewManager.cpp.o:
 
 /usr/include/c++/15.2.1/exception:
 
-/usr/include/qt6/QtCore/qpointer.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp:
 
-/usr/include/bits/pthreadtypes-arch.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp:
+
+/usr/include/c++/15.2.1/ext/atomicity.h:
+
+/usr/include/c++/15.2.1/bits/allocator.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/qt6/QtCore/qcompilerdetection.h:
+
+/usr/include/qt6/QtGui/QTransform:
+
+/usr/include/qt6/QtGui/qsurfaceformat.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp:
+
+/usr/include/c++/15.2.1/bits/stl_construct.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/c++/15.2.1/limits:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp:
+
+/usr/include/qt6/QtCore/QEvent:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h:
+
+src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_PrettyRadioButton.cpp:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h:
+
+/usr/include/qt6/QtGui/qvector3d.h:
+
+/usr/include/qt6/QtCore/qcontainerinfo.h:
+
+/usr/include/c++/15.2.1/bits/stl_algobase.h:
 
 /usr/include/qt6/QtWidgets/QLabel:
 
 /usr/include/bits/types/__FILE.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h:
+/usr/include/c++/15.2.1/chrono:
 
-/usr/include/qt6/QtGui/QIcon:
+/usr/include/qt6/QtCore/q20iterator.h:
 
-/usr/include/c++/15.2.1/bits/shared_ptr_atomic.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp:
-
-/usr/include/c++/15.2.1/bits/alloc_traits.h:
-
-/usr/include/c++/15.2.1/bits/basic_ios.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h:
-
-/usr/include/qt6/QtCore/qstringview.h:
-
-/usr/include/c++/15.2.1/tr1/legendre_function.tcc:
-
-/usr/include/c++/15.2.1/bits/stl_relops.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/15.2.1/tr1/hypergeometric.tcc:
-
-/usr/include/c++/15.2.1/bits/functional_hash.h:
-
-/usr/include/c++/15.2.1/bits/stl_numeric.h:
-
-/usr/include/qt6/QtWidgets/qstackedlayout.h:
-
-/usr/include/yaml-cpp/node/impl.h:
-
-/usr/include/qt6/QtCore/qdebug.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h:
+/usr/include/features.h:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/mocs_compilation.cpp.o:
 
@@ -15556,85 +15756,29 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/mocs_compilati
 
 /usr/include/c++/15.2.1/system_error:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h:
+
+/usr/include/c++/15.2.1/bits/charconv.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
-src/libcalamaresui/calamaresui_autogen/EWIEGA46WW/qrc_libcalamaresui.cpp:
+/usr/include/c++/15.2.1/bits/stl_pair.h:
 
-/usr/include/yaml-cpp/binary.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp:
+/usr/include/c++/15.2.1/bits/valarray_array.tcc:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h:
+/usr/include/qt6/QtGui/qvectornd.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp:
+/usr/include/bits/types/__locale_t.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/CMakeLists.txt:
-
-/usr/include/qt6/QtGui/qinputmethod.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h:
-
-/usr/include/qt6/QtGui/qvector3d.h:
-
-/usr/include/qt6/QtCore/qcontainerinfo.h:
-
-/usr/include/c++/15.2.1/bits/monostate.h:
-
-/usr/include/c++/15.2.1/bits/concept_check.h:
-
-/usr/include/c++/15.2.1/bits/enable_special_members.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h:
-
-/usr/include/c++/15.2.1/ratio:
-
-src/libcalamaresui/calamaresui_autogen/moc_predefs.h:
-
-/usr/include/c++/15.2.1/algorithm:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp:
-
-/usr/include/c++/15.2.1/bits/stl_multimap.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp:
-
-/usr/include/qt6/QtCore/QTextStream:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h:
-
-/usr/include/endian.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp:
-
-/usr/include/bits/thread-shared-types.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp:
 
 /usr/include/qt6/QtQml/qqmldebug.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/String.h:
-
 /usr/include/c++/15.2.1/bits/unique_lock.h:
-
-/usr/include/bits/local_lim.h:
-
-/usr/include/qt6/QtCore/qtcoreexports.h:
-
-/usr/include/qt6/QtQuick/qtquick-config.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/15.2.1/bits/stl_map.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -15644,111 +15788,21 @@ src/libcalamaresui/calamaresui_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtGui/qguiapplication_platform.h:
 
-/usr/include/c++/15.2.1/compare:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h:
-
-/usr/include/c++/15.2.1/bits/utility.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/qt6/QtCore/QObject:
-
-/usr/include/yaml-cpp/null.h:
-
-/usr/include/qt6/QtCore/q23utility.h:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/15.2.1/bits/stl_construct.h:
-
-/usr/include/c++/15.2.1/limits:
-
-/usr/include/c++/15.2.1/bits/stl_algobase.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h:
-
-/usr/include/qt6/QtQml/qqmlcomponent.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp:
-
-/usr/include/qt6/QtGui/qtguiexports.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h:
-
-/usr/include/c++/15.2.1/ctime:
-
-/usr/include/bits/timex.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/qt6/QtGui/qtgui-config.h:
-
-/usr/include/c++/15.2.1/bits/stream_iterator.h:
-
-/usr/include/c++/15.2.1/bits/allocated_ptr.h:
-
-/usr/include/c++/15.2.1/bits/align.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h:
-
-/usr/include/c++/15.2.1/bits/node_handle.h:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp:
-
 /usr/include/asm-generic/errno-base.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp:
 
 /usr/include/c++/15.2.1/iterator:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h:
+/usr/include/c++/15.2.1/bits/alloc_traits.h:
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o:
+/usr/include/qt6/QtQml/qqml.h:
 
-/usr/include/bits/struct_rwlock.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
 
-/usr/include/bits/sched.h:
+/usr/include/bits/types/sigset_t.h:
 
-/usr/include/qt6/QtCore/qshareddata_impl.h:
-
-/usr/include/qt6/QtCore/qconfig.h:
-
-/usr/include/yaml-cpp/emitterdef.h:
-
-/usr/include/yaml-cpp/emitter.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h:
-
-/usr/include/c++/15.2.1/bits/stl_set.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc:
-
-/usr/include/qt6/QtCore/qdatetime.h:
-
-/usr/include/qt6/QtCore/qxptype_traits.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/c++/15.2.1/bits/chrono.h:
-
-/usr/include/c++/15.2.1/bits/stl_function.h:
-
-/usr/include/qt6/QtCore/qscopedpointer.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h:
 
 /usr/include/qt6/QtCore/qanystringview.h:
 
@@ -15758,23 +15812,15 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o:
 
 /usr/include/bits/timesize.h:
 
-/usr/include/c++/15.2.1/bits/stl_vector.h:
+/usr/include/c++/15.2.1/bits/std_function.h:
 
-/usr/include/bits/time.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp:
 
 /usr/include/asm/types.h:
 
-/usr/include/c++/15.2.1/bits/atomic_futex.h:
+/usr/include/c++/15.2.1/bits/enable_special_members.h:
 
-src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_LogWidget.cpp:
-
-/usr/include/qt6/QtCore/qbytearray.h:
-
-/usr/include/wctype.h:
-
-src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.ui:
+/usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/types/clockid_t.h:
 
@@ -15800,11 +15846,11 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o:
 
 /usr/include/bits/endianness.h:
 
-/usr/include/bits/errno.h:
+/usr/include/bits/local_lim.h:
 
-/usr/include/bits/flt-eval-method.h:
+/usr/include/qt6/QtCore/qtcoreexports.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp:
+/usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/qt6/QtWidgets/QTextBrowser:
 
@@ -15814,29 +15860,13 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o:
 
 /usr/include/bits/locale.h:
 
-/usr/include/c++/15.2.1/ext/atomicity.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h:
-
-/usr/include/c++/15.2.1/bits/allocator.h:
-
-/usr/include/bits/posix1_lim.h:
+/usr/include/bits/long-double.h:
 
 /usr/include/c++/15.2.1/bits/stl_bvector.h:
 
-/usr/include/qt6/QtCore/qexceptionhandling.h:
+/usr/include/qt6/QtCore/qpointer.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp:
-
-/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/qt6/QtCore/qtdeprecationdefinitions.h:
-
-/usr/include/bits/posix2_lim.h:
+/usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -15846,7 +15876,7 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o:
 
 /usr/include/qt6/QtCore/QUrl:
 
-/usr/include/bits/select.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h:
 
 /usr/include/bits/libm-simd-decl-stubs.h:
 
@@ -15862,7 +15892,19 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o:
 
 /usr/include/bits/stdint-least.h:
 
-/usr/include/bits/types/__mbstate_t.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Variant.h:
+
+src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o:
+
+/usr/include/qt6/QtCore/qshareddata_impl.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/qt6/QtCore/qconfig.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/thread-shared-types.h:
 
 /usr/include/bits/stdlib-float.h:
 
@@ -15870,57 +15912,17 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o:
 
 /usr/include/bits/time64.h:
 
-/usr/include/c++/15.2.1/bits/stl_list.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp:
-
-src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o:
-
-/usr/include/qt6/QtCore/QDebug:
-
-/usr/include/qt6/QtCore/qfloat16.h:
-
-/usr/include/qt6/QtWidgets/QDialogButtonBox:
-
-/usr/include/qt6/QtCore/qlatin1stringview.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp:
-
-/usr/include/qt6/QtCore/qsize.h:
-
-/usr/include/qt6/QtCore/qtnoop.h:
-
-/usr/include/qt6/QtGui/qinputdevice.h:
+/usr/include/bits/errno.h:
 
 /usr/include/bits/types/__fpos64_t.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h:
-
-/usr/include/qt6/QtGui/qvector2d.h:
-
-/usr/include/c++/15.2.1/bits/string_view.tcc:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
-
-/usr/include/qt6/QtCore/QRectF:
-
-/usr/include/qt6/QtCore/qvariantmap.h:
-
-/usr/include/bits/types/clock_t.h:
 
 /usr/include/c++/15.2.1/bits/parse_numbers.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h:
+
 /usr/include/bits/types/locale_t.h:
-
-/usr/include/qt6/QtGui/qclipboard.h:
-
-/usr/include/asm/posix_types_64.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
@@ -15931,10 +15933,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o:
 /usr/include/qt6/QtCore/qoverload.h:
 
 /usr/include/c++/15.2.1/mutex:
-
-/usr/include/bits/xopen_lim.h:
-
-/usr/include/c++/15.2.1/ext/numeric_traits.h:
 
 /usr/include/linux/types.h:
 
@@ -15957,6 +15955,10 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o:
 /usr/include/c++/15.2.1/initializer_list:
 
 /usr/include/c++/15.2.1/variant:
+
+/usr/include/c++/15.2.1/tr1/exp_integral.tcc:
+
+/usr/include/qt6/QtGui/qcursor.h:
 
 /usr/include/qt6/QtNetwork/qtnetworkglobal.h:
 
@@ -15992,29 +15994,35 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o:
 
 /usr/include/qt6/QtCore/qpair.h:
 
-/usr/include/qt6/QtCore/qiodevicebase.h:
-
-/usr/include/c++/15.2.1/set:
-
 /usr/include/qt6/QtCore/qplugin.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h:
 
 /usr/include/c++/15.2.1/stdexcept:
 
 /usr/include/c++/15.2.1/streambuf:
 
-/usr/include/c++/15.2.1/string_view:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h:
+/usr/include/c++/15.2.1/debug/assertions.h:
+
+/usr/include/c++/15.2.1/string:
+
+/usr/include/c++/15.2.1/string_view:
 
 /usr/include/c++/15.2.1/tr1/bessel_function.tcc:
 
-/usr/include/qt6/QtGui/qcursor.h:
-
-/usr/include/c++/15.2.1/tr1/exp_integral.tcc:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h:
 
 /usr/include/qt6/QtGui/qcolor.h:
+
+/usr/include/c++/15.2.1/tr1/legendre_function.tcc:
+
+/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/qt6/QtCore/qtdeprecationdefinitions.h:
 
 /usr/include/qt6/QtSvg/QSvgRenderer:
 
@@ -16023,6 +16031,10 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o:
 /usr/include/c++/15.2.1/tr1/special_function_util.h:
 
 /usr/include/c++/15.2.1/tuple:
+
+/usr/include/qt6/QtCore/qtsan_impl.h:
+
+/usr/include/errno.h:
 
 /usr/include/c++/15.2.1/type_traits:
 
@@ -16040,7 +16052,13 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o:
 
 /usr/include/qt6/QtCore/QVariantMap:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h:
+
 /usr/include/c++/15.2.1/unordered_set:
+
+/usr/include/c++/15.2.1/set:
+
+/usr/include/qt6/QtCore/qiodevicebase.h:
 
 /usr/include/qt6/QtWidgets/qbuttongroup.h:
 
@@ -16072,23 +16090,9 @@ src/libcalamaresui/calamaresui_autogen/IMAN36LHMA/moc_waitingspinnerwidget.cpp:
 
 /usr/include/qt6/QtCore/qtversionchecks.h:
 
-src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ErrorDialog.cpp.o:
-
-/usr/include/qt6/QtCore/qtconfigmacros.h:
-
-/usr/include/gnu/stubs.h:
-
 /usr/include/qt6/QtWidgets/qmessagebox.h:
 
 /usr/include/qt6/QtCore/qatomic.h:
-
-/usr/include/qt6/QtCore/qtypes.h:
-
-/usr/include/qt6/QtCore/qthread.h:
-
-/usr/include/qt6/QtCore/qtconfiginclude.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Mutex.h:
 
 /usr/include/linux/errno.h:
 
@@ -16102,19 +16106,31 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ErrorDialog.cpp.o:
 
 /usr/include/qt6/QtCore/qcoreevent.h:
 
-/usr/include/linux/sched/types.h:
-
 /usr/include/bits/fp-logb.h:
 
 /usr/lib/libmvec.so.1:
 
 /usr/include/linux/stddef.h:
 
+/usr/include/qt6/QtCore/qtdeprecationmarkers.h:
+
+/usr/include/locale.h:
+
 /usr/include/c++/15.2.1/ios:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc_libcalamaresui.cpp.o:
 
 /usr/include/qt6/QtCore/QAbstractListModel:
+
+src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Gui.cpp.o:
+
+/usr/include/qt6/QtCore/QDebug:
+
+/usr/include/qt6/QtCore/qfloat16.h:
+
+/usr/include/qt6/QtWidgets/QDialogButtonBox:
+
+/usr/include/qt6/QtCore/qlatin1stringview.h:
 
 /usr/lib/libQt6QmlMeta.so.6.9.2:
 
@@ -16125,14 +16141,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 /usr/include/qt6/QtCore/QMetaType:
 
 /usr/include/qt6/QtCore/qprocessordetection.h:
-
-/usr/include/qt6/QtCore/qcalendar.h:
-
-/usr/include/c++/15.2.1/cstdio:
-
-/usr/include/qt6/QtCore/qrefcount.h:
-
-/usr/include/qt6/QtCore/QMutex:
 
 /usr/include/c++/15.2.1/bits/ostream_insert.h:
 
@@ -16150,15 +16158,9 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 /usr/include/qt6/QtCore/QSizeF:
 
-/usr/include/qt6/QtCore/QString:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/qt6/QtCore/QStringList:
-
-/usr/include/qt6/QtCore/qfunctionpointer.h:
-
 /usr/include/qt6/QtCore/QTimer:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp:
 
 /usr/include/qt6/QtCore/QVariant:
 
@@ -16176,12 +16178,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 /usr/include/qt6/QtCore/q20functional.h:
 
-/usr/include/c++/15.2.1/chrono:
-
-/usr/include/features.h:
-
-/usr/include/qt6/QtCore/q20iterator.h:
-
 /usr/include/qt6/QtCore/q20memory.h:
 
 /usr/include/qt6/QtGui/qfontvariableaxis.h:
@@ -16189,6 +16185,8 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 /usr/include/c++/15.2.1/array:
 
 /usr/include/qt6/QtCore/qbasictimer.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp:
 
 /usr/include/qt6/QtGui/qimage.h:
 
@@ -16226,11 +16224,23 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 /usr/include/qt6/QtWidgets/qframe.h:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h:
+
 /usr/include/qt6/QtCore/qbytearrayalgorithms.h:
 
 /usr/include/qt6/QtCore/qbytearraylist.h:
 
 /usr/include/qt6/QtCore/qbytearrayview.h:
+
+/usr/include/c++/15.2.1/cstdio:
+
+/usr/include/qt6/QtCore/qrefcount.h:
+
+/usr/include/qt6/QtCore/QMutex:
+
+/usr/include/qt6/QtCore/qcalendar.h:
+
+/usr/include/qt6/QtCore/qstringview.h:
 
 /usr/include/yaml-cpp/dll.h:
 
@@ -16272,8 +16282,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 /usr/include/qt6/QtCore/qcoreapplication_platform.h:
 
-/usr/include/qt6/QtCore/qdarwinhelpers.h:
-
 /usr/include/qt6/QtWidgets/QVBoxLayout:
 
 /usr/include/qt6/QtCore/qdeadlinetimer.h:
@@ -16282,23 +16290,25 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 /usr/include/qt6/QtCore/qdirlisting.h:
 
+/usr/lib/libc_nonshared.a:
+
+/usr/include/qt6/QtCore/qelapsedtimer.h:
+
+/usr/include/qt6/QtCore/qfiledevice.h:
+
 /usr/include/bits/stdio_lim.h:
 
 /usr/include/qt6/QtCore/qtimezone.h:
 
-/usr/lib/libc_nonshared.a:
-
-/usr/include/qt6/QtCore/qfiledevice.h:
-
-/usr/include/qt6/QtCore/qelapsedtimer.h:
-
-/usr/include/qt6/QtCore/qurl.h:
-
 /usr/include/c++/15.2.1/bits/locale_classes.tcc:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h:
 
 /usr/include/qt6/QtCore/qendian.h:
 
 /usr/include/qt6/QtCore/qeventloop.h:
+
+/usr/include/qt6/QtCore/qexceptionhandling.h:
 
 /usr/include/qt6/QtCore/qfile.h:
 
@@ -16306,17 +16316,15 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 /usr/include/qt6/QtCore/qforeach.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h:
-
 /usr/include/c++/15.2.1/ext/alloc_traits.h:
 
 /usr/include/qt6/QtCore/qgenericatomic.h:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.ui:
+
 /usr/include/c++/15.2.1/tr1/gamma.tcc:
 
 /usr/include/qt6/QtCore/qglobal.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h:
 
 /usr/include/qt6/QtCore/qhash.h:
 
@@ -16326,13 +16334,13 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc
 
 /usr/include/qt6/QtCore/qline.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h:
-
 /usr/include/bits/stdint-uintn.h:
 
 /usr/include/qt6/QtCore/qlogging.h:
 
 /usr/include/qt6/QtCore/qmalloc.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h:
 
 /usr/include/qt6/QtGui/QPixmap:
 
@@ -16348,19 +16356,11 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 
 /usr/include/qt6/QtGui/qtextformat.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp:
-
 /usr/include/qt6/QtCore/qmath.h:
 
 /usr/include/qt6/QtCore/qmetacontainer.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp:
-
 /usr/include/qt6/QtCore/qmetatype.h:
-
-/usr/include/qt6/QtCore/qnamespace.h:
 
 /usr/include/qt6/QtGui/QClipboard:
 
@@ -16369,8 +16369,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 /usr/include/qt6/QtCore/qnumeric.h:
 
 /usr/include/qt6/QtCore/qobject.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h:
 
 /usr/include/qt6/QtCore/qobject_impl.h:
 
@@ -16393,6 +16391,12 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 /usr/include/qt6/QtCore/qrect.h:
 
 /usr/include/qt6/QtCore/qshareddata.h:
+
+/usr/include/qt6/QtCore/qsize.h:
+
+/usr/include/qt6/QtCore/qtnoop.h:
+
+/usr/include/qt6/QtGui/qinputdevice.h:
 
 /usr/include/qt6/QtCore/qspan.h:
 
@@ -16418,15 +16422,9 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 
 /usr/include/qt6/QtCore/qtcoreglobal.h:
 
-/usr/include/locale.h:
-
-/usr/include/qt6/QtCore/qtdeprecationmarkers.h:
-
 /usr/include/qt6/QtNetwork/qtnetwork-config.h:
 
 /usr/include/qt6/QtCore/qtenvironmentvariables.h:
-
-/usr/include/qt6/QtCore/qtextstream.h:
 
 /usr/include/qt6/QtCore/qtimer.h:
 
@@ -16444,23 +16442,27 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 
 /usr/include/qt6/QtCore/qtresource.h:
 
-/usr/include/errno.h:
-
-/usr/include/qt6/QtCore/qtsan_impl.h:
-
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/qt6/QtCore/qttranslation.h:
 
 /usr/include/qt6/QtCore/qversiontagging.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h:
-
 /usr/include/qt6/QtCore/qttypetraits.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp:
 
 /usr/include/qt6/QtCore/qtversion.h:
 
+/usr/include/qt6/QtCore/qthread.h:
+
+/usr/include/qt6/QtCore/qtconfiginclude.h:
+
+/usr/include/qt6/QtCore/qtypes.h:
+
 /usr/include/c++/15.2.1/bits/ios_base.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h:
 
 /usr/include/qt6/QtCore/qvarlengtharray.h:
 
@@ -16468,7 +16470,7 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 
 /usr/include/qt6/QtSvg/qsvgrenderer.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h:
 
 /usr/include/qt6/QtGui/QColor:
 
@@ -16486,8 +16488,6 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 
 /usr/include/qt6/QtCore/QMargins:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp:
-
 /usr/include/qt6/QtGui/qeventpoint.h:
 
 /usr/include/qt6/QtGui/qtguiglobal.h:
@@ -16496,7 +16496,7 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o:
 
 /usr/include/qt6/QtGui/qfontdatabase.h:
 
-/usr/include/qt6/QtGui/qfontmetrics.h:
+/usr/include/qt6/QtGui/qinputmethod.h:
 
 src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleFactory.cpp.o:
 

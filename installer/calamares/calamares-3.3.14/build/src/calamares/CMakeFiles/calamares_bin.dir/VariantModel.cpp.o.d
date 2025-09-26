@@ -1,7 +1,7 @@
 src/calamares/CMakeFiles/calamares_bin.dir/VariantModel.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/VariantModel.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/VariantModel.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/VariantModel.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/VariantModel.h \
  /usr/include/qt6/QtCore/QAbstractItemModel \
  /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtCore/qcompare.h /usr/include/qt6/QtCore/qglobal.h \
@@ -327,5 +327,5 @@ src/calamares/CMakeFiles/calamares_bin.dir/VariantModel.cpp.o: \
  /usr/include/qt6/QtCore/qvariant.h /usr/include/qt6/QtCore/QString \
  /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/QVector \
  /usr/include/qt6/QtCore/qvector.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/compat/Variant.h \
  /usr/include/qt6/QtCore/QVariant

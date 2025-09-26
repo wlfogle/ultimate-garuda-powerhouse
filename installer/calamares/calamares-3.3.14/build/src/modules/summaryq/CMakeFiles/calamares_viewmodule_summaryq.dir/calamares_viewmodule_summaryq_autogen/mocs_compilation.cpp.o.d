@@ -1,13 +1,13 @@
 src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/moc_Config.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/../../../../../../src/modules/summary/Config.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/../../../../../../src/modules/summary/SummaryModel.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/moc_Config.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/../../../../../../src/modules/summary/Config.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/../../../../../../src/modules/summary/SummaryModel.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
  /usr/include/qt6/QtCore/qarraydatapointer.h \
  /usr/include/qt6/QtCore/qarraydataops.h \
@@ -307,7 +307,7 @@ src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_view
  /usr/include/qt6/QtCore/qsharedpointer.h \
  /usr/include/qt6/QtCore/qshareddata.h \
  /usr/include/qt6/QtCore/qsharedpointer_impl.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/qtextstream.h \
  /usr/include/qt6/QtCore/qcontiguouscache.h \
@@ -327,7 +327,7 @@ src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_view
  /usr/include/qt6/QtCore/qset.h /usr/include/qt6/QtCore/qhash.h \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
  /usr/include/qt6/QtCore/QMetaType /usr/include/qt6/QtCore/qmetatype.h \
  /usr/include/qt6/QtCore/QSize /usr/include/qt6/QtCore/qsize.h \
  /usr/include/qt6/QtCore/qmargins.h /usr/include/qt6/QtCore/q23utility.h \
@@ -339,15 +339,15 @@ src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_view
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \
  /usr/include/qt6/QtCore/q23type_traits.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/moc_SummaryModel.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/../../../../../../src/modules/summary/SummaryModel.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/moc_SummaryQmlViewStep.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/../../../../../../src/modules/summaryq/SummaryQmlViewStep.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/summaryq/../summary/Config.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/moc_SummaryModel.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/ZMGPVWMZJG/../../../../../../src/modules/summary/SummaryModel.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/moc_SummaryQmlViewStep.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/../../../../../../src/modules/summaryq/SummaryQmlViewStep.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/summaryq/../summary/Config.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
  /usr/include/qt6/QtCore/QDir /usr/include/qt6/QtCore/qdir.h \
  /usr/include/qt6/QtCore/qdirlisting.h \
  /usr/include/qt6/QtCore/qfiledevice.h \

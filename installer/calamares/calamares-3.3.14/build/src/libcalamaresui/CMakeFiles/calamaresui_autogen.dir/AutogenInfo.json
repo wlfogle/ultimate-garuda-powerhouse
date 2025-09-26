@@ -1,175 +1,175 @@
 {
-	"BUILD_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen",
-	"CMAKE_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
+	"BUILD_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/CMakeLists.txt",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/CMakeLists.txt",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/libcalamaresui.qrc"
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/libcalamaresui.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+	"CMAKE_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/deps",
+	"DEP_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "calamaresui_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h",
 			"MU",
 			"EWIEGA46WW/moc_Branding.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h",
 			"MU",
 			"EWIEGA46WW/moc_ViewManager.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.h",
 			"MU",
 			"RUACCQ4MTV/moc_CppJobModule.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.h",
 			"MU",
 			"RUACCQ4MTV/moc_ModuleFactory.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h",
 			"MU",
 			"RUACCQ4MTV/moc_ModuleManager.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.h",
 			"MU",
 			"RUACCQ4MTV/moc_ProcessJobModule.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.h",
 			"MU",
 			"RUACCQ4MTV/moc_PythonJobModule.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h",
 			"MU",
 			"RUACCQ4MTV/moc_ViewModule.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.h",
 			"MU",
 			"7HEHEGDA3T/moc_Gui.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.h",
 			"MU",
 			"7HEHEGDA3T/moc_ImageRegistry.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.h",
 			"MU",
 			"7HEHEGDA3T/moc_Paste.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h",
 			"MU",
 			"7HEHEGDA3T/moc_Qml.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.h",
 			"MU",
 			"4DS6FYB4U4/moc_BlankViewStep.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h",
 			"MU",
 			"4DS6FYB4U4/moc_ExecutionViewStep.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.h",
 			"MU",
 			"4DS6FYB4U4/moc_QmlViewStep.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.h",
 			"MU",
 			"4DS6FYB4U4/moc_Slideshow.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h",
 			"MU",
 			"4DS6FYB4U4/moc_ViewStep.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.h",
 			"MU",
 			"IMAN36LHMA/moc_ClickableLabel.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.h",
 			"MU",
 			"IMAN36LHMA/moc_ErrorDialog.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.h",
 			"MU",
 			"IMAN36LHMA/moc_FixedAspectRatioLabel.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h",
 			"MU",
 			"IMAN36LHMA/moc_LogWidget.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.h",
 			"MU",
 			"IMAN36LHMA/moc_PrettyRadioButton.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.h",
 			"MU",
 			"IMAN36LHMA/moc_TranslationFix.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.h",
 			"MU",
 			"IMAN36LHMA/moc_WaitingWidget.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.h",
 			"MU",
 			"IMAN36LHMA/moc_waitingspinnerwidget.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -203,11 +203,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -258,141 +258,141 @@
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/calamaresui_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 24,
-	"PARSE_CACHE_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/CMakeFiles/calamaresui_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/CMakeFiles/calamaresui_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/CMakeFiles/calamaresui_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui/CMakeFiles/calamaresui_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/CppJobModule.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleFactory.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ProcessJobModule.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/PythonJobModule.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Gui.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/ImageRegistry.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Paste.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/BlankViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/QmlViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/Slideshow.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ClickableLabel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/ErrorDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/PrettyRadioButton.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/TranslationFix.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/WaitingWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/waitingspinnerwidget.cpp",
 			"MU",
 			null
 		]

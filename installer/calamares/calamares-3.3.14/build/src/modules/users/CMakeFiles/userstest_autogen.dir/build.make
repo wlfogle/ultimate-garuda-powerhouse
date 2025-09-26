@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Utility rule file for userstest_autogen.
 
@@ -70,9 +70,9 @@ src/modules/users/CMakeFiles/userstest_autogen: src/modules/users/userstest_auto
 
 src/modules/users/userstest_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/users/userstest_autogen/timestamp: src/modules/users/CMakeFiles/userstest_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target userstest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users/CMakeFiles/userstest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users/userstest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target userstest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users/CMakeFiles/userstest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users/userstest_autogen/timestamp
 
 src/modules/users/CMakeFiles/userstest_autogen.dir/codegen:
 .PHONY : src/modules/users/CMakeFiles/userstest_autogen.dir/codegen
@@ -87,10 +87,10 @@ src/modules/users/CMakeFiles/userstest_autogen.dir/build: userstest_autogen
 .PHONY : src/modules/users/CMakeFiles/userstest_autogen.dir/build
 
 src/modules/users/CMakeFiles/userstest_autogen.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users && $(CMAKE_COMMAND) -P CMakeFiles/userstest_autogen.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users && $(CMAKE_COMMAND) -P CMakeFiles/userstest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/users/CMakeFiles/userstest_autogen.dir/clean
 
 src/modules/users/CMakeFiles/userstest_autogen.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/users /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users/CMakeFiles/userstest_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/users /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/users/CMakeFiles/userstest_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/users/CMakeFiles/userstest_autogen.dir/depend
 

@@ -1,7 +1,7 @@
 src/modules/locale/CMakeFiles/localetest.dir/timezonewidget/TimeZoneImage.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/locale/timezonewidget/TimeZoneImage.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/locale/timezonewidget/TimeZoneImage.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/locale/timezonewidget/TimeZoneImage.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/locale/timezonewidget/TimeZoneImage.h \
  /usr/include/qt6/QtGui/QImage /usr/include/qt6/QtGui/qimage.h \
  /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/15.2.1/type_traits \
@@ -302,8 +302,8 @@ src/modules/locale/CMakeFiles/localetest.dir/timezonewidget/TimeZoneImage.cpp.o:
  /usr/include/c++/15.2.1/cassert /usr/include/qt6/QtCore/q20iterator.h \
  /usr/include/qt6/QtCore/qline.h /usr/include/qt6/QtCore/QList \
  /usr/include/qt6/QtCore/qlist.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/qfloat16.h /usr/include/qt6/QtCore/qmath.h \
  /usr/include/qt6/QtCore/qtformat_impl.h \

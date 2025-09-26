@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/depend.make
@@ -71,18 +71,18 @@ include src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/flags.make
 
 src/libcalamares/qrc_localetest.cxx: src/libcalamares/localetest.qrc
 src/libcalamares/qrc_localetest.cxx: src/libcalamares/localetest_nl.qm
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_localetest.cxx"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/lib/qt6/rcc --format-version 1 -name localetest -o /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/localetest.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_localetest.cxx"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/lib/qt6/rcc --format-version 1 -name localetest -o /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/localetest.qrc
 
 src/libcalamares/libcalamareslocaletest_autogen/timestamp: /usr/lib/qt6/moc
 src/libcalamares/libcalamareslocaletest_autogen/timestamp: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC for target libcalamareslocaletest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC for target libcalamareslocaletest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/timestamp
 
-src/libcalamares/localetest_nl.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/testdata/localetest_nl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating localetest_nl.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/testdata/localetest_nl.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/localetest_nl.qm
+src/libcalamares/localetest_nl.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/testdata/localetest_nl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating localetest_nl.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/testdata/localetest_nl.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/localetest_nl.qm
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/codegen:
 .PHONY : src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/codegen
@@ -90,44 +90,44 @@ src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/codegen:
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o: src/libcalamares/libcalamareslocaletest_autogen/mocs_compilation.cpp
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/mocs_compilation.cpp
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamareslocaletest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.s
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/flags.make
-src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp
+src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o -MF CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o.d -o CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o -MF CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o.d -o CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp > CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp > CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp -o CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Tests.cpp -o CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.s
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o: src/libcalamares/qrc_localetest.cxx
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o -MF CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o.d -o CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o -MF CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o.d -o CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx > CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx > CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.i
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx -o CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/qrc_localetest.cxx -o CMakeFiles/libcalamareslocaletest.dir/qrc_localetest.cxx.s
 
 # Object files for target libcalamareslocaletest
 libcalamareslocaletest_OBJECTS = \
@@ -150,20 +150,20 @@ libcalamareslocaletest: /usr/lib/libQt6Network.so.6.9.2
 libcalamareslocaletest: /usr/lib/libKF6CoreAddons.so.6.18.0
 libcalamareslocaletest: /usr/lib/libQt6Core.so.6.9.2
 libcalamareslocaletest: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../libcalamareslocaletest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamareslocaletest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../libcalamareslocaletest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamareslocaletest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/build: libcalamareslocaletest
 .PHONY : src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/build
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamareslocaletest.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamareslocaletest.dir/cmake_clean.cmake
 .PHONY : src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/clean
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/depend: src/libcalamares/libcalamareslocaletest_autogen/timestamp
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/depend: src/libcalamares/localetest_nl.qm
 src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/depend: src/libcalamares/qrc_localetest.cxx
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/depend
 

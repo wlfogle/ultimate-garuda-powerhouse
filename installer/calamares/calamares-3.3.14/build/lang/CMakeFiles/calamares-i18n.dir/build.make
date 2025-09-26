@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include lang/CMakeFiles/calamares-i18n.dir/depend.make
@@ -141,292 +141,292 @@ lang/qrc_calamares-i18n.cxx: lang/calamares_vi.qm
 lang/qrc_calamares-i18n.cxx: lang/tz_vi.qm
 lang/qrc_calamares-i18n.cxx: lang/calamares_zh_CN.qm
 lang/qrc_calamares-i18n.cxx: lang/calamares_zh_TW.qm
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_calamares-i18n.cxx"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/rcc --format-version 1 -name calamares-i18n -o /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares-i18n.qrc
-
-lang/calamares_ar.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ar.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating calamares_ar.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ar.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ar.qm
-
-lang/calamares_as.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_as.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating calamares_as.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_as.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_as.qm
-
-lang/calamares_ast.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ast.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating calamares_ast.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ast.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ast.qm
-
-lang/calamares_az.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating calamares_az.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_az.qm
-
-lang/calamares_az_AZ.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az_AZ.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating calamares_az_AZ.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az_AZ.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_az_AZ.qm
-
-lang/calamares_be.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_be.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating calamares_be.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_be.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_be.qm
-
-lang/calamares_bg.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bg.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating calamares_bg.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bg.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_bg.qm
-
-lang/calamares_bn.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bn.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating calamares_bn.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bn.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_bn.qm
-
-lang/calamares_ca.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating calamares_ca.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ca.qm
-
-lang/calamares_ca@valencia.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca@valencia.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating calamares_ca@valencia.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca@valencia.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ca@valencia.qm
-
-lang/calamares_cs_CZ.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_cs_CZ.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating calamares_cs_CZ.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_cs_CZ.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_cs_CZ.qm
-
-lang/calamares_da.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_da.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating calamares_da.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_da.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_da.qm
-
-lang/calamares_de.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_de.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating calamares_de.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_de.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_de.qm
-
-lang/calamares_el.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_el.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating calamares_el.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_el.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_el.qm
-
-lang/calamares_en.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating calamares_en.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_en.qm
-
-lang/calamares_en_GB.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en_GB.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating calamares_en_GB.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en_GB.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_en_GB.qm
-
-lang/calamares_eo.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eo.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating calamares_eo.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eo.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_eo.qm
-
-lang/calamares_es.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating calamares_es.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_es.qm
-
-lang/calamares_es_AR.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_AR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating calamares_es_AR.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_AR.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_es_AR.qm
-
-lang/calamares_es_MX.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_MX.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating calamares_es_MX.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_MX.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_es_MX.qm
-
-lang/calamares_et.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_et.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating calamares_et.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_et.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_et.qm
-
-lang/calamares_eu.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eu.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating calamares_eu.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eu.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_eu.qm
-
-lang/calamares_fa.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fa.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating calamares_fa.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fa.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fa.qm
-
-lang/calamares_fi_FI.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fi_FI.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating calamares_fi_FI.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fi_FI.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fi_FI.qm
-
-lang/calamares_fr.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating calamares_fr.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fr.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fr.qm
-
-lang/calamares_fur.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fur.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating calamares_fur.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fur.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fur.qm
-
-lang/calamares_gl.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_gl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating calamares_gl.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_gl.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_gl.qm
-
-lang/calamares_he.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_he.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating calamares_he.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_he.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_he.qm
-
-lang/calamares_hi.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hi.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating calamares_hi.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hi.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_hi.qm
-
-lang/calamares_hr.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating calamares_hr.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hr.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_hr.qm
-
-lang/calamares_hu.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hu.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating calamares_hu.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hu.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_hu.qm
-
-lang/calamares_id.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_id.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating calamares_id.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_id.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_id.qm
-
-lang/calamares_is.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_is.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating calamares_is.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_is.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_is.qm
-
-lang/calamares_it_IT.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_it_IT.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating calamares_it_IT.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_it_IT.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_it_IT.qm
-
-lang/calamares_ja.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ja.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating calamares_ja.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ja.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ja.qm
-
-lang/calamares_ka.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ka.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating calamares_ka.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ka.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ka.qm
-
-lang/calamares_ko.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ko.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating calamares_ko.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ko.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ko.qm
-
-lang/calamares_lt.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_lt.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating calamares_lt.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_lt.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_lt.qm
-
-lang/calamares_ml.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ml.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating calamares_ml.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ml.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ml.qm
-
-lang/calamares_mr.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_mr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating calamares_mr.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_mr.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_mr.qm
-
-lang/calamares_nb.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nb.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating calamares_nb.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nb.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_nb.qm
-
-lang/calamares_nl.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating calamares_nl.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nl.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_nl.qm
-
-lang/calamares_oc.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_oc.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating calamares_oc.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_oc.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_oc.qm
-
-lang/calamares_pl.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating calamares_pl.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pl.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_pl.qm
-
-lang/calamares_pt_BR.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_BR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating calamares_pt_BR.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_BR.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_pt_BR.qm
-
-lang/calamares_pt_PT.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_PT.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating calamares_pt_PT.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_PT.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_pt_PT.qm
-
-lang/calamares_ro.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ro.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating calamares_ro.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ro.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ro.qm
-
-lang/calamares_ru.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ru.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating calamares_ru.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ru.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ru.qm
-
-lang/calamares_si.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_si.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating calamares_si.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_si.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_si.qm
-
-lang/calamares_sk.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sk.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating calamares_sk.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sk.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sk.qm
-
-lang/calamares_sl.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating calamares_sl.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sl.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sl.qm
-
-lang/calamares_sq.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sq.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating calamares_sq.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sq.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sq.qm
-
-lang/calamares_sr.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating calamares_sr.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sr.qm
-
-lang/calamares_sr@latin.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr@latin.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating calamares_sr@latin.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr@latin.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sr@latin.qm
-
-lang/calamares_sv.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sv.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating calamares_sv.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sv.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sv.qm
-
-lang/calamares_tg.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tg.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating calamares_tg.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tg.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_tg.qm
-
-lang/calamares_th.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_th.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating calamares_th.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_th.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_th.qm
-
-lang/calamares_tr_TR.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tr_TR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating calamares_tr_TR.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tr_TR.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_tr_TR.qm
-
-lang/calamares_uk.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_uk.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating calamares_uk.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_uk.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_uk.qm
-
-lang/calamares_vi.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_vi.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating calamares_vi.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_vi.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_vi.qm
-
-lang/calamares_zh_CN.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_CN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating calamares_zh_CN.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_CN.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_zh_CN.qm
-
-lang/calamares_zh_TW.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_TW.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating calamares_zh_TW.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_TW.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_zh_TW.qm
-
-lang/kb_en.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_en.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating kb_en.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_en.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/kb_en.qm
-
-lang/kb_tg.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_tg.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating kb_tg.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_tg.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/kb_tg.qm
-
-lang/tz_en.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_en.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating tz_en.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_en.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_en.qm
-
-lang/tz_nl.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_nl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating tz_nl.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_nl.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_nl.qm
-
-lang/tz_ru.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_ru.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating tz_ru.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_ru.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_ru.qm
-
-lang/tz_sv.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_sv.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating tz_sv.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_sv.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_sv.qm
-
-lang/tz_tg.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_tg.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating tz_tg.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_tg.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_tg.qm
-
-lang/tz_uk.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_uk.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating tz_uk.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_uk.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_uk.qm
-
-lang/tz_vi.qm: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_vi.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating tz_vi.qm"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_vi.ts -qm /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_vi.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_calamares-i18n.cxx"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/rcc --format-version 1 -name calamares-i18n -o /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares-i18n.qrc
+
+lang/calamares_ar.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ar.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating calamares_ar.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ar.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ar.qm
+
+lang/calamares_as.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_as.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating calamares_as.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_as.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_as.qm
+
+lang/calamares_ast.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ast.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating calamares_ast.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ast.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ast.qm
+
+lang/calamares_az.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating calamares_az.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_az.qm
+
+lang/calamares_az_AZ.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az_AZ.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating calamares_az_AZ.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_az_AZ.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_az_AZ.qm
+
+lang/calamares_be.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_be.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating calamares_be.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_be.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_be.qm
+
+lang/calamares_bg.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bg.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating calamares_bg.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bg.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_bg.qm
+
+lang/calamares_bn.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bn.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating calamares_bn.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_bn.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_bn.qm
+
+lang/calamares_ca.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating calamares_ca.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ca.qm
+
+lang/calamares_ca@valencia.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca@valencia.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating calamares_ca@valencia.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ca@valencia.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ca@valencia.qm
+
+lang/calamares_cs_CZ.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_cs_CZ.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating calamares_cs_CZ.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_cs_CZ.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_cs_CZ.qm
+
+lang/calamares_da.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_da.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating calamares_da.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_da.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_da.qm
+
+lang/calamares_de.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_de.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating calamares_de.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_de.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_de.qm
+
+lang/calamares_el.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_el.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating calamares_el.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_el.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_el.qm
+
+lang/calamares_en.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating calamares_en.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_en.qm
+
+lang/calamares_en_GB.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en_GB.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating calamares_en_GB.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_en_GB.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_en_GB.qm
+
+lang/calamares_eo.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eo.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating calamares_eo.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eo.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_eo.qm
+
+lang/calamares_es.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating calamares_es.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_es.qm
+
+lang/calamares_es_AR.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_AR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating calamares_es_AR.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_AR.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_es_AR.qm
+
+lang/calamares_es_MX.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_MX.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating calamares_es_MX.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_es_MX.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_es_MX.qm
+
+lang/calamares_et.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_et.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating calamares_et.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_et.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_et.qm
+
+lang/calamares_eu.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eu.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating calamares_eu.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_eu.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_eu.qm
+
+lang/calamares_fa.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fa.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating calamares_fa.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fa.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fa.qm
+
+lang/calamares_fi_FI.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fi_FI.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating calamares_fi_FI.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fi_FI.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fi_FI.qm
+
+lang/calamares_fr.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fr.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating calamares_fr.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fr.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fr.qm
+
+lang/calamares_fur.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fur.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating calamares_fur.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_fur.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_fur.qm
+
+lang/calamares_gl.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_gl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating calamares_gl.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_gl.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_gl.qm
+
+lang/calamares_he.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_he.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating calamares_he.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_he.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_he.qm
+
+lang/calamares_hi.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hi.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating calamares_hi.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hi.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_hi.qm
+
+lang/calamares_hr.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hr.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating calamares_hr.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hr.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_hr.qm
+
+lang/calamares_hu.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hu.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating calamares_hu.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_hu.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_hu.qm
+
+lang/calamares_id.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_id.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating calamares_id.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_id.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_id.qm
+
+lang/calamares_is.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_is.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating calamares_is.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_is.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_is.qm
+
+lang/calamares_it_IT.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_it_IT.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating calamares_it_IT.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_it_IT.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_it_IT.qm
+
+lang/calamares_ja.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ja.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating calamares_ja.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ja.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ja.qm
+
+lang/calamares_ka.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ka.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating calamares_ka.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ka.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ka.qm
+
+lang/calamares_ko.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ko.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating calamares_ko.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ko.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ko.qm
+
+lang/calamares_lt.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_lt.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating calamares_lt.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_lt.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_lt.qm
+
+lang/calamares_ml.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ml.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating calamares_ml.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ml.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ml.qm
+
+lang/calamares_mr.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_mr.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating calamares_mr.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_mr.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_mr.qm
+
+lang/calamares_nb.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nb.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating calamares_nb.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nb.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_nb.qm
+
+lang/calamares_nl.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating calamares_nl.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_nl.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_nl.qm
+
+lang/calamares_oc.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_oc.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating calamares_oc.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_oc.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_oc.qm
+
+lang/calamares_pl.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating calamares_pl.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pl.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_pl.qm
+
+lang/calamares_pt_BR.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_BR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating calamares_pt_BR.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_BR.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_pt_BR.qm
+
+lang/calamares_pt_PT.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_PT.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating calamares_pt_PT.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_pt_PT.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_pt_PT.qm
+
+lang/calamares_ro.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ro.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating calamares_ro.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ro.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ro.qm
+
+lang/calamares_ru.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ru.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating calamares_ru.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_ru.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_ru.qm
+
+lang/calamares_si.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_si.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating calamares_si.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_si.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_si.qm
+
+lang/calamares_sk.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sk.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating calamares_sk.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sk.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sk.qm
+
+lang/calamares_sl.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating calamares_sl.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sl.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sl.qm
+
+lang/calamares_sq.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sq.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating calamares_sq.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sq.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sq.qm
+
+lang/calamares_sr.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating calamares_sr.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sr.qm
+
+lang/calamares_sr@latin.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr@latin.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating calamares_sr@latin.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sr@latin.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sr@latin.qm
+
+lang/calamares_sv.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sv.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating calamares_sv.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_sv.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_sv.qm
+
+lang/calamares_tg.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tg.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating calamares_tg.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tg.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_tg.qm
+
+lang/calamares_th.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_th.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating calamares_th.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_th.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_th.qm
+
+lang/calamares_tr_TR.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tr_TR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating calamares_tr_TR.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_tr_TR.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_tr_TR.qm
+
+lang/calamares_uk.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_uk.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating calamares_uk.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_uk.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_uk.qm
+
+lang/calamares_vi.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_vi.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating calamares_vi.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_vi.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_vi.qm
+
+lang/calamares_zh_CN.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_CN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating calamares_zh_CN.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_CN.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_zh_CN.qm
+
+lang/calamares_zh_TW.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_TW.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating calamares_zh_TW.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/calamares_zh_TW.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/calamares_zh_TW.qm
+
+lang/kb_en.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_en.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating kb_en.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_en.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/kb_en.qm
+
+lang/kb_tg.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_tg.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating kb_tg.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/kb_tg.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/kb_tg.qm
+
+lang/tz_en.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_en.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating tz_en.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_en.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_en.qm
+
+lang/tz_nl.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_nl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating tz_nl.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_nl.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_nl.qm
+
+lang/tz_ru.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_ru.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating tz_ru.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_ru.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_ru.qm
+
+lang/tz_sv.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_sv.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating tz_sv.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_sv.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_sv.qm
+
+lang/tz_tg.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_tg.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating tz_tg.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_tg.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_tg.qm
+
+lang/tz_uk.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_uk.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating tz_uk.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_uk.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_uk.qm
+
+lang/tz_vi.qm: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_vi.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating tz_vi.qm"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/lib/qt6/bin/lrelease /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/tz_vi.ts -qm /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/tz_vi.qm
 
 lang/CMakeFiles/calamares-i18n.dir/codegen:
 .PHONY : lang/CMakeFiles/calamares-i18n.dir/codegen
@@ -434,16 +434,16 @@ lang/CMakeFiles/calamares-i18n.dir/codegen:
 lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o: lang/CMakeFiles/calamares-i18n.dir/flags.make
 lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o: lang/qrc_calamares-i18n.cxx
 lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o: lang/CMakeFiles/calamares-i18n.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o -MF CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o.d -o CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o -MF CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o.d -o CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx
 
 lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx > CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx > CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.i
 
 lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx -o CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx -o CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.s
 
 calamares-i18n: lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o
 calamares-i18n: lang/CMakeFiles/calamares-i18n.dir/build.make
@@ -454,7 +454,7 @@ lang/CMakeFiles/calamares-i18n.dir/build: calamares-i18n
 .PHONY : lang/CMakeFiles/calamares-i18n.dir/build
 
 lang/CMakeFiles/calamares-i18n.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-i18n.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-i18n.dir/cmake_clean.cmake
 .PHONY : lang/CMakeFiles/calamares-i18n.dir/clean
 
 lang/CMakeFiles/calamares-i18n.dir/depend: lang/calamares_ar.qm
@@ -529,6 +529,6 @@ lang/CMakeFiles/calamares-i18n.dir/depend: lang/tz_sv.qm
 lang/CMakeFiles/calamares-i18n.dir/depend: lang/tz_tg.qm
 lang/CMakeFiles/calamares-i18n.dir/depend: lang/tz_uk.qm
 lang/CMakeFiles/calamares-i18n.dir/depend: lang/tz_vi.qm
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/CMakeFiles/calamares-i18n.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/CMakeFiles/calamares-i18n.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lang/CMakeFiles/calamares-i18n.dir/depend
 

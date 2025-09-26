@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/depend.make
@@ -71,9 +71,9 @@ include src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/fla
 
 src/modules/preservefiles/calamares_job_preservefiles_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/preservefiles/calamares_job_preservefiles_autogen/timestamp: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target calamares_job_preservefiles"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target calamares_job_preservefiles"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/timestamp
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/codegen:
 .PHONY : src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/codegen
@@ -81,44 +81,44 @@ src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/codegen:
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/flags.make
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o: src/modules/preservefiles/calamares_job_preservefiles_autogen/mocs_compilation.cpp
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/mocs_compilation.cpp
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.i
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/calamares_job_preservefiles_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.s
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/flags.make
-src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp
+src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o -MF CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o.d -o CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o -MF CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o.d -o CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp > CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp > CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.i
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp -o CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/Item.cpp -o CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.s
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/flags.make
-src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp
+src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o -MF CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o.d -o CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o -MF CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o.d -o CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp > CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp > CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.i
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp -o CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles/PreserveFiles.cpp -o CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.s
 
 # Object files for target calamares_job_preservefiles
 calamares_job_preservefiles_OBJECTS = \
@@ -144,18 +144,18 @@ src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libGLX.so
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libOpenGL.so
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt6Core.so.6.9.2
 src/modules/preservefiles/libcalamares_job_preservefiles.so: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcalamares_job_preservefiles.so"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_preservefiles.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcalamares_job_preservefiles.so"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_preservefiles.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build: src/modules/preservefiles/libcalamares_job_preservefiles.so
 .PHONY : src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_preservefiles.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_preservefiles.dir/cmake_clean.cmake
 .PHONY : src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/clean
 
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/depend: src/modules/preservefiles/calamares_job_preservefiles_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/preservefiles /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/depend
 

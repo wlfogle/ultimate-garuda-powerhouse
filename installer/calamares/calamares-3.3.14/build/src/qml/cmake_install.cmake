@@ -1,4 +1,4 @@
-# Install script for directory: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/qml
+# Install script for directory: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/qml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/cmake_install.cmake")
+  include("/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/install_local_manifest.txt"
+  file(WRITE "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

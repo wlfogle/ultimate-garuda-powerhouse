@@ -1,28 +1,28 @@
 calamares_viewmodule_netinstall_autogen/timestamp: \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/moc_predefs.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/TranslatableConfiguration.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/CMakeLists.txt \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallPage.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallPage.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallViewStep.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallViewStep.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/groupstreeview.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/groupstreeview.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/netinstall.conf \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/moc_predefs.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/TranslatableConfiguration.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/CMakeLists.txt \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallPage.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallPage.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallViewStep.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/NetInstallViewStep.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/groupstreeview.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/groupstreeview.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/netinstall.conf \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -487,5 +487,5 @@ calamares_viewmodule_netinstall_autogen/timestamp: \
 	/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
 	/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
 	/usr/share/cmake/Modules/GNUInstallDirs.cmake \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/page_netinst.ui \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/page_netinst.ui \
 	/usr/bin/cmake

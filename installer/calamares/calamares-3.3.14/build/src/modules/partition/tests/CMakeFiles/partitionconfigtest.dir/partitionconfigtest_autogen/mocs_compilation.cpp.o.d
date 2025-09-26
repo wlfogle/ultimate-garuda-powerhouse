@@ -1,9 +1,9 @@
 src/modules/partition/tests/CMakeFiles/partitionconfigtest.dir/partitionconfigtest_autogen/mocs_compilation.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/mocs_compilation.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/GJ4YHME5YR/moc_Config.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/GJ4YHME5YR/../../../../../../../src/modules/partition/Config.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/GJ4YHME5YR/moc_Config.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/GJ4YHME5YR/../../../../../../../src/modules/partition/Config.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/qchar.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/15.2.1/type_traits \
@@ -344,8 +344,8 @@ src/modules/partition/tests/CMakeFiles/partitionconfigtest.dir/partitionconfigte
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \
  /usr/include/qt6/QtCore/q23type_traits.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/X5UMKPNBA7/moc_DeviceModel.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/X5UMKPNBA7/../../../../../../../src/modules/partition/core/DeviceModel.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/X5UMKPNBA7/moc_DeviceModel.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionconfigtest_autogen/X5UMKPNBA7/../../../../../../../src/modules/partition/core/DeviceModel.h \
  /usr/include/qt6/QtCore/QAbstractListModel \
  /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtCore/qvariant.h \

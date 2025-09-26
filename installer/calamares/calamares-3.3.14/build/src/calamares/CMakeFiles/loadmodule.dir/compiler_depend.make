@@ -132,35 +132,35 @@ loadmodule: libcalamares.so.3.3.14 \
   /usr/lib32/libxcb.so.1 \
   src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o
 
-src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/testmain.cpp \
+src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/testmain.cpp \
   src/libcalamares/CalamaresConfig.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/System.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/System.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -817,8 +817,6 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/yaml-cpp/node/node.h:
 
-/usr/include/yaml-cpp/node/iterator.h:
-
 /usr/include/yaml-cpp/node/emit.h:
 
 /usr/include/yaml-cpp/node/detail/memory.h:
@@ -845,15 +843,11 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/stdio.h:
 
-/usr/include/stdint.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/qt6/QtWidgets/qwidget.h:
 
 /usr/include/qt6/QtWidgets/qtwidgetsglobal.h:
-
-/usr/include/qt6/QtWidgets/qtwidgetsexports.h:
 
 /usr/include/qt6/QtWidgets/qtwidgets-config.h:
 
@@ -878,6 +872,8 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 /usr/include/qt6/QtWidgets/QPushButton:
 
 /usr/include/qt6/QtWidgets/QPlainTextEdit:
+
+/usr/include/qt6/QtWidgets/QMainWindow:
 
 /usr/include/qt6/QtWidgets/QApplication:
 
@@ -931,8 +927,6 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/qt6/QtGui/qeventpoint.h:
 
-/usr/include/qt6/QtGui/qcolor.h:
-
 /usr/include/qt6/QtGui/qaction.h:
 
 /usr/include/qt6/QtGui/QTransform:
@@ -962,6 +956,8 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 /usr/include/qt6/QtCore/qtversionchecks.h:
 
 /usr/include/qt6/QtCore/qtversion.h:
+
+/usr/include/qt6/QtCore/qttypetraits.h:
 
 /usr/include/qt6/QtCore/qtnoop.h:
 
@@ -1037,6 +1033,8 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/qt6/QtCore/qobjectdefs_impl.h:
 
+/usr/include/qt6/QtCore/qobject_impl.h:
+
 /usr/include/qt6/QtCore/qobject.h:
 
 /usr/include/qt6/QtCore/qnumeric.h:
@@ -1046,6 +1044,8 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 /usr/include/qt6/QtCore/qnamespace.h:
 
 /usr/include/qt6/QtCore/qmutex.h:
+
+/usr/include/qt6/QtCore/qmetatype.h:
 
 /usr/include/qt6/QtCore/qmetacontainer.h:
 
@@ -1076,6 +1076,8 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 /usr/include/qt6/QtCore/qiodevice.h:
 
 /usr/include/qt6/QtCore/qhashfunctions.h:
+
+/usr/include/qt6/QtCore/qhash.h:
 
 /usr/include/qt6/QtGui/qpolygon.h:
 
@@ -1123,11 +1125,15 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/qt6/QtCore/qcompare_impl.h:
 
+/usr/include/c++/15.2.1/algorithm:
+
 /usr/include/c++/15.2.1/tr1/ell_integral.tcc:
 
 /usr/include/bits/waitflags.h:
 
 /usr/include/bits/types/struct_tm.h:
+
+/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
 
@@ -1135,27 +1141,23 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/c++/15.2.1/bits/list.tcc:
 
-/usr/include/bits/types/mbstate_t.h:
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/qt6/QtGui/qicon.h:
+
+/usr/lib/libQt6Widgets.so.6.9.2:
 
 /usr/include/bits/types/clockid_t.h:
 
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/bits/stdint-intn.h:
+
 /usr/include/bits/types/__sigset_t.h:
 
-/usr/include/bits/waitstatus.h:
-
-/usr/include/yaml-cpp/traits.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/yaml-cpp/node/detail/node_iterator.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/15.2.1/bits/predefined_ops.h:
-
-/usr/include/qt6/QtCore/q20type_traits.h:
+/usr/include/c++/15.2.1/bits/move.h:
 
 /usr/include/c++/15.2.1/bits/mask_array.h:
 
@@ -1171,17 +1173,21 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/c++/15.2.1/bits/fs_dir.h:
 
+/usr/include/qt6/QtCore/qlogging.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/c++/15.2.1/system_error:
+
 /usr/include/bits/setjmp.h:
 
 /usr/include/bits/select.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h:
-
 /usr/include/qt6/QtCore/qdatetime.h:
 
 /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc:
-
-/usr/lib/libKF6CoreAddons.so.6.18.0:
 
 /usr/include/qt6/QtWidgets/QLabel:
 
@@ -1192,6 +1198,12 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 /usr/include/qt6/QtCore/QUrl:
 
 /usr/include/bits/pthreadtypes-arch.h:
+
+/usr/lib/libKF6CoreAddons.so.6.18.0:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h:
+
+/usr/include/bits/long-double.h:
 
 /usr/lib/libgraphite2.so.3:
 
@@ -1247,9 +1259,11 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/bits/byteswap.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h:
-
 /usr/include/asm/posix_types_64.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/c++/15.2.1/bits/locale_facets.tcc:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -1265,9 +1279,23 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/qt6/QtWidgets/qtwidgetsexports.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h:
+
 /usr/include/bits/time.h:
 
 /usr/include/c++/15.2.1/bits/stl_vector.h:
+
+/usr/include/yaml-cpp/traits.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/yaml-cpp/node/detail/node_iterator.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
@@ -1275,135 +1303,63 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 
 /usr/include/c++/15.2.1/exception:
 
-/usr/include/qt6/QtCore/qmetatype.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h:
 
-/usr/include/bits/long-double.h:
+/usr/include/bits/types/mbstate_t.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h:
 
-/usr/include/c++/15.2.1/bits/memory_resource.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ExecutionViewStep.h:
 
-/usr/include/bits/types/locale_t.h:
+/usr/include/linux/sched/types.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/ViewManager.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h:
+
+src/libcalamares/CalamaresConfig.h:
+
+/usr/include/c++/15.2.1/bits/nested_exception.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h:
 
 /usr/include/c++/15.2.1/bits/align.h:
 
 /usr/include/c++/15.2.1/debug/debug.h:
 
-/usr/include/c++/15.2.1/compare:
+/usr/include/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/15.2.1/cwctype:
+/usr/include/c++/15.2.1/bits/predefined_ops.h:
 
-/usr/include/c++/15.2.1/algorithm:
-
-/usr/include/qt6/QtCore/qobject_impl.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedSuffix.h:
-
-/usr/include/qt6/QtCore/qstring.h:
-
-/usr/include/c++/15.2.1/bits/exception_ptr.h:
-
-/usr/include/c++/15.2.1/bits/stl_multimap.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h:
-
-/usr/include/c++/15.2.1/bits/stl_algobase.h:
-
-/usr/include/qt6/QtCore/qttypetraits.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h:
-
-/usr/include/bits/wordsize.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h:
-
-/usr/lib32/libk5crypto.so.3:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Actions.h:
-
-/usr/include/c++/15.2.1/ratio:
+/usr/include/qt6/QtCore/q20type_traits.h:
 
 /usr/include/qt6/QtCore/qshareddata_impl.h:
 
 /usr/include/qt6/QtCore/qconfig.h:
 
-/usr/include/bits/struct_rwlock.h:
-
 /usr/include/bits/sched.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h:
+/usr/include/bits/struct_rwlock.h:
 
-/usr/include/qt6/QtCore/qhash.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h:
+/usr/lib32/libxcb.so.1:
 
-/usr/include/bits/types/cookie_io_functions_t.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h:
 
-/usr/include/qt6/QtGui/qicon.h:
+/usr/include/c++/15.2.1/pstl/pstl_config.h:
 
-/usr/lib/libQt6Widgets.so.6.9.2:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/testmain.cpp:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h:
+/usr/include/c++/15.2.1/tuple:
 
-/usr/lib/libglib-2.0.so.0:
+/usr/include/qt6/QtCore/qtsan_impl.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h:
-
-/usr/include/qt6/QtCore/qlogging.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/c++/15.2.1/system_error:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/JobQueue.h:
-
-/usr/lib/libharfbuzz.so.0:
-
-/usr/include/qt6/QtWidgets/qabstractbutton.h:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/lib32/libffi.so.8:
-
-/usr/include/c++/15.2.1/bits/cpp_type_traits.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h:
-
-/usr/include/c++/15.2.1/bits/std_function.h:
-
-/usr/include/qt6/QtCore/QMap:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/CppJob.h:
-
-/usr/lib/libexpat.so.1:
-
-/usr/include/qt6/QtCore/qmargins.h:
-
-/usr/include/c++/15.2.1/bits/locale_conv.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets.tcc:
-
-/usr/include/bits/types.h:
-
-/usr/include/c++/15.2.1/bits/move.h:
-
-/usr/include/qt6/QtCore/qbytearraylist.h:
+/usr/include/errno.h:
 
 /usr/lib/libfontconfig.so.1:
 
@@ -1416,6 +1372,8 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o: /home/garuda/Projects/ul
 /usr/lib/libffi.so.8:
 
 /usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/15.2.1/bits/std_mutex.h:
 
 /usr/lib/libduktape.so.207:
 
@@ -1499,8 +1457,6 @@ src/calamares/CMakeFiles/loadmodule.dir/testmain.cpp.o:
 
 /usr/include/qt6/QtCore/qassert.h:
 
-/usr/lib32/libxcb.so.1:
-
 /usr/lib/libQt6Qml.so.6.9.2:
 
 libcalamaresui.so.3.3.14:
@@ -1527,9 +1483,9 @@ libcalamaresui.so.3.3.14:
 
 /usr/include/qt6/QtCore/qbytearray.h:
 
-/usr/lib/ld-linux-x86-64.so.2:
-
 /usr/include/bits/mathcalls-helper-functions.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h:
 
 /usr/include/c++/15.2.1/bits/charconv.h:
 
@@ -1544,6 +1500,8 @@ libcalamaresui.so.3.3.14:
 /usr/lib/libQt6QuickWidgets.so.6.9.2:
 
 /usr/lib/libm.so:
+
+/usr/lib/libglib-2.0.so.0:
 
 /usr/include/bits/struct_mutex.h:
 
@@ -1568,6 +1526,8 @@ libcalamaresui.so.3.3.14:
 /usr/lib/libQt6QmlModels.so.6.9.2:
 
 /usr/include/qt6/QtWidgets/qframe.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h:
 
 /usr/include/qt6/QtCore/qbytearrayalgorithms.h:
 
@@ -1605,11 +1565,11 @@ libcalamaresui.so.3.3.14:
 
 /usr/include/bits/mathcalls.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h:
-
 /usr/lib32/libudev.so.1:
 
 /usr/include/sched.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/pybind11/PythonJob.h:
 
 /usr/lib/libQt6DBus.so.6:
 
@@ -1625,9 +1585,11 @@ libcalamares.so.3.3.14:
 
 /usr/include/bits/local_lim.h:
 
-/usr/include/features-time64.h:
+/usr/lib/libexpat.so.1:
 
-/usr/include/qt6/QtCore/q17memory.h:
+/usr/include/qt6/QtCore/qmargins.h:
+
+/usr/include/c++/15.2.1/bits/locale_conv.h:
 
 /usr/include/bits/posix2_lim.h:
 
@@ -1639,27 +1601,45 @@ libcalamares.so.3.3.14:
 
 /usr/include/qt6/QtCore/qarraydata.h:
 
+/usr/include/stdint.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Module.h:
+
+/usr/lib/libcrypto.so.3:
+
+/usr/include/c++/15.2.1/bits/indirect_array.h:
+
+/usr/include/qt6/QtCore/QString:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/qt6/QtCore/QStringList:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Settings.h:
+
 /usr/include/qt6/QtCore/qdirlisting.h:
 
 /usr/include/c++/15.2.1/iosfwd:
 
 /usr/lib/libdbus-1.so.3:
 
+/usr/include/qt6/QtGui/qcolor.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h:
+
+/usr/include/qt6/QtCore/qcoreapplication_platform.h:
+
+/usr/include/qt6/QtCore/QLocale:
+
 /usr/lib/libQt6Svg.so.6.9.2:
-
-/usr/include/c++/15.2.1/bits/quoted_string.h:
-
-/usr/lib/libQt6Gui.so.6.9.2:
-
-/usr/include/c++/15.2.1/bits/std_mutex.h:
 
 /usr/lib/libGLX.so:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/System.h:
+
 /usr/include/bits/types/struct_sched_param.h:
 
-/usr/lib/libnghttp2.so.14:
-
-/usr/lib/libcrypto.so.3:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h:
 
 /usr/lib/libproxy.so.1:
 
@@ -1667,15 +1647,19 @@ libcalamares.so.3.3.14:
 
 /usr/include/bits/types/struct_timeval.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h:
-
 /usr/include/c++/15.2.1/bits/node_handle.h:
 
-/usr/include/c++/15.2.1/string:
+/usr/lib/libnghttp2.so.14:
 
-/usr/include/c++/15.2.1/debug/assertions.h:
+/usr/lib/libharfbuzz.so.0:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+/usr/include/qt6/QtWidgets/qabstractbutton.h:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/lib32/libffi.so.8:
+
+/usr/include/c++/15.2.1/bits/cpp_type_traits.h:
 
 /usr/lib/libicui18n.so.76:
 
@@ -1699,15 +1683,17 @@ libcalamares.so.3.3.14:
 
 /usr/lib/libk5crypto.so.3:
 
+/usr/include/bits/wordsize.h:
+
 /usr/include/c++/15.2.1/tr1/beta_function.tcc:
 
 /usr/lib/libpython3.13.so.1.0:
 
+/usr/include/yaml-cpp/node/iterator.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h:
+
 /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
-
-src/libcalamares/CalamaresConfig.h:
-
-/usr/include/c++/15.2.1/bits/nested_exception.h:
 
 /usr/include/yaml-cpp/ostream_wrapper.h:
 
@@ -1797,6 +1783,10 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/qt6/QtCore/QSize:
 
+/usr/lib32/libk5crypto.so.3:
+
+/usr/include/c++/15.2.1/ratio:
+
 /usr/lib32/libssl.so.3:
 
 /usr/lib32/libidn2.so.0:
@@ -1804,6 +1794,8 @@ src/libcalamares/CalamaresConfig.h:
 /usr/lib32/libGLdispatch.so.0:
 
 /usr/include/asm-generic/errno-base.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Descriptor.h:
 
 /usr/include/c++/15.2.1/bits/slice_array.h:
 
@@ -1829,15 +1821,17 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/atomic:
 
-/usr/include/qt6/QtWidgets/QMainWindow:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/locale/Translation.h:
-
 /usr/lib32/libcap.so.2:
 
 /usr/lib32/libcom_err.so.2:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/utils/Qml.h:
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ViewModule.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Yaml.h:
+
+/usr/lib/crtn.o:
+
+/usr/include/linux/limits.h:
 
 /usr/lib32/libpcre2-8.so.0:
 
@@ -1848,10 +1842,6 @@ src/libcalamares/CalamaresConfig.h:
 /usr/include/qt6/QtGui/qrgba64.h:
 
 /usr/lib32/libcurl.so.4:
-
-/usr/include/qt6/QtCore/qanystringview.h:
-
-/usr/include/c++/15.2.1/bits/invoke.h:
 
 /usr/include/math.h:
 
@@ -1889,8 +1879,6 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/ext/atomicity.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/Branding.h:
-
 /usr/include/c++/15.2.1/bits/allocator.h:
 
 /usr/include/c++/15.2.1/bits/basic_ios.tcc:
@@ -1908,6 +1896,12 @@ src/libcalamares/CalamaresConfig.h:
 /usr/include/c++/15.2.1/bits/uses_allocator_args.h:
 
 /usr/include/c++/15.2.1/bits/char_traits.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/15.2.1/bits/stl_function.h:
+
+/usr/include/c++/15.2.1/bits/chrono.h:
 
 /usr/include/c++/15.2.1/bits/codecvt.h:
 
@@ -1928,6 +1922,14 @@ src/libcalamares/CalamaresConfig.h:
 /usr/include/c++/15.2.1/bits/exception_defines.h:
 
 /usr/include/c++/15.2.1/vector:
+
+/usr/include/qt6/QtCore/qstring.h:
+
+/usr/include/c++/15.2.1/bits/exception_ptr.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/GlobalStorage.h:
+
+/usr/include/c++/15.2.1/bits/stl_multimap.h:
 
 /usr/include/qt6/QtWidgets/QStackedWidget:
 
@@ -1961,19 +1963,15 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/bits/hashtable_policy.h:
 
-/usr/include/c++/15.2.1/bits/indirect_array.h:
-
-/usr/include/qt6/QtCore/QString:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/qt6/QtCore/QStringList:
-
 /usr/include/qt6/QtCore/qvarlengtharray.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/modulesystem/ModuleManager.h:
 
 /usr/include/c++/15.2.1/bits/ios_base.h:
 
 /usr/include/qt6/QtCore/qendian.h:
+
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h:
 
 /usr/include/c++/15.2.1/bits/locale_classes.tcc:
 
@@ -1985,6 +1983,8 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/qt6/QtCore/QThread:
 
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h:
+
 /usr/include/c++/15.2.1/bits/locale_facets.h:
 
 /usr/include/qt6/QtCore/qarraydataops.h:
@@ -1992,6 +1992,8 @@ src/libcalamares/CalamaresConfig.h:
 /usr/include/c++/15.2.1/bits/locale_facets_nonio.h:
 
 /usr/include/c++/15.2.1/bits/localefwd.h:
+
+/usr/include/c++/15.2.1/bits/memory_resource.h:
 
 /usr/include/c++/15.2.1/bits/algorithmfwd.h:
 
@@ -2019,11 +2021,27 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/bits/postypes.h:
 
+/usr/lib/libQt6Gui.so.6.9.2:
+
+/usr/include/c++/15.2.1/bits/quoted_string.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/qt6/QtCore/q17memory.h:
+
 /usr/include/c++/15.2.1/bits/range_access.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
 
 /usr/include/c++/15.2.1/bits/shared_ptr.h:
+
+/usr/include/c++/15.2.1/bits/std_function.h:
+
+/usr/include/qt6/QtCore/QMap:
+
+/usr/include/c++/15.2.1/bits/invoke.h:
+
+/usr/include/qt6/QtCore/qanystringview.h:
 
 /usr/include/c++/15.2.1/bits/stl_algo.h:
 
@@ -2031,13 +2049,9 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/pthread.h:
 
+/usr/include/c++/15.2.1/bits/stl_algobase.h:
+
 /usr/include/c++/15.2.1/bits/stl_bvector.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/c++/15.2.1/bits/chrono.h:
-
-/usr/include/c++/15.2.1/bits/stl_function.h:
 
 /usr/include/c++/15.2.1/bits/stl_iterator.h:
 
@@ -2135,6 +2149,10 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/endian.h:
 
+/usr/include/c++/15.2.1/compare:
+
+/usr/include/c++/15.2.1/cwctype:
+
 /usr/include/c++/15.2.1/concepts:
 
 /usr/include/c++/15.2.1/cstdint:
@@ -2155,8 +2173,6 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/ext/aligned_buffer.h:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Retranslator.h:
-
 /usr/include/c++/15.2.1/locale:
 
 /usr/include/qt6/QtCore/qgenericatomic.h:
@@ -2172,8 +2188,6 @@ src/libcalamares/CalamaresConfig.h:
 /usr/include/linux/types.h:
 
 /usr/include/c++/15.2.1/ext/string_conversions.h:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/testmain.cpp:
 
 /usr/include/c++/15.2.1/ext/type_traits.h:
 
@@ -2211,15 +2225,11 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h:
 
-/usr/include/c++/15.2.1/pstl/pstl_config.h:
-
 /usr/include/qt6/QtCore/qiodevicebase.h:
 
 /usr/include/c++/15.2.1/set:
 
 /usr/include/c++/15.2.1/sstream:
-
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/widgets/LogWidget.h:
 
 /usr/include/c++/15.2.1/stdexcept:
 
@@ -2231,6 +2241,12 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/streambuf:
 
+/usr/include/c++/15.2.1/debug/assertions.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+
+/usr/include/c++/15.2.1/string:
+
 /usr/include/c++/15.2.1/tr1/bessel_function.tcc:
 
 /usr/include/qt6/QtGui/qcursor.h:
@@ -2241,17 +2257,9 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
 
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/System.h:
-
 /usr/include/c++/15.2.1/bits/std_abs.h:
 
 /usr/include/c++/15.2.1/tr1/special_function_util.h:
-
-/usr/include/c++/15.2.1/tuple:
-
-/usr/include/qt6/QtCore/qtsan_impl.h:
-
-/usr/include/errno.h:
 
 /usr/include/c++/15.2.1/type_traits:
 
@@ -2315,12 +2323,6 @@ src/libcalamares/CalamaresConfig.h:
 
 /usr/include/qt6/QtCore/qatomic.h:
 
-/usr/lib/crtn.o:
-
-/usr/include/linux/limits.h:
-
-/usr/include/linux/sched/types.h:
-
 /usr/include/bits/fp-logb.h:
 
 /usr/lib/libmvec.so.1:
@@ -2338,10 +2340,6 @@ src/libcalamares/CalamaresConfig.h:
 /usr/include/c++/15.2.1/utility:
 
 /usr/include/qt6/QtCore/QList:
-
-/usr/include/qt6/QtCore/qcoreapplication_platform.h:
-
-/usr/include/qt6/QtCore/QLocale:
 
 /usr/include/qt6/QtCore/QMetaType:
 
@@ -2382,3 +2380,5 @@ src/libcalamares/CalamaresConfig.h:
 /usr/include/qt6/QtCore/qarraydatapointer.h:
 
 /usr/include/qt6/QtCore/qatomic_cxx11.h:
+
+/usr/include/qt6/QtCore/qbytearraylist.h:

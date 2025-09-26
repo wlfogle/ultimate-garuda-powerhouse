@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/ca
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/license//CMakeFiles/progress.marks
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/license//CMakeFiles/progress.marks
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/clean
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/rule
 .PHONY : src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_license: src/modules/license/CMakeFiles/calamares_viewmodul
 
 # fast build rule for target.
 calamares_viewmodule_license/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build
 .PHONY : calamares_viewmodule_license/fast
 
 # Convenience name for target.
 src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/rule
 .PHONY : src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ calamares_viewmodule_license_autogen_timestamp_deps: src/modules/license/CMakeFi
 
 # fast build rule for target.
 calamares_viewmodule_license_autogen_timestamp_deps/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen_timestamp_deps.dir/build
 .PHONY : calamares_viewmodule_license_autogen_timestamp_deps/fast
 
 # Convenience name for target.
 src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/rule
 .PHONY : src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,7 +230,7 @@ calamares_viewmodule_license_autogen: src/modules/license/CMakeFiles/calamares_v
 
 # fast build rule for target.
 calamares_viewmodule_license_autogen/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license_autogen.dir/build
 .PHONY : calamares_viewmodule_license_autogen/fast
 
 LicensePage.o: LicensePage.cpp.o
@@ -238,7 +238,7 @@ LicensePage.o: LicensePage.cpp.o
 
 # target to build an object file
 LicensePage.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o
 .PHONY : LicensePage.cpp.o
 
 LicensePage.i: LicensePage.cpp.i
@@ -246,7 +246,7 @@ LicensePage.i: LicensePage.cpp.i
 
 # target to preprocess a source file
 LicensePage.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.i
 .PHONY : LicensePage.cpp.i
 
 LicensePage.s: LicensePage.cpp.s
@@ -254,7 +254,7 @@ LicensePage.s: LicensePage.cpp.s
 
 # target to generate assembly for a file
 LicensePage.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.s
 .PHONY : LicensePage.cpp.s
 
 LicenseViewStep.o: LicenseViewStep.cpp.o
@@ -262,7 +262,7 @@ LicenseViewStep.o: LicenseViewStep.cpp.o
 
 # target to build an object file
 LicenseViewStep.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o
 .PHONY : LicenseViewStep.cpp.o
 
 LicenseViewStep.i: LicenseViewStep.cpp.i
@@ -270,7 +270,7 @@ LicenseViewStep.i: LicenseViewStep.cpp.i
 
 # target to preprocess a source file
 LicenseViewStep.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.i
 .PHONY : LicenseViewStep.cpp.i
 
 LicenseViewStep.s: LicenseViewStep.cpp.s
@@ -278,7 +278,7 @@ LicenseViewStep.s: LicenseViewStep.cpp.s
 
 # target to generate assembly for a file
 LicenseViewStep.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.s
 .PHONY : LicenseViewStep.cpp.s
 
 LicenseWidget.o: LicenseWidget.cpp.o
@@ -286,7 +286,7 @@ LicenseWidget.o: LicenseWidget.cpp.o
 
 # target to build an object file
 LicenseWidget.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o
 .PHONY : LicenseWidget.cpp.o
 
 LicenseWidget.i: LicenseWidget.cpp.i
@@ -294,7 +294,7 @@ LicenseWidget.i: LicenseWidget.cpp.i
 
 # target to preprocess a source file
 LicenseWidget.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.i
 .PHONY : LicenseWidget.cpp.i
 
 LicenseWidget.s: LicenseWidget.cpp.s
@@ -302,7 +302,7 @@ LicenseWidget.s: LicenseWidget.cpp.s
 
 # target to generate assembly for a file
 LicenseWidget.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.s
 .PHONY : LicenseWidget.cpp.s
 
 calamares_viewmodule_license_autogen/mocs_compilation.o: calamares_viewmodule_license_autogen/mocs_compilation.cpp.o
@@ -310,7 +310,7 @@ calamares_viewmodule_license_autogen/mocs_compilation.o: calamares_viewmodule_li
 
 # target to build an object file
 calamares_viewmodule_license_autogen/mocs_compilation.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_license_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_license_autogen/mocs_compilation.i: calamares_viewmodule_license_autogen/mocs_compilation.cpp.i
@@ -318,7 +318,7 @@ calamares_viewmodule_license_autogen/mocs_compilation.i: calamares_viewmodule_li
 
 # target to preprocess a source file
 calamares_viewmodule_license_autogen/mocs_compilation.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_license_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_license_autogen/mocs_compilation.s: calamares_viewmodule_license_autogen/mocs_compilation.cpp.s
@@ -326,7 +326,7 @@ calamares_viewmodule_license_autogen/mocs_compilation.s: calamares_viewmodule_li
 
 # target to generate assembly for a file
 calamares_viewmodule_license_autogen/mocs_compilation.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build.make src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_license_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -370,6 +370,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

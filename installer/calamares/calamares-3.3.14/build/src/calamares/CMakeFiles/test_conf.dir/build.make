@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/calamares/CMakeFiles/test_conf.dir/depend.make
@@ -73,18 +73,18 @@ src/calamares/CMakeFiles/test_conf.dir/codegen:
 .PHONY : src/calamares/CMakeFiles/test_conf.dir/codegen
 
 src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o: src/calamares/CMakeFiles/test_conf.dir/flags.make
-src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp
+src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp
 src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o: src/calamares/CMakeFiles/test_conf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o -MF CMakeFiles/test_conf.dir/test_conf.cpp.o.d -o CMakeFiles/test_conf.dir/test_conf.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o -MF CMakeFiles/test_conf.dir/test_conf.cpp.o.d -o CMakeFiles/test_conf.dir/test_conf.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp
 
 src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_conf.dir/test_conf.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp > CMakeFiles/test_conf.dir/test_conf.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp > CMakeFiles/test_conf.dir/test_conf.cpp.i
 
 src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_conf.dir/test_conf.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp -o CMakeFiles/test_conf.dir/test_conf.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp -o CMakeFiles/test_conf.dir/test_conf.cpp.s
 
 # Object files for target test_conf
 test_conf_OBJECTS = \
@@ -99,18 +99,18 @@ test_conf: src/calamares/CMakeFiles/test_conf.dir/compiler_depend.ts
 test_conf: /usr/lib/libyaml-cpp.so
 test_conf: /usr/lib/libQt6Core.so.6.9.2
 test_conf: src/calamares/CMakeFiles/test_conf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../test_conf"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_conf.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../test_conf"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_conf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/calamares/CMakeFiles/test_conf.dir/build: test_conf
 .PHONY : src/calamares/CMakeFiles/test_conf.dir/build
 
 src/calamares/CMakeFiles/test_conf.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && $(CMAKE_COMMAND) -P CMakeFiles/test_conf.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares && $(CMAKE_COMMAND) -P CMakeFiles/test_conf.dir/cmake_clean.cmake
 .PHONY : src/calamares/CMakeFiles/test_conf.dir/clean
 
 src/calamares/CMakeFiles/test_conf.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares/CMakeFiles/test_conf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/calamares/CMakeFiles/test_conf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/calamares/CMakeFiles/test_conf.dir/depend
 

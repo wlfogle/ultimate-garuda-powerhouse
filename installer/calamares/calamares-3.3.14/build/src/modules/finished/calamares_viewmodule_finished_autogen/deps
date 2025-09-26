@@ -1,20 +1,20 @@
 calamares_viewmodule_finished_autogen/timestamp: \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/calamares_viewmodule_finished_autogen/moc_predefs.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/CMakeLists.txt \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/Config.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/Config.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedPage.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedPage.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedViewStep.cpp \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedViewStep.h \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/finished.conf \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/calamares_viewmodule_finished_autogen/moc_predefs.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/Job.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/InstanceKey.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/modulesystem/Requirement.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/NamedEnum.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/PluginFactory.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui/viewpages/ViewStep.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/CMakeLists.txt \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/Config.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/Config.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedPage.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedPage.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedViewStep.cpp \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedViewStep.h \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/finished.conf \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -501,5 +501,5 @@ calamares_viewmodule_finished_autogen/timestamp: \
 	/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
 	/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
 	/usr/share/cmake/Modules/GNUInstallDirs.cmake \
-	/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedPage.ui \
+	/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished/FinishedPage.ui \
 	/usr/bin/cmake

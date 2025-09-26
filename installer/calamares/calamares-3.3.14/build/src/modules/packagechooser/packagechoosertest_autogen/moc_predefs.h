@@ -4,7 +4,7 @@
 #define __UINT_LEAST16_MAX__ 0xffff
 #define __FLT16_HAS_QUIET_NAN__ 1
 #define __ATOMIC_ACQUIRE 2
-#define QT_TESTCASE_BUILDDIR "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooser"
+#define QT_TESTCASE_BUILDDIR "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooser"
 #define __FLT128_MAX_10_EXP__ 4932
 #define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
 #define __GCC_IEC_559_COMPLEX 2
@@ -177,7 +177,7 @@
 #define __WCHAR_WIDTH__ 32
 #define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
 #define __DEC128_EPSILON__ 1E-33DL
-#define BUILD_AS_TEST "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser"
+#define BUILD_AS_TEST "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser"
 #define __FLT16_DECIMAL_DIG__ 5
 #define __SSE2_MATH__ 1
 #define __ATOMIC_HLE_RELEASE 131072
@@ -193,7 +193,7 @@
 #define __SIZEOF_WINT_T__ 4
 #define __FLT32X_DIG__ 15
 #define __LONG_LONG_WIDTH__ 64
-#define QT_TESTCASE_SOURCEDIR "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser"
+#define QT_TESTCASE_SOURCEDIR "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser"
 #define __cpp_initializer_lists 200806L
 #define __FLT32_MAX_EXP__ 128
 #define ABI_ID "ELF"

@@ -1,7 +1,7 @@
 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
@@ -300,7 +300,7 @@
  /usr/include/qt6/QtCore/qbindingstorage.h /usr/include/c++/15.2.1/chrono \
  /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
  /usr/include/c++/15.2.1/ctime \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication_lib.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication_lib.h \
  /usr/include/qt6/QtCore/QtGlobal /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/qt6/QtCore/QCoreApplication \
  /usr/include/qt6/QtCore/qcoreapplication.h \
@@ -365,6 +365,6 @@
  /usr/include/qt6/QtCore/qvarlengtharray.h \
  /usr/include/qt6/QtCore/q23utility.h \
  /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/qtimezone.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication_localsocket_p.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication_localsocket_p.h \
  /usr/include/qt6/QtCore/QByteArray /usr/include/qt6/QtCore/qbytearray.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h

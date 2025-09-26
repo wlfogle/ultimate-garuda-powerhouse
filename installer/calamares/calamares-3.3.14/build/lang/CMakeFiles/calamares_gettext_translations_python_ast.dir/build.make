@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Utility rule file for calamares_gettext_translations_python_ast.
 
@@ -68,9 +68,9 @@ include lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/progress.m
 
 lang/CMakeFiles/calamares_gettext_translations_python_ast: lang/ast/LC_MESSAGES/calamares-python.mo
 
-lang/ast/LC_MESSAGES/calamares-python.mo: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/python/ast/LC_MESSAGES/python.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ast/LC_MESSAGES/calamares-python.mo"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/msgfmt -o /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/ast/LC_MESSAGES/calamares-python.mo /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/python/ast/LC_MESSAGES/python.po
+lang/ast/LC_MESSAGES/calamares-python.mo: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/python/ast/LC_MESSAGES/python.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ast/LC_MESSAGES/calamares-python.mo"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && /usr/bin/msgfmt -o /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/ast/LC_MESSAGES/calamares-python.mo /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang/python/ast/LC_MESSAGES/python.po
 
 lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/codegen:
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/codegen
@@ -85,10 +85,10 @@ lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/build: calamares_g
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/build
 
 lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares_gettext_translations_python_ast.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares_gettext_translations_python_ast.dir/cmake_clean.cmake
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/clean
 
 lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/depend
 

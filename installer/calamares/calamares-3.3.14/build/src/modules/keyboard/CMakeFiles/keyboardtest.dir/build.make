@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/modules/keyboard/CMakeFiles/keyboardtest.dir/depend.make
@@ -71,19 +71,19 @@ include src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
 
 src/modules/keyboard/keyboardtest_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/keyboard/keyboardtest_autogen/timestamp: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target keyboardtest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/CMakeFiles/keyboardtest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target keyboardtest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/CMakeFiles/keyboardtest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/timestamp
 
-src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/keyboard.qrc
+src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/keyboard.qrc
 src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: src/modules/keyboard/CMakeFiles/keyboardtest_autogen.dir/AutoRcc_keyboard_EWIEGA46WW_Info.json
-src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/non-ascii-layouts
-src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/kbd-model-map
-src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/images/restore.png
+src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/non-ascii-layouts
+src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/kbd-model-map
+src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/images/restore.png
 src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /usr/lib/qt6/rcc
 src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /usr/lib/qt6/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for keyboard.qrc"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autorcc /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/CMakeFiles/keyboardtest_autogen.dir/AutoRcc_keyboard_EWIEGA46WW_Info.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for keyboard.qrc"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autorcc /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/CMakeFiles/keyboardtest_autogen.dir/AutoRcc_keyboard_EWIEGA46WW_Info.json Release
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/codegen:
 .PHONY : src/modules/keyboard/CMakeFiles/keyboardtest.dir/codegen
@@ -91,58 +91,58 @@ src/modules/keyboard/CMakeFiles/keyboardtest.dir/codegen:
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o: src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
-src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp
+src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o -MF CMakeFiles/keyboardtest.dir/Tests.cpp.o.d -o CMakeFiles/keyboardtest.dir/Tests.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o -MF CMakeFiles/keyboardtest.dir/Tests.cpp.o.d -o CMakeFiles/keyboardtest.dir/Tests.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/Tests.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp > CMakeFiles/keyboardtest.dir/Tests.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp > CMakeFiles/keyboardtest.dir/Tests.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/Tests.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp -o CMakeFiles/keyboardtest.dir/Tests.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/Tests.cpp -o CMakeFiles/keyboardtest.dir/Tests.cpp.s
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
-src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp
+src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -MF CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o.d -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -MF CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o.d -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp > CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp > CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard/SetKeyboardLayoutJob.cpp -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o: src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s
 
 # Object files for target keyboardtest
 keyboardtest_OBJECTS = \
@@ -167,19 +167,19 @@ keyboardtest: /usr/lib/libQt6Network.so.6.9.2
 keyboardtest: /usr/lib/libKF6CoreAddons.so.6.18.0
 keyboardtest: /usr/lib/libQt6Core.so.6.9.2
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../keyboardtest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/keyboardtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../keyboardtest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/keyboardtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/build: keyboardtest
 .PHONY : src/modules/keyboard/CMakeFiles/keyboardtest.dir/build
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && $(CMAKE_COMMAND) -P CMakeFiles/keyboardtest.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard && $(CMAKE_COMMAND) -P CMakeFiles/keyboardtest.dir/cmake_clean.cmake
 .PHONY : src/modules/keyboard/CMakeFiles/keyboardtest.dir/clean
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/depend: src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/depend: src/modules/keyboard/keyboardtest_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/CMakeFiles/keyboardtest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/keyboard /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/keyboard/CMakeFiles/keyboardtest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/keyboard/CMakeFiles/keyboardtest.dir/depend
 

@@ -1,8 +1,8 @@
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h \
  /usr/include/kpmcore/core/partition.h \
  /usr/include/kpmcore/core/partitionnode.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
@@ -358,7 +358,7 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVo
  /usr/include/qt6/QtGui/qfontvariableaxis.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
  /usr/include/qt6/QtWidgets/QListWidgetItem \
  /usr/include/qt6/QtWidgets/qlistwidget.h \
  /usr/include/qt6/QtWidgets/qlistview.h \

@@ -1,5 +1,5 @@
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/TAC5DWH4SE/moc_DeviceModel.cpp: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceModel.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h \
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/TAC5DWH4SE/moc_DeviceModel.cpp: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceModel.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

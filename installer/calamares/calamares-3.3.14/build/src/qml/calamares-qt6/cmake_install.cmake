@@ -1,4 +1,4 @@
-# Install script for directory: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/qml/calamares-qt6
+# Install script for directory: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/qml/calamares-qt6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,40 +43,40 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/BackButton.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/BackButton.qml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/ForwardButton.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/ForwardButton.qml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/NavButton.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/NavButton.qml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/Presentation.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/Presentation.qml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/Slide.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/Slide.qml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/SlideCounter.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/SlideCounter.qml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/qmldir")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/qmldir")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "CALAMARES" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/qmldir.license")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/slideshow/qmldir.license")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/install_local_manifest.txt"
+  file(WRITE "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/qml/calamares-qt6/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

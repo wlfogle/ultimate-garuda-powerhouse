@@ -62,7 +62,7 @@ EOF
 }
 
 check_dependencies() {
-    local deps=("archiso" "git" "sudo")
+    local deps=("mkarchiso" "git" "sudo")
     local missing=()
 
     for dep in "${deps[@]}"; do

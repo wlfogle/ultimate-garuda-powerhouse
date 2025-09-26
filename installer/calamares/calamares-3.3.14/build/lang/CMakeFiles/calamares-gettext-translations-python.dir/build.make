@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Utility rule file for calamares-gettext-translations-python.
 
@@ -77,10 +77,10 @@ lang/CMakeFiles/calamares-gettext-translations-python.dir/build: calamares-gette
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/build
 
 lang/CMakeFiles/calamares-gettext-translations-python.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-gettext-translations-python.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-gettext-translations-python.dir/cmake_clean.cmake
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/clean
 
 lang/CMakeFiles/calamares-gettext-translations-python.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/CMakeFiles/calamares-gettext-translations-python.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/lang /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/CMakeFiles/calamares-gettext-translations-python.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/depend
 

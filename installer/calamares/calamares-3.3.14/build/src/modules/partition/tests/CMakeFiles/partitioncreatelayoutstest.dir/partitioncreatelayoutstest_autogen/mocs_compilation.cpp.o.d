@@ -1,8 +1,8 @@
 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/mocs_compilation.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/moc_DeviceModel.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/../../../../../../../src/modules/partition/core/DeviceModel.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/moc_DeviceModel.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/../../../../../../../src/modules/partition/core/DeviceModel.h \
  /usr/include/qt6/QtCore/QAbstractListModel \
  /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtCore/qcompare.h /usr/include/qt6/QtCore/qglobal.h \
@@ -329,9 +329,9 @@ src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitionc
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \
  /usr/include/qt6/QtCore/q23type_traits.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/moc_CreateLayoutsTests.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/../../../../../../../src/modules/partition/tests/CreateLayoutsTests.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/partition/KPMHelper.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/moc_CreateLayoutsTests.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/../../../../../../../src/modules/partition/tests/CreateLayoutsTests.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/partition/KPMHelper.h \
  /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/kpmcore/backend/corebackend.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \

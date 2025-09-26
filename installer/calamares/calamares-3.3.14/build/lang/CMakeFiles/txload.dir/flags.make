@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_DISABLE_DEPRECATED_BEFORE=0x060400 -DQT_NO_DEBUG -DQT_XML_LIB
 
-CXX_INCLUDES = -I/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares -isystem /usr/include/qt6/QtXml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++
+CXX_INCLUDES = -I/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares -isystem /usr/include/qt6/QtXml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++
 
 CXX_FLAGS =  -Wall -Werror=return-type -Wnon-virtual-dtor -Woverloaded-virtual -fdiagnostics-color=auto -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access
 

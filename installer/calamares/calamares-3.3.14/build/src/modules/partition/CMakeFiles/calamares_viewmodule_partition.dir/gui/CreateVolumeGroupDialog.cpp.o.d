@@ -1,8 +1,8 @@
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreateVolumeGroupDialog.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h \
  /usr/include/kpmcore/core/partition.h \
  /usr/include/kpmcore/core/partitionnode.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \

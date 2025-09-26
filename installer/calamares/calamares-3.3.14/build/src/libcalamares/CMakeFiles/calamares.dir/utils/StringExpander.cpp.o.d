@@ -1,8 +1,8 @@
 src/libcalamares/CMakeFiles/calamares.dir/utils/StringExpander.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/StringExpander.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/StringExpander.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/StringExpander.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/StringExpander.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/DllMacro.h \
  /usr/include/KF6/KCoreAddons/KMacroExpander \
  /usr/include/KF6/KCoreAddons/kmacroexpander.h \
  /usr/include/qt6/QtCore/QChar /usr/include/qt6/QtCore/qchar.h \
@@ -285,7 +285,7 @@ src/libcalamares/CMakeFiles/calamares.dir/utils/StringExpander.cpp.o: \
  /usr/include/KF6/KCoreAddons/kcoreaddons_export.h \
  /usr/include/KF6/KCoreAddons/kcoreaddons_version.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares/utils/Logger.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
  /usr/include/qt6/QtCore/qfloat16.h /usr/include/qt6/QtCore/qmath.h \
  /usr/include/qt6/QtCore/qtformat_impl.h \

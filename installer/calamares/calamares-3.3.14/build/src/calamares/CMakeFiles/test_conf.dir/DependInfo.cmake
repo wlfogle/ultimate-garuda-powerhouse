@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o" "gcc" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o.d"
+  "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/calamares/test_conf.cpp" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o" "gcc" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o.d"
   "" "test_conf" "gcc" "src/calamares/CMakeFiles/test_conf.dir/link.d"
   )
 

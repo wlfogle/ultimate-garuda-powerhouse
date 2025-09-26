@@ -1,7 +1,7 @@
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h \
  /usr/include/kpmcore/core/partition.h \
  /usr/include/kpmcore/core/partitionnode.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
@@ -357,7 +357,7 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGr
  /usr/include/qt6/QtGui/qfontvariableaxis.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_VolumeGroupBaseDialog.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_VolumeGroupBaseDialog.h \
  /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
  /usr/include/qt6/QtWidgets/QAbstractButton \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
@@ -414,9 +414,9 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGr
  /usr/include/qt6/QtCore/qitemselectionmodel.h \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/SizeUtils.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/SizeUtils.h \
  /usr/include/kpmcore/util/capacity.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
  /usr/include/qt6/QtWidgets/QListWidgetItem \
  /usr/include/qt6/QtWidgets/QComboBox \
  /usr/include/qt6/QtWidgets/QDialogButtonBox \

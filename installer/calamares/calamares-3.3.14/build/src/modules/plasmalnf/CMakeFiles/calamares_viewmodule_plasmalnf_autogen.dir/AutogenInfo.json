@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen",
-	"CMAKE_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf",
+	"BUILD_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen",
+	"CMAKE_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/CMakeLists.txt",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/CMakeLists.txt",
 		"/usr/share/ECM/find-modules/FindKF6.cmake",
 		"/usr/share/ECM/find-modules/ECMFindModuleHelpersStub.cmake",
 		"/usr/share/ECM/modules/ECMFindModuleHelpers.cmake",
@@ -117,6 +117,11 @@
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
 		"/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 		"/usr/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake",
+		"/usr/share/cmake/Modules/FindVulkan.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake",
 		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake",
 		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake",
@@ -152,6 +157,11 @@
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
 		"/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 		"/usr/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake",
+		"/usr/share/cmake/Modules/FindVulkan.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake",
 		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake",
 		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake",
@@ -191,48 +201,49 @@
 		"/usr/lib/cmake/KF6WindowSystem/KF6WindowSystemTargets-noconfig.cmake",
 		"/usr/lib/cmake/Plasma/PlasmaMacros.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/page_plasmalnf.qrc"
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/plasmalnf.conf",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/page_plasmalnf.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+	"CMAKE_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/deps",
+	"DEP_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "calamares_viewmodule_plasmalnf_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/Config.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/Config.h",
 			"MU",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.h",
 			"MU",
 			"EWIEGA46WW/moc_PlasmaLnfJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfPage.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfPage.h",
 			"MU",
 			"EWIEGA46WW/moc_PlasmaLnfPage.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfViewStep.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfViewStep.h",
 			"MU",
 			"EWIEGA46WW/moc_PlasmaLnfViewStep.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/ThemeInfo.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/ThemeInfo.h",
 			"MU",
 			"EWIEGA46WW/moc_ThemeInfo.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -267,11 +278,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -326,41 +337,41 @@
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 24,
-	"PARSE_CACHE_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/Config.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/Config.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfPage.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfPage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfViewStep.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/PlasmaLnfViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/ThemeInfo.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/plasmalnf/ThemeInfo.cpp",
 			"MU",
 			null
 		]

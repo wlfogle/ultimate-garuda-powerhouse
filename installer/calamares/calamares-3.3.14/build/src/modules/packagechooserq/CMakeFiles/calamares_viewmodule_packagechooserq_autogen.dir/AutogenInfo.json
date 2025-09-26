@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen",
-	"CMAKE_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq",
+	"BUILD_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen",
+	"CMAKE_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/CMakeLists.txt",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/CMakeLists.txt",
 		"/usr/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/usr/lib/cmake/Qt6/Qt6Config.cmake",
@@ -50,38 +50,39 @@
 		"/usr/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
 		"/usr/lib/cmake/Qt6/Qt6Dependencies.cmake",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/AppStreamHelper.cmake",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/AppStreamHelper.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/packagechooserq-qt6.qrc"
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/packagechooserq.conf",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/packagechooserq-qt6.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+	"CMAKE_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/deps",
+	"DEP_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "calamares_viewmodule_packagechooserq_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/Config.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/Config.h",
 			"Mu",
 			"LUPZNNIJFZ/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/PackageModel.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/PackageModel.h",
 			"Mu",
 			"LUPZNNIJFZ/moc_PackageModel.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/PackageChooserQmlViewStep.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/PackageChooserQmlViewStep.h",
 			"Mu",
 			"EWIEGA46WW/moc_PackageChooserQmlViewStep.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -115,12 +116,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -171,31 +172,31 @@
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 24,
-	"PARSE_CACHE_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/Config.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/Config.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/PackageModel.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooser/PackageModel.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/PackageChooserQmlViewStep.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/packagechooserq/PackageChooserQmlViewStep.cpp",
 			"Mu",
 			null
 		]

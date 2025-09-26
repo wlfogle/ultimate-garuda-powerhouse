@@ -1,8 +1,8 @@
 src/libcalamares/CMakeFiles/libcalamaresgeoiptest.dir/libcalamaresgeoiptest_autogen/mocs_compilation.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamaresgeoiptest_autogen/mocs_compilation.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamaresgeoiptest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamaresgeoiptest_autogen/2MUU667QPT/moc_GeoIPTests.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamaresgeoiptest_autogen/2MUU667QPT/../../../../../src/libcalamares/geoip/GeoIPTests.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamaresgeoiptest_autogen/2MUU667QPT/moc_GeoIPTests.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares/libcalamaresgeoiptest_autogen/2MUU667QPT/../../../../../src/libcalamares/geoip/GeoIPTests.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \

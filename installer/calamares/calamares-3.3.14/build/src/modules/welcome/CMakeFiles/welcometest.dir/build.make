@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/modules/welcome/CMakeFiles/welcometest.dir/depend.make
@@ -71,9 +71,9 @@ include src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 
 src/modules/welcome/welcometest_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/welcome/welcometest_autogen/timestamp: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target welcometest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/CMakeFiles/welcometest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target welcometest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/CMakeFiles/welcometest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/timestamp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/codegen:
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/codegen
@@ -81,72 +81,72 @@ src/modules/welcome/CMakeFiles/welcometest.dir/codegen:
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o: src/modules/welcome/welcometest_autogen/mocs_compilation.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp > CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp > CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
-src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp
+src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -MF CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o.d -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -MF CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o.d -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp > CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp > CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/GeneralRequirements.cpp -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
-src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c
+src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o -MF CMakeFiles/welcometest.dir/checker/partman_devices.c.o.d -o CMakeFiles/welcometest.dir/checker/partman_devices.c.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o -MF CMakeFiles/welcometest.dir/checker/partman_devices.c.o.d -o CMakeFiles/welcometest.dir/checker/partman_devices.c.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/welcometest.dir/checker/partman_devices.c.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c > CMakeFiles/welcometest.dir/checker/partman_devices.c.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c > CMakeFiles/welcometest.dir/checker/partman_devices.c.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/welcometest.dir/checker/partman_devices.c.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c -o CMakeFiles/welcometest.dir/checker/partman_devices.c.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/checker/partman_devices.c -o CMakeFiles/welcometest.dir/checker/partman_devices.c.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
-src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp
+src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o -MF CMakeFiles/welcometest.dir/Config.cpp.o.d -o CMakeFiles/welcometest.dir/Config.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o -MF CMakeFiles/welcometest.dir/Config.cpp.o.d -o CMakeFiles/welcometest.dir/Config.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/Config.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp > CMakeFiles/welcometest.dir/Config.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp > CMakeFiles/welcometest.dir/Config.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/Config.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp -o CMakeFiles/welcometest.dir/Config.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Config.cpp -o CMakeFiles/welcometest.dir/Config.cpp.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
-src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp
+src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o -MF CMakeFiles/welcometest.dir/Tests.cpp.o.d -o CMakeFiles/welcometest.dir/Tests.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o -MF CMakeFiles/welcometest.dir/Tests.cpp.o.d -o CMakeFiles/welcometest.dir/Tests.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/Tests.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp > CMakeFiles/welcometest.dir/Tests.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp > CMakeFiles/welcometest.dir/Tests.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/Tests.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp -o CMakeFiles/welcometest.dir/Tests.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome/Tests.cpp -o CMakeFiles/welcometest.dir/Tests.cpp.s
 
 # Object files for target welcometest
 welcometest_OBJECTS = \
@@ -188,18 +188,18 @@ welcometest: /usr/lib/libGLX.so
 welcometest: /usr/lib/libOpenGL.so
 welcometest: /usr/lib/libQt6Core.so.6.9.2
 welcometest: src/modules/welcome/CMakeFiles/welcometest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../welcometest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/welcometest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../welcometest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/welcometest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/welcome/CMakeFiles/welcometest.dir/build: welcometest
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/build
 
 src/modules/welcome/CMakeFiles/welcometest.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && $(CMAKE_COMMAND) -P CMakeFiles/welcometest.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome && $(CMAKE_COMMAND) -P CMakeFiles/welcometest.dir/cmake_clean.cmake
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/clean
 
 src/modules/welcome/CMakeFiles/welcometest.dir/depend: src/modules/welcome/welcometest_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/CMakeFiles/welcometest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/welcome /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/welcome/CMakeFiles/welcometest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/depend
 

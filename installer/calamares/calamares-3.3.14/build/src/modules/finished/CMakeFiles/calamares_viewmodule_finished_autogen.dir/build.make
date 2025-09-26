@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Utility rule file for calamares_viewmodule_finished_autogen.
 
@@ -71,9 +71,9 @@ src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen: src/modul
 src/modules/finished/calamares_viewmodule_finished_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/finished/calamares_viewmodule_finished_autogen/timestamp: /usr/lib/qt6/uic
 src/modules/finished/calamares_viewmodule_finished_autogen/timestamp: src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calamares_viewmodule_finished"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/calamares_viewmodule_finished_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calamares_viewmodule_finished"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/calamares_viewmodule_finished_autogen/timestamp
 
 src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/codegen:
 .PHONY : src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/codegen
@@ -88,10 +88,10 @@ src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/build:
 .PHONY : src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/build
 
 src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_finished_autogen.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_finished_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/clean
 
 src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/finished /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/finished/CMakeFiles/calamares_viewmodule_finished_autogen.dir/depend
 

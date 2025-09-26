@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Utility rule file for calamares_job_removeuser_autogen.
 
@@ -70,9 +70,9 @@ src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen: src/modules/
 
 src/modules/removeuser/calamares_job_removeuser_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/removeuser/calamares_job_removeuser_autogen/timestamp: src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target calamares_job_removeuser"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser/calamares_job_removeuser_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target calamares_job_removeuser"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser/calamares_job_removeuser_autogen/timestamp
 
 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/codegen:
 .PHONY : src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/codegen
@@ -87,10 +87,10 @@ src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/build: ca
 .PHONY : src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/build
 
 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_removeuser_autogen.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_removeuser_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/clean
 
 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/removeuser /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/removeuser /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/depend
 

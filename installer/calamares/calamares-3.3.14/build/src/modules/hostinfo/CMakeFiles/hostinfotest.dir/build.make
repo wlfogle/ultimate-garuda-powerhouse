@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/modules/hostinfo/CMakeFiles/hostinfotest.dir/depend.make
@@ -71,9 +71,9 @@ include src/modules/hostinfo/CMakeFiles/hostinfotest.dir/flags.make
 
 src/modules/hostinfo/hostinfotest_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/hostinfo/hostinfotest_autogen/timestamp: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target hostinfotest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/CMakeFiles/hostinfotest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target hostinfotest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/CMakeFiles/hostinfotest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/timestamp
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/codegen:
 .PHONY : src/modules/hostinfo/CMakeFiles/hostinfotest.dir/codegen
@@ -81,44 +81,44 @@ src/modules/hostinfo/CMakeFiles/hostinfotest.dir/codegen:
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/flags.make
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o: src/modules/hostinfo/hostinfotest_autogen/mocs_compilation.cpp
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/mocs_compilation.cpp
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/mocs_compilation.cpp > CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/mocs_compilation.cpp > CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.i
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/mocs_compilation.cpp -o CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/hostinfotest_autogen/mocs_compilation.cpp -o CMakeFiles/hostinfotest.dir/hostinfotest_autogen/mocs_compilation.cpp.s
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/flags.make
-src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp
+src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o -MF CMakeFiles/hostinfotest.dir/Tests.cpp.o.d -o CMakeFiles/hostinfotest.dir/Tests.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o -MF CMakeFiles/hostinfotest.dir/Tests.cpp.o.d -o CMakeFiles/hostinfotest.dir/Tests.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hostinfotest.dir/Tests.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp > CMakeFiles/hostinfotest.dir/Tests.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp > CMakeFiles/hostinfotest.dir/Tests.cpp.i
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hostinfotest.dir/Tests.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp -o CMakeFiles/hostinfotest.dir/Tests.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/Tests.cpp -o CMakeFiles/hostinfotest.dir/Tests.cpp.s
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/flags.make
-src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp
+src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o -MF CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o.d -o CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o -MF CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o.d -o CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp > CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp > CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.i
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp -o CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo/HostInfoJob.cpp -o CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.s
 
 # Object files for target hostinfotest
 hostinfotest_OBJECTS = \
@@ -141,18 +141,18 @@ hostinfotest: /usr/lib/libQt6Network.so.6.9.2
 hostinfotest: /usr/lib/libKF6CoreAddons.so.6.18.0
 hostinfotest: /usr/lib/libQt6Core.so.6.9.2
 hostinfotest: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../../hostinfotest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hostinfotest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../../hostinfotest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hostinfotest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/build: hostinfotest
 .PHONY : src/modules/hostinfo/CMakeFiles/hostinfotest.dir/build
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && $(CMAKE_COMMAND) -P CMakeFiles/hostinfotest.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo && $(CMAKE_COMMAND) -P CMakeFiles/hostinfotest.dir/cmake_clean.cmake
 .PHONY : src/modules/hostinfo/CMakeFiles/hostinfotest.dir/clean
 
 src/modules/hostinfo/CMakeFiles/hostinfotest.dir/depend: src/modules/hostinfo/hostinfotest_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/CMakeFiles/hostinfotest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/hostinfo /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/hostinfo/CMakeFiles/hostinfotest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/hostinfo/CMakeFiles/hostinfotest.dir/depend
 

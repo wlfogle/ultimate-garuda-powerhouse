@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/ca
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summary//CMakeFiles/progress.marks
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/summary//CMakeFiles/progress.marks
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/clean
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/rule
 .PHONY : src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_summary: src/modules/summary/CMakeFiles/calamares_viewmodul
 
 # fast build rule for target.
 calamares_viewmodule_summary/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build
 .PHONY : calamares_viewmodule_summary/fast
 
 # Convenience name for target.
 src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/rule
 .PHONY : src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ calamares_viewmodule_summary_autogen_timestamp_deps: src/modules/summary/CMakeFi
 
 # fast build rule for target.
 calamares_viewmodule_summary_autogen_timestamp_deps/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen_timestamp_deps.dir/build
 .PHONY : calamares_viewmodule_summary_autogen_timestamp_deps/fast
 
 # Convenience name for target.
 src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/rule
 .PHONY : src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,7 +230,7 @@ calamares_viewmodule_summary_autogen: src/modules/summary/CMakeFiles/calamares_v
 
 # fast build rule for target.
 calamares_viewmodule_summary_autogen/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary_autogen.dir/build
 .PHONY : calamares_viewmodule_summary_autogen/fast
 
 Config.o: Config.cpp.o
@@ -238,7 +238,7 @@ Config.o: Config.cpp.o
 
 # target to build an object file
 Config.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/Config.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/Config.cpp.o
 .PHONY : Config.cpp.o
 
 Config.i: Config.cpp.i
@@ -246,7 +246,7 @@ Config.i: Config.cpp.i
 
 # target to preprocess a source file
 Config.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/Config.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/Config.cpp.i
 .PHONY : Config.cpp.i
 
 Config.s: Config.cpp.s
@@ -254,7 +254,7 @@ Config.s: Config.cpp.s
 
 # target to generate assembly for a file
 Config.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/Config.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
 SummaryModel.o: SummaryModel.cpp.o
@@ -262,7 +262,7 @@ SummaryModel.o: SummaryModel.cpp.o
 
 # target to build an object file
 SummaryModel.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryModel.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryModel.cpp.o
 .PHONY : SummaryModel.cpp.o
 
 SummaryModel.i: SummaryModel.cpp.i
@@ -270,7 +270,7 @@ SummaryModel.i: SummaryModel.cpp.i
 
 # target to preprocess a source file
 SummaryModel.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryModel.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryModel.cpp.i
 .PHONY : SummaryModel.cpp.i
 
 SummaryModel.s: SummaryModel.cpp.s
@@ -278,7 +278,7 @@ SummaryModel.s: SummaryModel.cpp.s
 
 # target to generate assembly for a file
 SummaryModel.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryModel.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryModel.cpp.s
 .PHONY : SummaryModel.cpp.s
 
 SummaryPage.o: SummaryPage.cpp.o
@@ -286,7 +286,7 @@ SummaryPage.o: SummaryPage.cpp.o
 
 # target to build an object file
 SummaryPage.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryPage.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryPage.cpp.o
 .PHONY : SummaryPage.cpp.o
 
 SummaryPage.i: SummaryPage.cpp.i
@@ -294,7 +294,7 @@ SummaryPage.i: SummaryPage.cpp.i
 
 # target to preprocess a source file
 SummaryPage.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryPage.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryPage.cpp.i
 .PHONY : SummaryPage.cpp.i
 
 SummaryPage.s: SummaryPage.cpp.s
@@ -302,7 +302,7 @@ SummaryPage.s: SummaryPage.cpp.s
 
 # target to generate assembly for a file
 SummaryPage.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryPage.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryPage.cpp.s
 .PHONY : SummaryPage.cpp.s
 
 SummaryViewStep.o: SummaryViewStep.cpp.o
@@ -310,7 +310,7 @@ SummaryViewStep.o: SummaryViewStep.cpp.o
 
 # target to build an object file
 SummaryViewStep.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryViewStep.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryViewStep.cpp.o
 .PHONY : SummaryViewStep.cpp.o
 
 SummaryViewStep.i: SummaryViewStep.cpp.i
@@ -318,7 +318,7 @@ SummaryViewStep.i: SummaryViewStep.cpp.i
 
 # target to preprocess a source file
 SummaryViewStep.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryViewStep.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryViewStep.cpp.i
 .PHONY : SummaryViewStep.cpp.i
 
 SummaryViewStep.s: SummaryViewStep.cpp.s
@@ -326,7 +326,7 @@ SummaryViewStep.s: SummaryViewStep.cpp.s
 
 # target to generate assembly for a file
 SummaryViewStep.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryViewStep.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/SummaryViewStep.cpp.s
 .PHONY : SummaryViewStep.cpp.s
 
 calamares_viewmodule_summary_autogen/mocs_compilation.o: calamares_viewmodule_summary_autogen/mocs_compilation.cpp.o
@@ -334,7 +334,7 @@ calamares_viewmodule_summary_autogen/mocs_compilation.o: calamares_viewmodule_su
 
 # target to build an object file
 calamares_viewmodule_summary_autogen/mocs_compilation.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/calamares_viewmodule_summary_autogen/mocs_compilation.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/calamares_viewmodule_summary_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_summary_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_summary_autogen/mocs_compilation.i: calamares_viewmodule_summary_autogen/mocs_compilation.cpp.i
@@ -342,7 +342,7 @@ calamares_viewmodule_summary_autogen/mocs_compilation.i: calamares_viewmodule_su
 
 # target to preprocess a source file
 calamares_viewmodule_summary_autogen/mocs_compilation.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/calamares_viewmodule_summary_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/calamares_viewmodule_summary_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_summary_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_summary_autogen/mocs_compilation.s: calamares_viewmodule_summary_autogen/mocs_compilation.cpp.s
@@ -350,7 +350,7 @@ calamares_viewmodule_summary_autogen/mocs_compilation.s: calamares_viewmodule_su
 
 # target to generate assembly for a file
 calamares_viewmodule_summary_autogen/mocs_compilation.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/calamares_viewmodule_summary_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/build.make src/modules/summary/CMakeFiles/calamares_viewmodule_summary.dir/calamares_viewmodule_summary_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_summary_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -397,6 +397,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

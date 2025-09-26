@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx" "lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o" "gcc" "lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o.d"
+  "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/lang/qrc_calamares-i18n.cxx" "lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o" "gcc" "lang/CMakeFiles/calamares-i18n.dir/qrc_calamares-i18n.cxx.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

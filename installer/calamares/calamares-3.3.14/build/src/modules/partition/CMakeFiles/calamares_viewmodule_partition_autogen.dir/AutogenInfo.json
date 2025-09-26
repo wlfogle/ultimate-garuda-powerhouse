@@ -1,313 +1,314 @@
 {
-	"BUILD_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen",
-	"CMAKE_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition",
+	"BUILD_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen",
+	"CMAKE_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/CMakeLists.txt",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/KPMcoreHelper.cmake",
-		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/CMakeLists.txt",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/CMakeModules/KPMcoreHelper.cmake",
+		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/partition.conf"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+	"CMAKE_SOURCE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/deps",
+	"DEP_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "calamares_viewmodule_partition_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/Config.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/Config.h",
 			"MU",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/PartitionViewStep.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/PartitionViewStep.h",
 			"MU",
 			"EWIEGA46WW/moc_PartitionViewStep.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/BootLoaderModel.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/BootLoaderModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_BootLoaderModel.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/ColorUtils.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/ColorUtils.h",
 			"MU",
 			"TAC5DWH4SE/moc_ColorUtils.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceList.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceList.h",
 			"MU",
 			"TAC5DWH4SE/moc_DeviceList.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceModel.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_DeviceModel.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DirFSRestrictLayout.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DirFSRestrictLayout.h",
 			"MU",
 			"TAC5DWH4SE/moc_DirFSRestrictLayout.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/KPMHelpers.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/KPMHelpers.h",
 			"MU",
 			"TAC5DWH4SE/moc_KPMHelpers.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/OsproberEntry.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/OsproberEntry.h",
 			"MU",
 			"TAC5DWH4SE/moc_OsproberEntry.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartUtils.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartUtils.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartUtils.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionActions.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionActions.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionActions.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionCoreModule.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionCoreModule.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionCoreModule.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionInfo.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionInfo.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionInfo.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionLayout.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionLayout.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionLayout.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionModel.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionModel.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/BootInfoWidget.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/BootInfoWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_BootInfoWidget.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ChoicePage.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ChoicePage.h",
 			"MU",
 			"DMHXEJ42XS/moc_ChoicePage.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreatePartitionDialog.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreatePartitionDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_CreatePartitionDialog.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_CreateVolumeGroupDialog.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/DeviceInfoWidget.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/DeviceInfoWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_DeviceInfoWidget.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EditExistingPartitionDialog.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EditExistingPartitionDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_EditExistingPartitionDialog.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EncryptWidget.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EncryptWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_EncryptWidget.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h",
 			"MU",
 			"DMHXEJ42XS/moc_ListPhysicalVolumeWidgetItem.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionBarsView.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionBarsView.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionBarsView.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionDialogHelpers.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionDialogHelpers.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionDialogHelpers.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionLabelsView.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionLabelsView.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionLabelsView.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionPage.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionPage.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionPage.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSizeController.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSizeController.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionSizeController.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSplitterWidget.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSplitterWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionSplitterWidget.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_ResizeVolumeGroupDialog.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ScanningDialog.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ScanningDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_ScanningDialog.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_VolumeGroupBaseDialog.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_AutoMountManagementJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ChangeFilesystemLabelJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ChangeFilesystemLabelJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ChangeFilesystemLabelJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearMountsJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearMountsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ClearMountsJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearTempMountsJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearTempMountsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ClearTempMountsJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreatePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionTableJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionTableJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreatePartitionTableJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreateVolumeGroupJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreateVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreateVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeactivateVolumeGroupJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeactivateVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_DeactivateVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeletePartitionJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeletePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_DeletePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FillGlobalStorageJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FillGlobalStorageJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_FillGlobalStorageJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FormatPartitionJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FormatPartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_FormatPartitionJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/PartitionJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/PartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_PartitionJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/RemoveVolumeGroupJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/RemoveVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_RemoveVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizePartitionJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ResizePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizeVolumeGroupJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizeVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ResizeVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/SetPartitionFlagsJob.h",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/SetPartitionFlagsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_SetPartitionFlagsJob.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -343,13 +344,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition",
-		"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamares",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/libcalamaresui",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/libcalamaresui",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition",
+		"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -404,256 +405,256 @@
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 24,
-	"PARSE_CACHE_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/Config.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/Config.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/PartitionViewStep.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/PartitionViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/BootLoaderModel.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/BootLoaderModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/ColorUtils.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/ColorUtils.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceList.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceList.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceModel.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DeviceModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DirFSRestrictLayout.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/DirFSRestrictLayout.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/KPMHelpers.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/KPMHelpers.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/OsproberEntry.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/OsproberEntry.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartUtils.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartUtils.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionActions.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionActions.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionCoreModule.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionCoreModule.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionInfo.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionInfo.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionLayout.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionLayout.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionModel.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/core/PartitionModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/BootInfoWidget.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/BootInfoWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ChoicePage.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ChoicePage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreatePartitionDialog.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreatePartitionDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/CreateVolumeGroupDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/DeviceInfoWidget.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/DeviceInfoWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EditExistingPartitionDialog.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EditExistingPartitionDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EncryptWidget.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/EncryptWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionBarsView.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionBarsView.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionDialogHelpers.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionDialogHelpers.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionLabelsView.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionLabelsView.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionPage.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionPage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSizeController.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSizeController.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSplitterWidget.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/PartitionSplitterWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ScanningDialog.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/ScanningDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/gui/VolumeGroupBaseDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearMountsJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearMountsJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearTempMountsJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ClearTempMountsJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionTableJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreatePartitionTableJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreateVolumeGroupJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/CreateVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeactivateVolumeGroupJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeactivateVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeletePartitionJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/DeletePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FillGlobalStorageJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FillGlobalStorageJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FormatPartitionJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/FormatPartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/PartitionJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/PartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/RemoveVolumeGroupJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/RemoveVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizePartitionJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizeVolumeGroupJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/ResizeVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/SetPartitionFlagsJob.cpp",
+			"/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/SetPartitionFlagsJob.cpp",
 			"MU",
 			null
 		]

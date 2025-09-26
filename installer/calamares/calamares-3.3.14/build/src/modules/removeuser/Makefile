@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/ca
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser//CMakeFiles/progress.marks
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/removeuser//CMakeFiles/progress.marks
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/clean
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/rule
 .PHONY : src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_job_removeuser: src/modules/removeuser/CMakeFiles/calamares_job_remove
 
 # fast build rule for target.
 calamares_job_removeuser/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build
 .PHONY : calamares_job_removeuser/fast
 
 # Convenience name for target.
 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/rule
 .PHONY : src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ calamares_job_removeuser_autogen_timestamp_deps: src/modules/removeuser/CMakeFil
 
 # fast build rule for target.
 calamares_job_removeuser_autogen_timestamp_deps/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen_timestamp_deps.dir/build
 .PHONY : calamares_job_removeuser_autogen_timestamp_deps/fast
 
 # Convenience name for target.
 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/rule
 .PHONY : src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,7 +230,7 @@ calamares_job_removeuser_autogen: src/modules/removeuser/CMakeFiles/calamares_jo
 
 # fast build rule for target.
 calamares_job_removeuser_autogen/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser_autogen.dir/build
 .PHONY : calamares_job_removeuser_autogen/fast
 
 RemoveUserJob.o: RemoveUserJob.cpp.o
@@ -238,7 +238,7 @@ RemoveUserJob.o: RemoveUserJob.cpp.o
 
 # target to build an object file
 RemoveUserJob.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/RemoveUserJob.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/RemoveUserJob.cpp.o
 .PHONY : RemoveUserJob.cpp.o
 
 RemoveUserJob.i: RemoveUserJob.cpp.i
@@ -246,7 +246,7 @@ RemoveUserJob.i: RemoveUserJob.cpp.i
 
 # target to preprocess a source file
 RemoveUserJob.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/RemoveUserJob.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/RemoveUserJob.cpp.i
 .PHONY : RemoveUserJob.cpp.i
 
 RemoveUserJob.s: RemoveUserJob.cpp.s
@@ -254,7 +254,7 @@ RemoveUserJob.s: RemoveUserJob.cpp.s
 
 # target to generate assembly for a file
 RemoveUserJob.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/RemoveUserJob.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/RemoveUserJob.cpp.s
 .PHONY : RemoveUserJob.cpp.s
 
 calamares_job_removeuser_autogen/mocs_compilation.o: calamares_job_removeuser_autogen/mocs_compilation.cpp.o
@@ -262,7 +262,7 @@ calamares_job_removeuser_autogen/mocs_compilation.o: calamares_job_removeuser_au
 
 # target to build an object file
 calamares_job_removeuser_autogen/mocs_compilation.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/calamares_job_removeuser_autogen/mocs_compilation.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/calamares_job_removeuser_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_job_removeuser_autogen/mocs_compilation.cpp.o
 
 calamares_job_removeuser_autogen/mocs_compilation.i: calamares_job_removeuser_autogen/mocs_compilation.cpp.i
@@ -270,7 +270,7 @@ calamares_job_removeuser_autogen/mocs_compilation.i: calamares_job_removeuser_au
 
 # target to preprocess a source file
 calamares_job_removeuser_autogen/mocs_compilation.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/calamares_job_removeuser_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/calamares_job_removeuser_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_job_removeuser_autogen/mocs_compilation.cpp.i
 
 calamares_job_removeuser_autogen/mocs_compilation.s: calamares_job_removeuser_autogen/mocs_compilation.cpp.s
@@ -278,7 +278,7 @@ calamares_job_removeuser_autogen/mocs_compilation.s: calamares_job_removeuser_au
 
 # target to generate assembly for a file
 calamares_job_removeuser_autogen/mocs_compilation.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/calamares_job_removeuser_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/calamares_job_removeuser_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_job_removeuser_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -316,6 +316,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

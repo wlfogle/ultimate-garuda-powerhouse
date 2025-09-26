@@ -1,8 +1,8 @@
 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_autogen/mocs_compilation.cpp.o: \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/mocs_compilation.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/moc_kdsingleapplication.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/../../../../../3rdparty/kdsingleapplication/kdsingleapplication.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/moc_kdsingleapplication.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/../../../../../3rdparty/kdsingleapplication/kdsingleapplication.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
@@ -301,13 +301,13 @@
  /usr/include/qt6/QtCore/qbindingstorage.h /usr/include/c++/15.2.1/chrono \
  /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
  /usr/include/c++/15.2.1/ctime \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/../../../../../3rdparty/kdsingleapplication/kdsingleapplication_lib.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/../../../../../3rdparty/kdsingleapplication/kdsingleapplication_lib.h \
  /usr/include/qt6/QtCore/QtGlobal /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/qt6/QtCore/qtmochelpers.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \
  /usr/include/qt6/QtCore/q23type_traits.h \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/moc_kdsingleapplication_localsocket_p.cpp \
- /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/../../../../../3rdparty/kdsingleapplication/kdsingleapplication_localsocket_p.h \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/moc_kdsingleapplication_localsocket_p.cpp \
+ /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/../../../../../3rdparty/kdsingleapplication/kdsingleapplication_localsocket_p.h \
  /usr/include/qt6/QtCore/QByteArray /usr/include/qt6/QtCore/qbytearray.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h

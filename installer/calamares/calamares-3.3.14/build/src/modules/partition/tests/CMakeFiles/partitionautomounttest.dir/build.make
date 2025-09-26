@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/depend.make
@@ -71,9 +71,9 @@ include src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/flags.
 
 src/modules/partition/tests/partitionautomounttest_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/partition/tests/partitionautomounttest_autogen/timestamp: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target partitionautomounttest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target partitionautomounttest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/timestamp
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/codegen:
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/codegen
@@ -81,44 +81,44 @@ src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/codegen:
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/flags.make
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o: src/modules/partition/tests/partitionautomounttest_autogen/mocs_compilation.cpp
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/mocs_compilation.cpp
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/mocs_compilation.cpp > CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/mocs_compilation.cpp > CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.i
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/mocs_compilation.cpp -o CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/partitionautomounttest_autogen/mocs_compilation.cpp -o CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.s
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/flags.make
-src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp
+src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o -MF CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o.d -o CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o -MF CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o.d -o CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp > CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp > CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.i
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp -o CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/jobs/AutoMountManagementJob.cpp -o CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.s
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/flags.make
-src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp
+src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o -MF CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o.d -o CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o -MF CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o.d -o CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp > CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp > CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.i
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp -o CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests/AutoMountTests.cpp -o CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.s
 
 # Object files for target partitionautomounttest
 partitionautomounttest_OBJECTS = \
@@ -141,18 +141,18 @@ partitionautomounttest: /usr/lib/libQt6Network.so.6.9.2
 partitionautomounttest: /usr/lib/libKF6CoreAddons.so.6.18.0
 partitionautomounttest: /usr/lib/libQt6Core.so.6.9.2
 partitionautomounttest: src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../../../partitionautomounttest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/partitionautomounttest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../../../partitionautomounttest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/partitionautomounttest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build: partitionautomounttest
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && $(CMAKE_COMMAND) -P CMakeFiles/partitionautomounttest.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests && $(CMAKE_COMMAND) -P CMakeFiles/partitionautomounttest.dir/cmake_clean.cmake
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/clean
 
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/depend: src/modules/partition/tests/partitionautomounttest_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/partition/tests /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/depend
 

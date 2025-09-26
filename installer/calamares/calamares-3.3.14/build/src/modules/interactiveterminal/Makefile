@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/ca
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/interactiveterminal//CMakeFiles/progress.marks
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/interactiveterminal//CMakeFiles/progress.marks
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/clean
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_interactiveterminal: src/modules/interactiveterminal/CMakeF
 
 # fast build rule for target.
 calamares_viewmodule_interactiveterminal/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build
 .PHONY : calamares_viewmodule_interactiveterminal/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ calamares_viewmodule_interactiveterminal_autogen_timestamp_deps: src/modules/int
 
 # fast build rule for target.
 calamares_viewmodule_interactiveterminal_autogen_timestamp_deps/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen_timestamp_deps.dir/build
 .PHONY : calamares_viewmodule_interactiveterminal_autogen_timestamp_deps/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,7 +230,7 @@ calamares_viewmodule_interactiveterminal_autogen: src/modules/interactivetermina
 
 # fast build rule for target.
 calamares_viewmodule_interactiveterminal_autogen/fast:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/fast
 
 InteractiveTerminalPage.o: InteractiveTerminalPage.cpp.o
@@ -238,7 +238,7 @@ InteractiveTerminalPage.o: InteractiveTerminalPage.cpp.o
 
 # target to build an object file
 InteractiveTerminalPage.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o
 .PHONY : InteractiveTerminalPage.cpp.o
 
 InteractiveTerminalPage.i: InteractiveTerminalPage.cpp.i
@@ -246,7 +246,7 @@ InteractiveTerminalPage.i: InteractiveTerminalPage.cpp.i
 
 # target to preprocess a source file
 InteractiveTerminalPage.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i
 .PHONY : InteractiveTerminalPage.cpp.i
 
 InteractiveTerminalPage.s: InteractiveTerminalPage.cpp.s
@@ -254,7 +254,7 @@ InteractiveTerminalPage.s: InteractiveTerminalPage.cpp.s
 
 # target to generate assembly for a file
 InteractiveTerminalPage.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s
 .PHONY : InteractiveTerminalPage.cpp.s
 
 InteractiveTerminalViewStep.o: InteractiveTerminalViewStep.cpp.o
@@ -262,7 +262,7 @@ InteractiveTerminalViewStep.o: InteractiveTerminalViewStep.cpp.o
 
 # target to build an object file
 InteractiveTerminalViewStep.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o
 .PHONY : InteractiveTerminalViewStep.cpp.o
 
 InteractiveTerminalViewStep.i: InteractiveTerminalViewStep.cpp.i
@@ -270,7 +270,7 @@ InteractiveTerminalViewStep.i: InteractiveTerminalViewStep.cpp.i
 
 # target to preprocess a source file
 InteractiveTerminalViewStep.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i
 .PHONY : InteractiveTerminalViewStep.cpp.i
 
 InteractiveTerminalViewStep.s: InteractiveTerminalViewStep.cpp.s
@@ -278,7 +278,7 @@ InteractiveTerminalViewStep.s: InteractiveTerminalViewStep.cpp.s
 
 # target to generate assembly for a file
 InteractiveTerminalViewStep.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s
 .PHONY : InteractiveTerminalViewStep.cpp.s
 
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.o: calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
@@ -286,7 +286,7 @@ calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.o: calamares_v
 
 # target to build an object file
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.i: calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
@@ -294,7 +294,7 @@ calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.i: calamares_v
 
 # target to preprocess a source file
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.s: calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
@@ -302,7 +302,7 @@ calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.s: calamares_v
 
 # target to generate assembly for a file
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

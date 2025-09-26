@@ -1,5 +1,5 @@
-/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/moc_kdsingleapplication_localsocket_p.cpp: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication_localsocket_p.h \
-  /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/moc_predefs.h \
+/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/EWIEGA46WW/moc_kdsingleapplication_localsocket_p.cpp: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication/kdsingleapplication_localsocket_p.h \
+  /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/kdsingleapplication_autogen/moc_predefs.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

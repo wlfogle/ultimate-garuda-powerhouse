@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.1.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14")
-set(CTEST_BINARY_DIRECTORY "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build")
+set(CTEST_SOURCE_DIRECTORY "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14")
+set(CTEST_BINARY_DIRECTORY "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "")

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/modules/netinstall/CMakeFiles/netinstalltest.dir/depend.make
@@ -71,9 +71,9 @@ include src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 
 src/modules/netinstall/netinstalltest_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/netinstall/netinstalltest_autogen/timestamp: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target netinstalltest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target netinstalltest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/timestamp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/codegen:
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/codegen
@@ -81,86 +81,86 @@ src/modules/netinstall/CMakeFiles/netinstalltest.dir/codegen:
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o: src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp > CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp > CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
-src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp
+src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o -MF CMakeFiles/netinstalltest.dir/Tests.cpp.o.d -o CMakeFiles/netinstalltest.dir/Tests.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o -MF CMakeFiles/netinstalltest.dir/Tests.cpp.o.d -o CMakeFiles/netinstalltest.dir/Tests.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/Tests.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp > CMakeFiles/netinstalltest.dir/Tests.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp > CMakeFiles/netinstalltest.dir/Tests.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/Tests.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp -o CMakeFiles/netinstalltest.dir/Tests.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Tests.cpp -o CMakeFiles/netinstalltest.dir/Tests.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
-src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp
+src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o -MF CMakeFiles/netinstalltest.dir/Config.cpp.o.d -o CMakeFiles/netinstalltest.dir/Config.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o -MF CMakeFiles/netinstalltest.dir/Config.cpp.o.d -o CMakeFiles/netinstalltest.dir/Config.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/Config.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp > CMakeFiles/netinstalltest.dir/Config.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp > CMakeFiles/netinstalltest.dir/Config.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/Config.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp -o CMakeFiles/netinstalltest.dir/Config.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/Config.cpp -o CMakeFiles/netinstalltest.dir/Config.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
-src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp
+src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -MF CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o.d -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -MF CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o.d -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp > CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp > CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/LoaderQueue.cpp -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
-src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp
+src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp > CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp > CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageTreeItem.cpp -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
-src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp
+src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageModel.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageModel.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/PackageModel.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp > CMakeFiles/netinstalltest.dir/PackageModel.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp > CMakeFiles/netinstalltest.dir/PackageModel.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/PackageModel.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall/PackageModel.cpp -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.s
 
 # Object files for target netinstalltest
 netinstalltest_OBJECTS = \
@@ -192,18 +192,18 @@ netinstalltest: /usr/lib/libGLX.so
 netinstalltest: /usr/lib/libOpenGL.so
 netinstalltest: /usr/lib/libQt6Core.so.6.9.2
 netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../netinstalltest"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/netinstalltest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../netinstalltest"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/netinstalltest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/build: netinstalltest
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/build
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && $(CMAKE_COMMAND) -P CMakeFiles/netinstalltest.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall && $(CMAKE_COMMAND) -P CMakeFiles/netinstalltest.dir/cmake_clean.cmake
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/clean
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/depend: src/modules/netinstall/netinstalltest_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/CMakeFiles/netinstalltest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/netinstall /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/netinstall/CMakeFiles/netinstalltest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/depend
 

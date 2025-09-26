@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
-BuildDirectory: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+SourceDirectory: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+BuildDirectory: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14"
+ConfigureCommand: "/usr/bin/cmake" "/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

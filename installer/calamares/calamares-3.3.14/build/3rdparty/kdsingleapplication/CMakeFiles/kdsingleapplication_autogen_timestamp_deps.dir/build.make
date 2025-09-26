@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Utility rule file for kdsingleapplication_autogen_timestamp_deps.
 
@@ -77,10 +77,10 @@ kdsingleapplication_autogen_timestamp_deps: 3rdparty/kdsingleapplication/CMakeFi
 .PHONY : 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/build
 
 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication && $(CMAKE_COMMAND) -P CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication && $(CMAKE_COMMAND) -P CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/cmake_clean.cmake
 .PHONY : 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/clean
 
 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/depend:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/3rdparty/kdsingleapplication /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen_timestamp_deps.dir/depend
 

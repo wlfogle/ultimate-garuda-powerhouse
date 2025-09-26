@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
+CMAKE_SOURCE_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
+CMAKE_BINARY_DIR = /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build
 
 # Include any dependencies generated for this target.
 include src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/depend.make
@@ -72,9 +72,9 @@ include src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
 src/modules/oemid/calamares_viewmodule_oemid_autogen/timestamp: /usr/lib/qt6/moc
 src/modules/oemid/calamares_viewmodule_oemid_autogen/timestamp: /usr/lib/qt6/uic
 src/modules/oemid/calamares_viewmodule_oemid_autogen/timestamp: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calamares_viewmodule_oemid"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/cmake -E cmake_autogen /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid_autogen.dir/AutogenInfo.json Release
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/cmake -E touch /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calamares_viewmodule_oemid"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/cmake -E cmake_autogen /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid_autogen.dir/AutogenInfo.json Release
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/cmake -E touch /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/timestamp
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/codegen:
 .PHONY : src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/codegen
@@ -82,44 +82,44 @@ src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/codegen:
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o: src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
-src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp
+src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/IDJob.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
-src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp
+src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -c /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -c /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid/OEMViewStep.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s
 
 # Object files for target calamares_viewmodule_oemid
 calamares_viewmodule_oemid_OBJECTS = \
@@ -154,18 +154,18 @@ src/modules/oemid/libcalamares_viewmodule_oemid.so: /usr/lib/libGLX.so
 src/modules/oemid/libcalamares_viewmodule_oemid.so: /usr/lib/libOpenGL.so
 src/modules/oemid/libcalamares_viewmodule_oemid.so: /usr/lib/libQt6Core.so.6.9.2
 src/modules/oemid/libcalamares_viewmodule_oemid.so: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcalamares_viewmodule_oemid.so"
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_oemid.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcalamares_viewmodule_oemid.so"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_oemid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/build: src/modules/oemid/libcalamares_viewmodule_oemid.so
 .PHONY : src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/build
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/clean:
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_oemid.dir/cmake_clean.cmake
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_oemid.dir/cmake_clean.cmake
 .PHONY : src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/clean
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/depend: src/modules/oemid/calamares_viewmodule_oemid_autogen/timestamp
-	cd /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid /home/garuda/Projects/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14 /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/src/modules/oemid /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid /home/garuda/ultimate-garuda-powerhouse/installer/calamares/calamares-3.3.14/build/src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/depend
 

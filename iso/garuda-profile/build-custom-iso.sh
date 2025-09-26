@@ -36,16 +36,14 @@ rm -rf "$WORK_DIR"
 mkdir -p "$WORK_DIR"
 cd "$WORK_DIR"
 
-# Clone the official Garuda Linux ISO profiles
-log "Cloning Garuda Linux ISO profiles..."
-git clone https://gitlab.com/garuda-linux/tools/garuda-tools.git
-cd garuda-tools/iso-profiles/community/dragonized-gaming
-
-# Create our custom profile
+# Create our custom profile based on archiso
 CUSTOM_PROFILE="$WORK_DIR/ai-powerhouse-profile"
 log "Creating custom AI Powerhouse profile..."
-cp -r . "$CUSTOM_PROFILE"
+mkdir -p "$CUSTOM_PROFILE"
 cd "$CUSTOM_PROFILE"
+
+# Copy the base archiso profile from our repository
+cp -r /home/garuda/ultimate-garuda-powerhouse/iso/archiso-profile/* .
 
 # Modify profile name and settings
 log "Configuring custom profile..."
