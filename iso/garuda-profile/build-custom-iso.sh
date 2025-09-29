@@ -17,6 +17,10 @@ warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; }
 info() { echo -e "${BLUE}[INFO]${NC} $1"; }
 
+# Get the repository root directory (two levels up from this script)
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+log "Repository root: $REPO_ROOT"
+
 # Check if running as root
 if [ "$EUID" -ne 0 ]; then
     error "This script must be run as root (sudo ./build-custom-iso.sh)"
@@ -43,7 +47,7 @@ mkdir -p "$CUSTOM_PROFILE"
 cd "$CUSTOM_PROFILE"
 
 # Copy the base archiso profile from our repository
-cp -r /home/garuda/ultimate-garuda-powerhouse/iso/archiso-profile/* .
+cp -r "$REPO_ROOT/iso/archiso-profile"/* .
 
 # Modify profile name and settings
 log "Configuring custom profile..."
@@ -189,7 +193,14 @@ mkdir -p overlay/usr/local/bin/
 mkdir -p overlay/etc/systemd/system/
 
 # Copy our AI powerhouse setup to skeleton
-cp -r /home/garuda/ai-powerhouse-setup overlay/etc/skel/
+# Check if ai-ml directory exists in the repo root
+if [ -d "$REPO_ROOT/../ai-ml" ]; then
+    cp -r "$REPO_ROOT/../ai-ml" overlay/etc/skel/ai-powerhouse-setup
+else
+    warn "AI/ML directory not found at $REPO_ROOT/../ai-ml"
+    mkdir -p overlay/etc/skel/ai-powerhouse-setup
+    echo "# AI Powerhouse Setup Directory" > overlay/etc/skel/ai-powerhouse-setup/README.md
+fi
 
 # Create post-install script
 cat > overlay/usr/local/bin/ai-powerhouse-setup << 'EOF'
@@ -314,16 +325,55 @@ EOF
 log "Building custom AI Powerhouse ISO..."
 cd "$WORK_DIR"
 
+# Clone garuda-tools if not already present
+if [ ! -d "garuda-tools" ]; then
+    log "Cloning garuda-tools from GitLab..."
+    git clone https://gitlab.com/garuda-linux/tools/garuda-tools.git
+else
+    log "Using existing garuda-tools directory"
+fi
+
+# Build and install garuda-tools (skip documentation)
+log "Building and installing garuda-tools..."
+cd garuda-tools
+# Build only the essential binaries
+make bin/buildiso bin/testiso
+# Build supporting libraries
+make $(ls lib/*.sh | head -20 | sed 's/lib\///g' | sed 's/\.sh//g' | sed 's/^/lib\//g' | tr '\n' ' ') 2>/dev/null || true
+# Install temporarily to /usr/local (system-wide) without docs
+sudo install -dm0755 /usr/local/bin /usr/local/lib/garuda-tools /usr/local/share/garuda-tools /etc/garuda-tools
+sudo install -m0755 bin/buildiso bin/testiso /usr/local/bin/
+sudo install -m0644 lib/*.sh /usr/local/lib/garuda-tools/
+sudo install -m0644 data/*.conf /usr/local/share/garuda-tools/ 2>/dev/null || true
+sudo install -m0644 data/garuda-tools.conf /etc/garuda-tools/ 2>/dev/null || true
+cd ..
+
 # Set up build environment
 export PROFILE="ai-powerhouse-profile"
 export EDITION="ai-powerhouse"
 
-# Use buildiso from garuda-tools
+# Initialize buildiso to download iso-profiles
+log "Initializing buildiso..."
+buildiso -i
+
+# Create custom profile directory structure and ISO list
+log "Setting up custom profile directory structure..."
+sudo mkdir -p /var/cache/garuda-tools/iso-profiles/ai-powerhouse-profile
+sudo cp -r ai-powerhouse-profile/* /var/cache/garuda-tools/iso-profiles/ai-powerhouse-profile/
+
+# Create ISO list directory and file
+sudo mkdir -p /etc/garuda-tools/iso.list.d
+echo 'ai-powerhouse-profile' | sudo tee /etc/garuda-tools/iso.list.d/ai-powerhouse.list > /dev/null
+# Also install the built-in ISO list files from garuda-tools
+sudo cp garuda-tools/data/iso.list.d/*.list /etc/garuda-tools/iso.list.d/ 2>/dev/null || true
+
+# Use buildiso from garuda-tools (now installed system-wide)
 log "Starting ISO build process (this may take 30-60 minutes)..."
-./garuda-tools/tools/buildiso -p ai-powerhouse-profile -k linux
+cd /var/cache/garuda-tools/iso-profiles
+buildiso -p ai-powerhouse -k linux
 
 # Move the completed ISO to a more accessible location
-OUTPUT_DIR="/home/garuda/ai-powerhouse-iso"
+OUTPUT_DIR="${HOME}/ai-powerhouse-iso"
 mkdir -p "$OUTPUT_DIR"
 
 if [ -f out/*.iso ]; then

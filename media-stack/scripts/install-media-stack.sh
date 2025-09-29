@@ -1,11 +1,14 @@
 #!/bin/bash
 
 # Configuration section - Customize these paths for your environment
+# Use environment variables with sensible defaults
+USER_NAME="${USER:-$(whoami)}"
+USER_HOME="${HOME:-$(eval echo ~$USER_NAME)}"
 DATA_ROOT="${DATA_ROOT:-/media}"
-CONFIG_ROOT="${CONFIG_ROOT:-/home/lou/.config}"
-CACHE_ROOT="${CACHE_ROOT:-/home/lou/.cache}"
+CONFIG_ROOT="${CONFIG_ROOT:-$USER_HOME/.config}"
+CACHE_ROOT="${CACHE_ROOT:-$USER_HOME/.cache}"
 LOG_ROOT="${LOG_ROOT:-/var/log}"
-INSTALL_ROOT="/opt"
+INSTALL_ROOT="${INSTALL_ROOT:-/opt}"
 
 # 🏠 Garuda Media Stack - Native Installation
 # Complete media center solution for Garuda Linux
@@ -76,9 +79,9 @@ sudo mkdir -p "$INSTALL_ROOT"/media-stack/{lidarr,readarr,audiobookshelf,pulsarr
 sudo mkdir -p /var/log/media-stack
 
 # Set proper permissions
-sudo chown -R lou:lou "$DATA_ROOT"
-sudo chown -R lou:lou "$CONFIG_ROOT"/media-stack
-sudo chown -R lou:lou /var/log/media-stack
+sudo chown -R "$USER_NAME:$USER_NAME" "$DATA_ROOT"
+sudo chown -R "$USER_NAME:$USER_NAME" "$CONFIG_ROOT"/media-stack
+sudo chown -R "$USER_NAME:$USER_NAME" "$LOG_ROOT"/media-stack
 
 log "Directory structure created ✅"
 
@@ -153,7 +156,7 @@ LIDARR_VERSION="2.13.3.4711"
 cd /tmp
 wget -q "https://github.com/Lidarr/Lidarr/releases/download/v${LIDARR_VERSION}/Lidarr.master.${LIDARR_VERSION}.linux-core-x64.tar.gz"
 sudo tar -xzf "Lidarr.master.${LIDARR_VERSION}.linux-core-x64.tar.gz" -C "$INSTALL_ROOT"/media-stack/
-sudo chown -R lou:lou "$INSTALL_ROOT"/media-stack/Lidarr
+sudo chown -R "$USER_NAME:$USER_NAME" "$INSTALL_ROOT"/media-stack/Lidarr
 rm "Lidarr.master.${LIDARR_VERSION}.linux-core-x64.tar.gz"
 
 # Install Readarr
@@ -161,7 +164,7 @@ log "Installing Readarr..."
 READARR_VERSION="0.4.5.2671"
 wget -q "https://github.com/Readarr/Readarr/releases/download/v${READARR_VERSION}/Readarr.develop.${READARR_VERSION}.linux-core-x64.tar.gz"
 sudo tar -xzf "Readarr.develop.${READARR_VERSION}.linux-core-x64.tar.gz" -C "$INSTALL_ROOT"/media-stack/
-sudo chown -R lou:lou "$INSTALL_ROOT"/media-stack/Readarr
+sudo chown -R "$USER_NAME:$USER_NAME" "$INSTALL_ROOT"/media-stack/Readarr
 rm "Readarr.develop.${READARR_VERSION}.linux-core-x64.tar.gz"
 
 # Install Audiobookshelf
@@ -169,7 +172,7 @@ log "Installing Audiobookshelf..."
 AUDIOBOOKSHELF_VERSION="2.18.4"
 wget -q "https://github.com/advplyr/audiobookshelf/releases/download/v${AUDIOBOOKSHELF_VERSION}/audiobookshelf-${AUDIOBOOKSHELF_VERSION}-linux.tar.gz"
 sudo tar -xzf "audiobookshelf-${AUDIOBOOKSHELF_VERSION}-linux.tar.gz" -C "$INSTALL_ROOT"/media-stack/
-sudo chown -R lou:lou "$INSTALL_ROOT"/media-stack/audiobookshelf
+sudo chown -R "$USER_NAME:$USER_NAME" "$INSTALL_ROOT"/media-stack/audiobookshelf
 rm "audiobookshelf-${AUDIOBOOKSHELF_VERSION}-linux.tar.gz"
 
 # Install Jellyseerr  
@@ -178,7 +181,7 @@ cd "$INSTALL_ROOT"/media-stack/
 sudo git clone https://github.com/Fallenbagel/jellyseerr.git
 cd jellyseerr
 sudo npm ci --production && sudo npm run build
-sudo chown -R lou:lou "$INSTALL_ROOT"/media-stack/jellyseerr
+sudo chown -R "$USER_NAME:$USER_NAME" "$INSTALL_ROOT"/media-stack/jellyseerr
 
 # Install Calibre-web
 log "Installing Calibre-web..."
@@ -190,7 +193,7 @@ cd "$INSTALL_ROOT"/media-stack/
 sudo git clone https://github.com/jamcalli/pulsarr.git
 cd pulsarr
 sudo npm ci --production
-sudo chown -R lou:lou "$INSTALL_ROOT"/media-stack/pulsarr
+sudo chown -R "$USER_NAME:$USER_NAME" "$INSTALL_ROOT"/media-stack/pulsarr
 
 log "Additional applications installed ✅"
 
@@ -205,8 +208,8 @@ Description=Lidarr Daemon
 After=network.target
 
 [Service]
-User=lou
-Group=lou
+User=$USER_NAME
+Group=$USER_NAME
 Type=notify
 ExecStart=$INSTALL_ROOT/media-stack/Lidarr/Lidarr -nobrowser -data=$CONFIG_ROOT/media-stack/lidarr
 TimeoutStopSec=20
@@ -226,8 +229,8 @@ Description=Readarr Daemon
 After=network.target
 
 [Service]
-User=lou
-Group=lou
+User=$USER_NAME
+Group=$USER_NAME
 Type=notify
 ExecStart=$INSTALL_ROOT/media-stack/Readarr/Readarr -nobrowser -data=$CONFIG_ROOT/media-stack/readarr
 TimeoutStopSec=20
@@ -247,8 +250,8 @@ Description=Audiobookshelf Server
 After=network.target
 
 [Service]
-User=lou
-Group=lou
+User=$USER_NAME
+Group=$USER_NAME
 Type=simple
 WorkingDirectory=$INSTALL_ROOT/media-stack/audiobookshelf
 ExecStart=$INSTALL_ROOT/media-stack/audiobookshelf/audiobookshelf --config $CONFIG_ROOT/media-stack/audiobookshelf --metadata $CONFIG_ROOT/media-stack/audiobookshelf/metadata
@@ -268,8 +271,8 @@ Description=Jellyseerr Request Management
 After=network.target
 
 [Service]
-User=lou
-Group=lou
+User=$USER_NAME
+Group=$USER_NAME
 Type=simple
 WorkingDirectory=$INSTALL_ROOT/media-stack/jellyseerr
 ExecStart=/usr/bin/npm start
@@ -290,8 +293,8 @@ Description=Pulsarr Plex Watchlist Monitor
 After=network.target
 
 [Service]
-User=lou
-Group=lou
+User=$USER_NAME
+Group=$USER_NAME
 Type=simple
 WorkingDirectory=$INSTALL_ROOT/media-stack/pulsarr
 ExecStart=/usr/bin/npm start
@@ -312,8 +315,8 @@ Description=Calibre-web Ebook Server
 After=network.target
 
 [Service]
-User=lou
-Group=lou
+User=$USER_NAME
+Group=$USER_NAME
 Type=simple
 ExecStart=/usr/bin/cps -c $CONFIG_ROOT/media-stack/calibre-web
 WorkingDirectory=$CONFIG_ROOT/media-stack/calibre-web

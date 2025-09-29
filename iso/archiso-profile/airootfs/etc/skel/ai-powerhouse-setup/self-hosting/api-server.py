@@ -10,8 +10,16 @@ import json
 import subprocess
 import urllib.parse
 from datetime import datetime
+import os
 
 class MediaStackAPIHandler(http.server.BaseHTTPRequestHandler):
+    
+    def __init__(self, *args, **kwargs):
+        # Dynamic path configuration
+        self.user_home = os.path.expanduser('~')
+        self.stack_dir = os.environ.get('MEDIA_STACK_DIR', 
+                                      os.path.join(self.user_home, 'garuda-media-stack'))
+        super().__init__(*args, **kwargs)
     
     def do_GET(self):
         if self.path == '/api/ghost-mode/status':
@@ -47,7 +55,8 @@ class MediaStackAPIHandler(http.server.BaseHTTPRequestHandler):
     
     def send_ghost_status(self):
         try:
-            with open('/home/lou/garuda-media-stack/ghost-mode-status.txt', 'r') as f:
+            status_file = os.path.join(self.stack_dir, 'ghost-mode-status.txt')
+            with open(status_file, 'r') as f:
                 status = f.read().strip()
             
             self.send_json_response({
@@ -60,7 +69,8 @@ class MediaStackAPIHandler(http.server.BaseHTTPRequestHandler):
     
     def send_stream_status(self):
         try:
-            result = subprocess.run(['/home/lou/garuda-media-stack/stream-manager.sh', 'status-json'], 
+            stream_manager = os.path.join(self.stack_dir, 'stream-manager.sh')
+            result = subprocess.run([stream_manager, 'status-json'], 
                                   capture_output=True, text=True)
             if result.returncode == 0:
                 data = json.loads(result.stdout)
@@ -116,7 +126,8 @@ class MediaStackAPIHandler(http.server.BaseHTTPRequestHandler):
     
     def toggle_ghost_mode(self):
         try:
-            result = subprocess.run(['/home/lou/garuda-media-stack/ghost-control.sh', 'toggle'], 
+            ghost_control = os.path.join(self.stack_dir, 'ghost-control.sh')
+            result = subprocess.run([ghost_control, 'toggle'], 
                                   capture_output=True, text=True)
             success = result.returncode == 0
             self.send_json_response({
@@ -136,7 +147,8 @@ class MediaStackAPIHandler(http.server.BaseHTTPRequestHandler):
             event = data.get('event', 'raw')
             quality = data.get('quality', '720p')
             
-            result = subprocess.run(['/home/lou/garuda-media-stack/stream-manager.sh', 
+            stream_manager = os.path.join(self.stack_dir, 'stream-manager.sh')
+            result = subprocess.run([stream_manager, 
                                    'start-wrestling', event, quality], 
                                   capture_output=True, text=True)
             success = result.returncode == 0
@@ -149,7 +161,8 @@ class MediaStackAPIHandler(http.server.BaseHTTPRequestHandler):
     
     def start_saints_stream(self):
         try:
-            result = subprocess.run(['/home/lou/garuda-media-stack/stream-manager.sh', 
+            stream_manager = os.path.join(self.stack_dir, 'stream-manager.sh')
+            result = subprocess.run([stream_manager, 
                                    'start-saints', 'regular', '1080p'], 
                                   capture_output=True, text=True)
             success = result.returncode == 0
@@ -162,7 +175,8 @@ class MediaStackAPIHandler(http.server.BaseHTTPRequestHandler):
     
     def stop_streams(self):
         try:
-            result = subprocess.run(['/home/lou/garuda-media-stack/stream-manager.sh', 'stop'], 
+            stream_manager = os.path.join(self.stack_dir, 'stream-manager.sh')
+            result = subprocess.run([stream_manager, 'stop'], 
                                   capture_output=True, text=True)
             success = result.returncode == 0
             self.send_json_response({
